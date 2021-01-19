@@ -20,3 +20,13 @@ code {
 .nav-link {
   color: blue !important;
 }
+
+.video {
+  width: 100%;
+  object-fit: cover;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+  height: 100vh;
+  z-index: -1;
+}
