@@ -19,47 +19,9 @@ const Home = () => {
       </div>
       <section className="container-fluid home">
         <Navbar />
-        <h1>Welcome to Homepage</h1>
-        <h1>Welcome to Homepage</h1>
-        <h1>Welcome to Homepage</h1>
-        <h1>Welcome to Homepage</h1>
-        <h1>Welcome to Homepage</h1>
-        <h1>Welcome to Homepage</h1>
-        <h1>Welcome to Homepage</h1>
-        <h1>Welcome to Homepage</h1>
-        <h1>Welcome to Homepage</h1>
-        <h1>Welcome to Homepage</h1>
-        <h1>Welcome to Homepage</h1>
-        <h1>Welcome to Homepage</h1>
-        <h1>Welcome to Homepage</h1>
-        <h1>Welcome to Homepage</h1>
-        <h1>Welcome to Homepage</h1>
-        <h1>Welcome to Homepage</h1>
-        <h1>Welcome to Homepage</h1>
-        <h1>Welcome to Homepage</h1>
-        <h1>Welcome to Homepage</h1>
-        <h1>Welcome to Homepage</h1>
-        <h1>Welcome to Homepage</h1>
-        <h1>Welcome to Homepage</h1>
-        <h1>Welcome to Homepage</h1>
-        <h1>Welcome to Homepage</h1>
-        <h1>Welcome to Homepage</h1>
-        <h1>Welcome to Homepage</h1>
-        <h1>Welcome to Homepage</h1>
-        <h1>Welcome to Homepage</h1>
-        <h1>Welcome to Homepage</h1>
-        <h1>Welcome to Homepage</h1>
-        <h1>Welcome to Homepage</h1>
-        <h1>Welcome to Homepage</h1>
-        <h1>Welcome to Homepage</h1>
-        <h1>Welcome to Homepage</h1>
-        <h1>Welcome to Homepage</h1>
-        <h1>Welcome to Homepage</h1>
-        <h1>Welcome to Homepage</h1>
-        <h1>Welcome to Homepage</h1>
-        <h1>Welcome to Homepage</h1>
-        <h1>Welcome to Homepage</h1>
-        <h1>Welcome to Homepage</h1>
+        <div className="conatiner-fluid contnt">
+          <h1>Welcome Homepage</h1>
+        </div>
       </section>
     </>
   );
