@@ -264,19 +264,17 @@ a:hover {
   display: none;
 }
 
-.list {
-  background-color: #7a7a7a;
-}
-
 .list li {
   font-size: 2em;
   text-align: center;
-  padding: 0.5em 1em 0.5em 1em;
-  border: 0.1em solid green;
+  padding: 1em;
 }
 
-.list li a {
-  border: 0.1em solid blue;
+.list li span {
+  border: 0.1em solid #133b5c;
   padding: 0.5em 1em 0.5em 1em;
   letter-spacing: 0.5em;
+  border-radius: 0.5em;
+  box-shadow: 0.2em 0.2em 0.2em #1d2d50;
+  cursor: pointer;
 }

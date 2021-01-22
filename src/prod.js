@@ -32,6 +32,8 @@ document.addEventListener("DOMContentLoaded", function () {
       box6.style.display = "none";
       box7.style.display = "none";
       box8.style.display = "none";
+    } else {
+      box2.style.display = "none";
     }
   });
   document.getElementById("btn3").addEventListener("click", function () {
@@ -44,6 +46,8 @@ document.addEventListener("DOMContentLoaded", function () {
       box6.style.display = "none";
       box7.style.display = "none";
       box8.style.display = "none";
+    } else {
+      box3.style.display = "none";
     }
   });
   document.getElementById("btn4").addEventListener("click", function () {
@@ -56,6 +60,8 @@ document.addEventListener("DOMContentLoaded", function () {
       box6.style.display = "none";
       box7.style.display = "none";
       box8.style.display = "none";
+    } else {
+      box4.style.display = "none";
     }
   });
   document.getElementById("btn5").addEventListener("click", function () {
@@ -68,6 +74,8 @@ document.addEventListener("DOMContentLoaded", function () {
       box6.style.display = "none";
       box7.style.display = "none";
       box8.style.display = "none";
+    } else {
+      box5.style.display = "none";
     }
   });
   document.getElementById("btn6").addEventListener("click", function () {
@@ -80,6 +88,8 @@ document.addEventListener("DOMContentLoaded", function () {
       box5.style.display = "none";
       box7.style.display = "none";
       box8.style.display = "none";
+    } else {
+      box6.style.display = "none";
     }
   });
   document.getElementById("btn7").addEventListener("click", function () {
@@ -92,6 +102,8 @@ document.addEventListener("DOMContentLoaded", function () {
       box3.style.display = "none";
       box6.style.display = "none";
       box8.style.display = "none";
+    } else {
+      box7.style.display = "none";
     }
   });
   document.getElementById("btn8").addEventListener("click", function () {
@@ -104,6 +116,8 @@ document.addEventListener("DOMContentLoaded", function () {
       box6.style.display = "none";
       box7.style.display = "none";
       box3.style.display = "none";
+    } else {
+      box8.style.display = "none";
     }
   });
 });

@@ -6,10 +6,10 @@ const Products =() => {
       <div id="products" className="container-fluid">
         <div className="row">
           <div className="col-md-3 list">
-            <li id="btn1">Product1</li>
-            <li id="btn2">Product2</li>
-            <li id="btn3">Product3</li>
-            <li id="btn4">Product4</li>
+            <li><span id="btn1">Product1</span></li>
+            <li><span id="btn2">Product2</span></li>
+            <li><span id="btn3">Product3</span></li>
+            <li><span id="btn4">Product4</span></li>
           </div>
           <div className="col-md-6 pro prod">
             <h1 id="active" className="prod1">
@@ -38,10 +38,10 @@ const Products =() => {
             </h1>
           </div>
           <div className="col-md-3 list">
-            <li id="btn5">Product5</li>
-            <li id="btn6">Product6</li>
-            <li id="btn7">Product7</li>
-            <li id="btn8">Product8</li>
+            <li><span id="btn5">Product5</span></li>
+            <li><span id="btn6">Product6</span></li>
+            <li><span id="btn7">Product7</span></li>
+            <li><span id="btn8">Product8</span></li>
           </div>
         </div>
       </div>
