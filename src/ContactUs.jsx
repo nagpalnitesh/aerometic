@@ -2,7 +2,7 @@ import React from "react";
 import "./navbar.css";
 import "./scroll"
 
-const url = `https://pixxmoserver.herokuapp.com/sendmail`;
+const url = `https://aerometic-server.herokuapp.com/sendmail`;
 
 class Contact extends React.Component {
 
