@@ -73,9 +73,10 @@ code {
   transform: translate(-50%, 0%);
 }
 
-.home h1 {
+.home h1,
+.list li {
   font-family: "Fraunces", serif;
-  background: -webkit-linear-gradient(#000000, #000000, #7a7a7a);
+  background: -webkit-linear-gradient(#000000, #1a1a1ada, #7a7a7a);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -231,4 +232,51 @@ a:hover {
 .footertxt2 li {
   display: inline;
   margin-left: 5em;
+}
+
+.pro {
+  padding: 1em;
+}
+
+.prod {
+  background-color: #133b5c;
+  padding: 2em;
+  text-align: center;
+}
+
+.prod1 {
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  transform: translate(10%, -50%);
+  letter-spacing: 1em;
+  color: #fcdab7;
+}
+
+#active,
+#active1,
+#active2,
+#active3,
+#active4,
+#active5,
+#active6,
+#active7 {
+  display: none;
+}
+
+.list {
+  background-color: #7a7a7a;
+}
+
+.list li {
+  font-size: 2em;
+  text-align: center;
+  padding: 0.5em 1em 0.5em 1em;
+  border: 0.1em solid green;
+}
+
+.list li a {
+  border: 0.1em solid blue;
+  padding: 0.5em 1em 0.5em 1em;
+  letter-spacing: 0.5em;
 }
