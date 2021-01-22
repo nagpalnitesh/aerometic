@@ -21,8 +21,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.topnav {
+  z-index: 9 !important;
+}
+
 .nav-link {
   color: #fcdab7 !important;
+  cursor: pointer;
 }
 
 .txt .video {
@@ -168,4 +174,61 @@ code {
   letter-spacing: 1em;
   margin-top: 3em;
   text-shadow: 0.2em 0.2em 0.1em #1e5f74;
+}
+.frow .col-md-4,
+.frow .col-md-2 {
+  padding: 2em 3em 0em 3em;
+}
+
+.frow .col-md-4:nth-child(1) {
+  text-align: justify;
+}
+
+.frow .footertxt {
+  font-size: 1em;
+  margin-left: -2em;
+  margin-bottom: -5em;
+}
+
+.footertxt li {
+  margin-top: 2em;
+  font-weight: bold;
+}
+
+.frow .col-md-12 {
+  text-align: center;
+  font-size: 1em;
+  padding-top: 1em;
+  font-weight: bold;
+  letter-spacing: 0.3em;
+}
+
+.frow hr {
+  font-weight: bolder;
+  height: 0.01em;
+  background-color: black;
+}
+
+.footertxt1 li {
+  margin-top: 0.5em;
+  font-weight: bolder;
+}
+
+a,
+a:visited,
+a:link {
+  color: black;
+  text-decoration: none;
+  text-emphasis: none;
+}
+
+a:hover {
+  color: #133b5c;
+  text-decoration: none !important;
+  text-emphasis: none !important;
+}
+
+.footertxt2 li {
+  display: inline;
+  margin-left: 5em;
 }

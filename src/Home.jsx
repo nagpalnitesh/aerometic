@@ -1,8 +1,8 @@
 import React from "react";
 import Navbar from "./Navbar";
 import { NavLink } from "react-router-dom";
-
-
+import { Link } from "react-scroll";
+import "./Footer"
 const Home = () => {
   return (
     <>
@@ -15,9 +15,9 @@ const Home = () => {
           <h1>Aerometic</h1>
           <h1>Care</h1>
         </div>
-        <NavLink to="/" className="scroll">Know More</NavLink>
+        <Link to="home" className="scroll" smooth={true} spy={true}>Know More</Link>
       </div>
-      <section className="container-fluid home">
+      <section className="container-fluid home" id="home">
         <Navbar />
         <div className="conatiner-fluid contnt">
           <h1>Welcome Homepage</h1>

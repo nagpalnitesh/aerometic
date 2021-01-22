@@ -1,6 +1,4 @@
 import React from "react";
-import Navbar from "./Navbar";
-import { NavLink } from "react-router-dom";
 import "./navbar.css";
 import "./scroll"
 
@@ -43,11 +41,7 @@ class Contact extends React.Component {
   render() {
     return (
       <>
-      <Navbar />
-        <div className="container-fluid" style={{position: 'fixed'}}>
-          
-        </div>
-        <div className="container-fluid cont row">
+        <div className="container-fluid cont row" id="contact">
           <form id="contactForm0" name="sentMessage" noValidate="noValidate" className="col-md-6 form">
             <div className="row align-items-stretch mb-5">
               <div className="col-md-8">
@@ -86,22 +80,13 @@ class Contact extends React.Component {
             </div>
           </form>
           <div className="col-md-6">
-            <NavLink to="/" className="navbar-brand nav-link logo1">
+            <a href="./Home.jsx" className="navbar-brand nav-link logo1">
               <img src={process.env.PUBLIC_URL + './logo192.png'} alt="logo" />
-            </NavLink>
+            </a>
             <div className="txtcont" style={{ textTransform: 'uppercase' }}>
               <h1>Aerometic</h1>
               <h1>Care</h1>
             </div>
-          </div>
-        </div>
-        <div className="container-fluid col-md-12">
-          <NavLink to="/" className="navbar-brand nav-link img1">
-            <img src={process.env.PUBLIC_URL + './logo192.png'} alt="logo" />
-          </NavLink>
-          <div className="txtcont1" style={{ textTransform: 'uppercase' }}>
-            <h1>Aerometic</h1>
-            <h1>Care</h1>
           </div>
         </div>
       </>
