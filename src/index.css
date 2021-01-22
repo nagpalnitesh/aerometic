@@ -278,3 +278,7 @@ a:hover {
   box-shadow: 0.2em 0.2em 0.2em #1d2d50;
   cursor: pointer;
 }
+
+.prologo img {
+  filter: brightness(200%);
+}

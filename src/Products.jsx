@@ -12,6 +12,9 @@ const Products =() => {
             <li><span id="btn4">Product4</span></li>
           </div>
           <div className="col-md-6 pro prod">
+            <a href="./Home.jsx" className="prologo">
+              <img src={process.env.PUBLIC_URL + './logo192.png'} alt="logo" />
+            </a>
             <h1 id="active" className="prod1">
               Hello Product1
             </h1>
