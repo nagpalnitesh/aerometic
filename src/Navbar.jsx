@@ -2,7 +2,7 @@ import React from "react";
 import "./navbar.css";
 import "./scroll";
 import { Link } from "react-scroll";
-
+import { NavLink } from "react-router-dom"
 const Navbar = () => {
     return (
         <>
@@ -30,7 +30,7 @@ const Navbar = () => {
                                 <Link to="about" className="nav-link" smooth={true} spy={true}>About Us</Link>
                             </li>
                             <li className="nav-item">
-                                <Link to="contact" className="nav-link" smooth={true} spy={true}>Contact Us</Link>
+                                <NavLink to="/contact" className="nav-link">Contact Us</NavLink>
                             </li>
                         </ul>
                     </div>
