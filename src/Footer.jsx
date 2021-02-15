@@ -30,9 +30,15 @@ the international standard, made with keeping the taste and preference of Indian
                 <div className="col-md-4">
                     <h2>Contact Us</h2>
                     <ul className="footertxt1">
-                        <li><img src={process.env.PUBLIC_URL + './loc_1.gif'} alt="location"/><a href="https://goo.gl/maps/Hw8EjKZT61SEyWAF7" target={"_blank"}>Plot No. : WP-177/178, BOL SANAND -2 G.I.D.C, <br/> <span>AHMEDABAD -382110, GUJARAT, INDIA.</span></a></li>
-                        <li><img src={process.env.PUBLIC_URL + './mail.gif'} alt="location"/><a href="./ContactUs.jsx">info@aerometic.com</a></li>
-                        <li><img src={process.env.PUBLIC_URL + './phone.gif'} alt="location"/><a href="./ContactUs.jsx">+91-8460336523</a></li>
+                        <li>
+                            <img src={process.env.PUBLIC_URL + './loc_1.gif'} alt="location"/><a href="https://goo.gl/maps/Hw8EjKZT61SEyWAF7" target={"_blank"}><p>Plot No.: WP-177/178 BOL, SANAND-2 G.I.D.C, Ahmedabad-382110, Gujarat, India.</p></a>
+                        </li>
+                        <li>
+                            <img src={process.env.PUBLIC_URL + './mail_1.gif'} alt="mail"/><a href="./ContactUs.jsx"><p>info@aerometic.com</p></a>
+                        </li>
+                        <li>
+                            <img src={process.env.PUBLIC_URL + './phone.gif'} alt="phone" className="phone"/><a href="./ContactUs.jsx"><p>+91-8460336523</p> </a>
+                        </li>
                     </ul>
                     <hr/>
                     <h2>Social Media</h2>
@@ -44,7 +50,7 @@ the international standard, made with keeping the taste and preference of Indian
                     </ul>
                 </div>
             <div className="col-md-12">
-                <p>Made with &#9825; pixXmo</p>
+                <p>Made with <span style={{color: "white"}}>&#9825;</span> pixXmo</p>
             </div>
         </div>
         </>
