@@ -1,9 +1,8 @@
 import "./App.css";
 import "../node_modules/bootstrap/js/src/collapse";
 import "../node_modules/font-awesome/css/font-awesome.min.css";
-import "../node_modules/bootstrap/dist/css/bootstrap.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./scroll";
-
 import React from "react";
 import Home from "./Home";
 import Footer from "./Footer";

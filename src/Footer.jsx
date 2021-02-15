@@ -31,7 +31,7 @@ the international standard, made with keeping the taste and preference of Indian
                     <h2>Contact Us</h2>
                     <ul className="footertxt1">
                         <li>
-                            <img src={process.env.PUBLIC_URL + './loc_1.gif'} alt="location"/><a href="https://goo.gl/maps/Hw8EjKZT61SEyWAF7" target={"_blank"}><p>Plot No.: WP-177/178 BOL, SANAND-2 G.I.D.C, Ahmedabad-382110, Gujarat, India.</p></a>
+                            <img src={process.env.PUBLIC_URL + './loc_1.gif'} alt="location"/><a href="https://goo.gl/maps/Hw8EjKZT61SEyWAF7" target={"_blank"} rel="noreferrer"><p>Plot No.: WP-177/178 BOL, SANAND-2 G.I.D.C, Ahmedabad-382110, Gujarat, India.</p></a>
                         </li>
                         <li>
                             <img src={process.env.PUBLIC_URL + './mail_1.gif'} alt="mail"/><a href="./ContactUs.jsx"><p>info@aerometic.com</p></a>

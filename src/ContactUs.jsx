@@ -48,7 +48,7 @@ class Contactus extends React.Component {
             <div className="row">
               <div className="col-md-4">
                 <img src={process.env.PUBLIC_URL + './loc.gif'} alt="location" /><h1>Address:</h1>
-                <a href="https://goo.gl/maps/Hw8EjKZT61SEyWAF7" target={"_blank"}>Plot No. : WP-177/178, BOL SANAND -2 G.I.D.C, AHMEDABAD -382110, GUJARAT, INDIA.</a>
+                <a href="https://goo.gl/maps/Hw8EjKZT61SEyWAF7" target={"_blank"} rel="noreferrer">Plot No. : WP-177/178, BOL SANAND -2 G.I.D.C, AHMEDABAD -382110, GUJARAT, INDIA.</a>
               </div>
               <div className="col-md-4">
                 <img src={process.env.PUBLIC_URL + './mail.gif'} alt="location" /><h1>Email ID:</h1>
@@ -107,7 +107,7 @@ class Contactus extends React.Component {
             </div>
           </div>
           <div className="col-md-12 map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2257.291156658368!2d72.28582986439233!3d22.99142044218977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395ea37dfb11e281%3A0x6ab91a01a52daaed!2sAEROMETIC%20CARE%20PVT.%20LTD.!5e1!3m2!1sen!2sin!4v1613158072969!5m2!1sen!2sin" width="50%" height="600" frameborder="0" allowfullscreen="true" aria-hidden="false" tabindex="0"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2257.291156658368!2d72.28582986439233!3d22.99142044218977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395ea37dfb11e281%3A0x6ab91a01a52daaed!2sAEROMETIC%20CARE%20PVT.%20LTD.!5e1!3m2!1sen!2sin!4v1613158072969!5m2!1sen!2sin" width="50%" height="600" frameborder="0" allowfullscreen="true" aria-hidden="false" tabindex="0" title="Aerometic"></iframe>
           </div>
         </div>
 
