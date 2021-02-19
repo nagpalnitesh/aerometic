@@ -48,7 +48,7 @@ code {
   font-family: "Sarpanch", sans-serif;
   text-decoration: none;
   text-emphasis: none;
-  margin-left: 65%;
+  margin-left: 50%;
   margin-top: 0.5em;
   font-weight: 600;
 }
@@ -449,15 +449,17 @@ a:link {
   padding: 1em 2em 1em 2em;
 }
 
-.company p {
+.company .profile p {
   font-size: 1.5em;
   text-align: justify;
   font-family: "Sarpanch", sans-serif;
   font-weight: 500;
   padding: 2em;
+  background-color: #133b5c;
+  border-top-left-radius: 1em;
 }
 
-.company h3 {
+.company .profile h3 {
   font-family: "Sarpanch", sans-serif;
   font-weight: 700;
   overflow: hidden;
@@ -465,17 +467,41 @@ a:link {
   font-size: 2em;
   margin-top: -0.5em;
   padding: 0em 2em 2em 2em;
+  background-color: #133b5c;
+
+  border-bottom-left-radius: 1em;
 }
 
 .profile {
   padding: 3em;
-  border-radius: 2em;
 }
 
-.services img {
-  width: 80%;
-  padding-top: 10%;
-  margin-left: 5em;
+.services {
+  background: linear-gradient(25deg, #1e5f74, #133b5c);
+  margin-left: -1%;
+  border-top-right-radius: 1em;
+  border-bottom-right-radius: 1em;
+  padding: 2em 0em 2em 0em;
+}
+
+.services h1 {
+  text-align: center;
+  font-weight: 700;
+}
+
+.services span {
+  font-weight: 700;
+  text-transform: uppercase;
+  text-shadow: 0em 0em 0.1em rgb(56, 51, 51);
+}
+
+.services p {
+  text-align: justify;
+  font-size: 1.2em;
+}
+
+.services ul {
+  margin-right: 3em;
 }
 
 .ftext {

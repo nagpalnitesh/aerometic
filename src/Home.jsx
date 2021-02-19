@@ -77,7 +77,24 @@ const Home = () => {
                 </span>
               </div>
               <div className="col-md-6 services">
-                <img src={process.env.PUBLIC_URL + 'logo.png'} alt="Services" />
+                <h1>Our Services</h1>
+                <ul>
+                  <li>
+                    <p><span>Contract Manufacturing:</span> Production is our job, let us deliver the best quality product to your warehouse on time under the most suitable conditions for you.</p>
+                  </li>
+                  <li>
+                    <p><span>R&D Studies:</span> our company and the best knowledge of our expert staff in terms of chemistry, aerosol and production know-how to your service and to produce the products you need.</p>
+                  </li>
+                  <li>
+                    <p><span>Manufacturing</span> Our state-of-the-art manufacturing units provide a safe environment for the manufacturing of the products and our experts regularly monitor all the production activities.</p>
+                  </li>
+                  <li>
+                    <p><span>Consultancy</span> Our manufacturing and operating experience in 60 years; we share with you to create a better management plan and manufacturing processes.</p>
+                  </li>
+                  <li>
+                    <p><span>Pan India Logistics</span> Our expert staff contribute both as an informative and as a guide with its transparent operation and understanding that serves the purpose, without cluttering pan india logistics procedure.</p>
+                  </li>
+                </ul>
               </div>
               <div className="col-md-12 ftext">
                 <a href="/contact">
