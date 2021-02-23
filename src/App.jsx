@@ -8,13 +8,19 @@ import Home from "./Home";
 import Footer from "./Footer";
 import { Switch, Route, Redirect } from "react-router-dom";
 import Contactus from "./ContactUs";
+import AboutUs from "./AboutUs";
+import Products from "./Products";
+import Services from "./Services";
 
 const App = () => {
   return(
     <>
     <Switch>
       <Route exact path="/" component= {Home}/>
-      <Route path='/contact' component={Contactus}/>
+      <Route path='/contactus' component={Contactus}/>
+      <Route path='/products' component={Products}/>
+      <Route path='/services' component={Services}/>
+      <Route path='/aboutus' component={AboutUs}/>
       <Redirect to="/"></Redirect>
     </Switch>
     <Footer />

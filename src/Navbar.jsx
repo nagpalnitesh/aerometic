@@ -22,19 +22,14 @@ const Navbar = () => {
           <div className="collapse navbar-collapse categories" id="navbarNav">
             <ul className="navbar-nav menu">
               <li className="nav-item">
-                <Link className="nav-link" to="home" smooth={true} spy={true}>
+                <NavLink to="/products" className="nav-link">
                   Products
-                </Link>
+                </NavLink>
               </li>
               <li className="nav-item">
-                <Link
-                  to="products"
-                  className="nav-link"
-                  smooth={true}
-                  spy={true}
-                >
-                  Private Label
-                </Link>
+                <NavLink to="/services" className="nav-link">
+                  Services
+                </NavLink>
               </li>
             </ul>
           </div>
@@ -44,12 +39,12 @@ const Navbar = () => {
           <div className="collapse navbar-collapse categories" id="navbarNav">
             <ul className="navbar-nav menu1">
               <li className="nav-item">
-                <Link to="about" className="nav-link" smooth={true} spy={true}>
+                <NavLink to="/aboutus" className="nav-link">
                   About Us
-                </Link>
+                </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink to="/contact" className="nav-link">
+                <NavLink to="/contactus" className="nav-link">
                   Contact Us
                 </NavLink>
               </li>

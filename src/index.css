@@ -48,7 +48,7 @@ code {
   font-family: "Sarpanch", sans-serif;
   text-decoration: none;
   text-emphasis: none;
-  margin-left: 50%;
+  margin-left: 60%;
   margin-top: 0.5em;
   font-weight: 600;
 }
@@ -509,4 +509,24 @@ a:link {
   margin-top: 5em;
   padding: 2em;
   letter-spacing: 0.5em;
+}
+
+.about {
+  font-family: "Sarpanch", sans-serif;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  left: 5% !important;
+  width: 80% !important;
+  background-color: #fcd9b786;
+  padding: 1em 0em 0.5em 0em;
+  border-radius: 0.5em;
+}
+
+.about p {
+  font-size: 1.5em;
+}
+
+.prolist span {
+  font-weight: bold;
+  padding-top: 1em;
 }
