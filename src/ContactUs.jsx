@@ -6,7 +6,9 @@ import "./scroll"
 const url = `https://aerometic-server.herokuapp.com/sendmail`;
 
 class Contactus extends React.Component {
-
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
   handleSubmit = (num) => {
     //handle submission
     var x = document.getElementById('contactForm' + num);
