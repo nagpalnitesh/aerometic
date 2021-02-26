@@ -64,44 +64,49 @@ const Home = () => {
               </Carousel.Caption>
             </Carousel.Item>
           </Carousel>
-          <div className="company">
-            <div className="row">
-              <div className="col-md-6 profile">
-                <span>
-                  <p>Aerometic Care Pvt Ltd is a leading company in Gujarat. We manufacture products with
-                    the international standard, made with keeping the taste and preference of Indian and
-                    International markets. Our facility is located among the leading companies of India at
-                    Sanand - Ahmedabad, Gujarat.
+        </div>
+        <div className="company">
+          <div className="row">
+            <div className="col-md-12 profile">
+              <span>
+                <p>Aerometic Care Pvt Ltd is a leading company in Gujarat. We manufacture products with
+                the international standard, made with keeping the taste and preference of Indian and
+                International markets. Our facility is located among the leading companies of India at
+                Sanand - Ahmedabad, Gujarat.
                   </p>
-                  <h3>“Aerometic Care Pvt. Ltd.<br/>Wants to be YOUR trusted partner for Contract Manufacturing.”</h3>
-                </span>
-              </div>
-              <div className="col-md-6 services">
-                <h1>Our Services</h1>
-                <ul>
-                  <li>
-                    <p><span>Contract Manufacturing:</span> Production is our job, let us deliver the best quality product to your warehouse on time under the most suitable conditions for you.</p>
-                  </li>
-                  <li>
-                    <p><span>R&D Studies:</span> our company and the best knowledge of our expert staff in terms of chemistry, aerosol and production know-how to your service and to produce the products you need.</p>
-                  </li>
-                  <li>
-                    <p><span>Manufacturing</span> Our state-of-the-art manufacturing units provide a safe environment for the manufacturing of the products and our experts regularly monitor all the production activities.</p>
-                  </li>
-                  <li>
-                    <p><span>Consultancy</span> Our manufacturing and operating experience in 60 years; we share with you to create a better management plan and manufacturing processes.</p>
-                  </li>
-                  <li>
-                    <p><span>Pan India Logistics</span> Our expert staff contribute both as an informative and as a guide with its transparent operation and understanding that serves the purpose, without cluttering pan india logistics procedure.</p>
-                  </li>
-                </ul>
-              </div>
-              <div className="col-md-12 ftext">
-                <a href="/contact">
-                  <h1>START YOUR BRAND JOURNEY WITH US</h1>
-                </a>
-              </div>
+                <h3>“Aerometic Care Pvt. Ltd.<br />Wants to be YOUR trusted partner for Contract Manufacturing.”</h3>
+              </span>
             </div>
+            <div className="col-md-12 parallax"></div>
+            <div className="col-md-12 services">
+              <h1>Our Services</h1>
+              <ul>
+                <li>
+                  <p><span>Contract Manufacturing:</span> Production is our job, let us deliver the best quality product to your warehouse on time under the most suitable conditions for you.</p>
+                </li>
+                <li>
+                  <p><span>R&D Studies:</span> our company and the best knowledge of our expert staff in terms of chemistry, aerosol and production know-how to your service and to produce the products you need.</p>
+                </li>
+                <li>
+                  <p><span>Manufacturing:</span> Our state-of-the-art manufacturing units provide a safe environment for the manufacturing of the products and our experts regularly monitor all the production activities.</p>
+                </li>
+                <li>
+                  <p><span>Consultancy:</span> Our manufacturing and operating experience in 60 years; we share with you to create a better management plan and manufacturing processes.</p>
+                </li>
+                <li>
+                  <p><span>Pan India Logistics:</span> Our expert staff contribute both as an informative and as a guide with its transparent operation and understanding that serves the purpose, without cluttering pan india logistics procedure.</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div className="ftextmain">
+          <div className="ftext">
+            START YOUR BRAND JOURNEY WITH US
+          <div>START YOUR BRAND JOURNEY WITH US</div>
+            <div>START YOUR BRAND JOURNEY WITH US</div>
+            <div>START YOUR BRAND JOURNEY WITH US</div>
+            <div>START YOUR BRAND JOURNEY WITH US</div>
           </div>
         </div>
       </section>
