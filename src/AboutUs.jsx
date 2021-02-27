@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "./Navbar";
 
 const About = () => {
+  window.scrollTo(0, 0);
   return (
     <>
       <Navbar />

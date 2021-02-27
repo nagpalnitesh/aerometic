@@ -101,13 +101,15 @@ const Home = () => {
           </div>
         </div>
         <div className="ftextmain">
-          <div className="ftext">
-            START YOUR BRAND JOURNEY WITH US
-          <div>START YOUR BRAND JOURNEY WITH US</div>
-            <div>START YOUR BRAND JOURNEY WITH US</div>
-            <div>START YOUR BRAND JOURNEY WITH US</div>
-            <div>START YOUR BRAND JOURNEY WITH US</div>
-          </div>
+          <NavLink to="/aboutus" className="flink">
+            <div className="ftext">
+              START YOUR BRAND JOURNEY WITH US
+              <div>START YOUR BRAND JOURNEY WITH US</div>
+              <div>START YOUR BRAND JOURNEY WITH US</div>
+              <div>START YOUR BRAND JOURNEY WITH US</div>
+              <div>START YOUR BRAND JOURNEY WITH US</div>
+            </div>
+          </NavLink>
         </div>
       </section>
     </>

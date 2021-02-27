@@ -510,16 +510,23 @@ a:link {
   overflow: hidden;
 }
 
+.flink,
+.flink:hover {
+  text-decoration: none;
+  text-transform: none;
+  text-emphasis: none;
+}
+
 .ftext {
   position: relative;
   margin: auto;
   height: auto;
   color: transparent;
-  font-family: "Cambay", sans-serif;
+  font-family: "Sarpanch", sans-serif;
   font-size: 3em;
   font-weight: 700;
   letter-spacing: -0.02em;
-  line-height: 1.03em;
+  line-height: 1.5em;
   overflow: hidden;
 }
 
@@ -529,7 +536,6 @@ a:link {
   left: 0;
   right: 0;
   bottom: 0;
-  color: yellow;
   pointer-events: none;
   overflow: hidden;
 }

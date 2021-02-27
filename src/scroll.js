@@ -3,7 +3,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // When the user scrolls the page, execute myFunction
   window.addEventListener("scroll", myFunctionForSticky);
-
   // Get the navbar
   var navbar = document.getElementById("myTopnav");
 
