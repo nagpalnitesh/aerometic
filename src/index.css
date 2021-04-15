@@ -73,8 +73,7 @@ code {
   transform: translate(-50%, 0%);
 }
 
-.home h1,
-.list li {
+.home h1 {
   font-family: "Sarpanch", sans-serif;
   color: white;
   /* background: -webkit-linear-gradient(#ffffff, #e0e0e0da, #7a7a7a);
@@ -132,6 +131,23 @@ code {
 
 .contnt {
   overflow: hidden;
+}
+
+.contnt img {
+  opacity: 0.7;
+  overflow: hidden;
+}
+
+.cartxt {
+  position: absolute;
+  top: 25%;
+  width: 50%;
+  text-align: justify;
+  padding: 2em;
+}
+
+.cartxt h1 {
+  text-shadow: 0.1em 0.1em 0.1em grey;
 }
 
 h1 {
@@ -356,21 +372,6 @@ a:link {
   display: none;
 }
 
-.list li {
-  font-size: 2em;
-  text-align: center;
-  padding: 1em;
-}
-
-.list li span {
-  border: 0.1em solid #133b5c;
-  padding: 0.5em 1em 0.5em 1em;
-  letter-spacing: 0.5em;
-  border-radius: 0.5em;
-  box-shadow: 0.2em 0.2em 0.2em #1d2d50;
-  cursor: pointer;
-}
-
 .prologo img {
   filter: brightness(200%);
 }
@@ -445,7 +446,6 @@ a:link {
   width: 80%;
   margin-left: 10%;
   padding: 1em 2em 1em 2em;
-  background-color: turquoise;
 }
 
 .company .profile p {
@@ -495,10 +495,19 @@ a:link {
   font-family: "Sarpanch", sans-serif;
   font-size: 1.3em;
   letter-spacing: 0.1em;
+  margin-left: 5em;
+  margin-top: -3.5em;
+}
+
+.services img {
+  width: 50px;
+  line-height: 5em;
+  margin-top: 3em;
 }
 
 .services ul {
   margin-right: 3em;
+  position: relative;
 }
 
 .ftextmain {
@@ -650,13 +659,26 @@ a:link {
   margin-bottom: 2em;
   left: 5% !important;
   width: 80% !important;
-  background-color: #fcd9b786;
   padding: 1em 0em 0.5em 0em;
   border-radius: 0.5em;
+  text-align: justify;
 }
 
 .about p {
   font-size: 1.5em;
+}
+
+.about img {
+  width: 20%;
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+.about hr {
+  width: 100%;
+  height: 1px;
+  background-color: aliceblue;
+  margin-bottom: 2em;
 }
 
 .prolist span {
@@ -671,4 +693,119 @@ a:link {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+/* products */
+
+.products {
+  margin-bottom: 5em;
+}
+
+.circle {
+  background-color: #fcdab7;
+  height: 100vh;
+  clip-path: circle(20%);
+  transform: translate(-30%, 0%);
+  align-items: center;
+  justify-content: center;
+}
+
+.products hr {
+  background-color: #fcdab7;
+  height: 0.1vh;
+}
+
+.products hr:nth-child(2) {
+  position: absolute;
+  left: 45%;
+  top: 24.5%;
+  transform: translate(-50%, -50%) rotate(-10deg);
+  width: 30%;
+}
+
+.products hr:nth-child(3) {
+  position: absolute;
+  left: 45%;
+  top: 40.6%;
+  transform: translate(-50%, -50%) rotate(-5deg);
+  width: 22%;
+  margin-left: 2em;
+}
+
+.products hr:nth-child(4) {
+  position: absolute;
+  left: 45%;
+  top: 56.7%;
+  transform: translate(-50%, -50%);
+  width: 21%;
+  margin-left: 2.5em;
+}
+
+.products hr:nth-child(5) {
+  position: absolute;
+  left: 45%;
+  top: 72.85%;
+  transform: translate(-50%, -50%) rotate(5deg);
+  width: 22%;
+  margin-left: 2em;
+}
+
+.products hr:nth-child(6) {
+  position: absolute;
+  left: 45%;
+  top: 89%;
+  transform: translate(-50%, -50%) rotate(10deg);
+  width: 30%;
+}
+
+.protxt {
+  border: 0.1em solid #fcdab7;
+  width: fit-content;
+  padding: 1em 5em 1em 5em;
+  font-size: 1.5em;
+  border-radius: 0.5em;
+  box-shadow: 0.1em 0.1em 0.1em gray;
+}
+
+.protxt:nth-child(7) {
+  position: absolute;
+  left: 70%;
+  top: 22%;
+  transform: translate(-50%, -50%);
+}
+
+.protxt:nth-child(8) {
+  position: absolute;
+  left: 70%;
+  top: 39.5%;
+  transform: translate(-50%, -50%);
+}
+
+.protxt:nth-child(9) {
+  position: absolute;
+  left: 70%;
+  top: 59%;
+  transform: translate(-50%, -50%);
+}
+
+.protxt:nth-child(10) {
+  position: absolute;
+  left: 70%;
+  top: 76%;
+  transform: translate(-50%, -50%);
+}
+
+.protxt:nth-child(11) {
+  position: absolute;
+  left: 70%;
+  top: 95%;
+  transform: translate(-50%, -50%);
+}
+
+.proimg {
+  position: absolute;
+  left: 50%;
+  top: 45%;
+  transform: translate(-50%, -50%);
+  width: 20%;
 }

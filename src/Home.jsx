@@ -3,6 +3,11 @@ import Navbar from "./Navbar";
 import { NavLink } from "react-router-dom";
 import { Link } from "react-scroll";
 import Carousel from "react-bootstrap/Carousel";
+import Contract from "./icons/contract.png";
+import Manufacturing from "./icons/manufacturing.png";
+import Research from "./icons/research.png";
+import Consult from "./icons/consultation.png";
+import Pan_India from "./icons/india.png";
 
 const Home = () => {
   return (
@@ -36,10 +41,14 @@ const Home = () => {
                 src={process.env.PUBLIC_URL + '1.jpg'}
                 alt="First slide"
               />
-              <Carousel.Caption>
-                <h3>First slide label</h3>
-                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-              </Carousel.Caption>
+              <span className="cartxt">
+                <h1>Aerosol</h1>
+                <ul>
+                  <li>1. We are the manufacturer of aerosol with great experience and the support of our customers endorse us. If you are looking for a manufacturer and packer or outsourcing of aerosol manufacturing, we are your supplier, we will accompany you throughout the process of development of an aerosol, from R&D through legal regulations and design to the manufacture of the product.</li>
+                  <li>2. Aerometic offers complete, full-service aerosol formulation and packaging capabilities to meet all your customer’s needs.</li>
+                  <li>3. one step solution for complete aerosol solution</li>
+                </ul>
+              </span>
             </Carousel.Item>
             <Carousel.Item>
               <img
@@ -47,10 +56,14 @@ const Home = () => {
                 src={process.env.PUBLIC_URL + '2.jpg'}
                 alt="Second slide"
               />
-              <Carousel.Caption>
-                <h3>Second slide label</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-              </Carousel.Caption>
+              <span className="cartxt">
+                <h1>Personal Care</h1>
+                <ul>
+                  <li>1. We are the manufacturer of aerosol with great experience and the support of our customers endorse us. If you are looking for a manufacturer and packer or outsourcing of aerosol manufacturing, we are your supplier, we will accompany you throughout the process of development of an aerosol, from R&D through legal regulations and design to the manufacture of the product.</li>
+                  <li>2. Aerometic offers complete, full-service aerosol formulation and packaging capabilities to meet all your customer’s needs.</li>
+                  <li>3. one step solution for complete aerosol solution</li>
+                </ul>
+              </span>
             </Carousel.Item>
             <Carousel.Item>
               <img
@@ -58,10 +71,28 @@ const Home = () => {
                 src={process.env.PUBLIC_URL + '3.jpg'}
                 alt="Third slide"
               />
-              <Carousel.Caption>
-                <h3>Third slide label</h3>
-                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-              </Carousel.Caption>
+              <span className="cartxt">
+                <h1>Fragrances</h1>
+                <ul>
+                  <li>1. Our cutting edge factory can produce high quality bespoke fragrances in desired volume. This high level of personalisation can contribute infinitely towards your branding goals or event. Our unambiguously limited production runs can  accommodate large scale events, corporate gifting, retail outlet or weddings, complete with individually tailored scent, gift boxing or packaging.</li>
+                  <li>2. A personal touch, A Signature Scent, Literally.</li>
+                </ul>
+              </span>
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src={process.env.PUBLIC_URL + '3.jpg'}
+                alt="Third slide"
+              />
+              <span className="cartxt">
+                <h1>Home Care</h1>
+                <ul>
+                  <li>1. We are the manufacturer of aerosol with great experience and the support of our customers endorse us. If you are looking for a manufacturer and packer or outsourcing of aerosol manufacturing, we are your supplier, we will accompany you throughout the process of development of an aerosol, from R&D through legal regulations and design to the manufacture of the product.</li>
+                  <li>2. Aerometic offers complete, full-service aerosol formulation and packaging capabilities to meet all your customer’s needs.</li>
+                  <li>3. one step solution for complete aerosol solution</li>
+                </ul>
+              </span>
             </Carousel.Item>
           </Carousel>
         </div>
@@ -82,19 +113,19 @@ const Home = () => {
               <h1>Our Services</h1>
               <ul>
                 <li>
-                  <p><span>Contract Manufacturing:</span> Production is our job, let us deliver the best quality product to your warehouse on time under the most suitable conditions for you.</p>
+                  <img src={Contract} alt="" /><p><span>Contract Manufacturing:</span> Production is our job, let us deliver the best quality product to your warehouse on time under the most suitable conditions for you.</p>
                 </li>
                 <li>
-                  <p><span>R&D Studies:</span> our company and the best knowledge of our expert staff in terms of chemistry, aerosol and production know-how to your service and to produce the products you need.</p>
+                  <img src={Research} alt="" /><p><span>R&D Studies:</span> our company and the best knowledge of our expert staff in terms of chemistry, aerosol and production know-how to your service and to produce the products you need.</p>
                 </li>
                 <li>
-                  <p><span>Manufacturing:</span> Our state-of-the-art manufacturing units provide a safe environment for the manufacturing of the products and our experts regularly monitor all the production activities.</p>
+                  <img src={Manufacturing} alt="" /><p><span>Manufacturing:</span> Our state-of-the-art manufacturing units provide a safe environment for the manufacturing of the products and our experts regularly monitor all the production activities.</p>
                 </li>
                 <li>
-                  <p><span>Consultancy:</span> Our manufacturing and operating experience in 60 years; we share with you to create a better management plan and manufacturing processes.</p>
+                  <img src={Consult} alt="" /><p><span>Consultancy:</span> Our manufacturing and operating experience in 60 years; we share with you to create a better management plan and manufacturing processes.</p>
                 </li>
                 <li>
-                  <p><span>Pan India Logistics:</span> Our expert staff contribute both as an informative and as a guide with its transparent operation and understanding that serves the purpose, without cluttering pan india logistics procedure.</p>
+                  <img src={Pan_India} alt="" /><p><span>Pan India Logistics:</span> Our expert staff contribute both as an informative and as a guide with its transparent operation and understanding that serves the purpose, without cluttering pan india logistics procedure.</p>
                 </li>
               </ul>
             </div>
