@@ -764,44 +764,45 @@ a:link {
 
 .protxt {
   border: 0.1em solid #fcdab7;
-  width: fit-content;
-  padding: 1em 5em 1em 5em;
+  padding: 1em 1em 1em 1em;
   font-size: 1.5em;
   border-radius: 0.5em;
   box-shadow: 0.1em 0.1em 0.1em gray;
+  width: 15em;
+  text-align: center;
 }
 
 .protxt:nth-child(7) {
   position: absolute;
-  left: 80%;
+  left: 78%;
   top: 22%;
   transform: translate(-50%, -50%);
 }
 
 .protxt:nth-child(8) {
   position: absolute;
-  left: 80%;
+  left: 78%;
   top: 39.5%;
   transform: translate(-50%, -50%);
 }
 
 .protxt:nth-child(9) {
   position: absolute;
-  left: 80%;
+  left: 78%;
   top: 59%;
   transform: translate(-50%, -50%);
 }
 
 .protxt:nth-child(10) {
   position: absolute;
-  left: 80%;
+  left: 78%;
   top: 76%;
   transform: translate(-50%, -50%);
 }
 
 .protxt:nth-child(11) {
   position: absolute;
-  left: 80%;
+  left: 78%;
   top: 95%;
   transform: translate(-50%, -50%);
 }

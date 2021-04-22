@@ -16,19 +16,19 @@ const Products = () => {
         <hr />
         <hr />
         <div className="protxt">
-          <span>Product1</span>
+          <span>Aerosol</span>
         </div>
         <div className="protxt">
-          <span>Product2</span>
+          <span>Perfumes</span>
         </div>
         <div className="protxt">
-          <span>Product3</span>
+          <span>Personal Care</span>
         </div>
         <div className="protxt">
-          <span>Product4</span>
+          <span>Home Care</span>
         </div>
         <div className="protxt">
-          <span>Product5</span>
+          <span>Packaging</span>
         </div>
       </div>
     </>

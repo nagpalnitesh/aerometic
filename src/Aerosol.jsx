@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "./Navbar";
 import Logo from "./logo.png"
 
-const Perfumes = () => {
+const Aerosol = () => {
     window.scrollTo(0, 0);
     return (
         <>
@@ -75,4 +75,4 @@ environmental impact, and safe Aerosol products.
     );
 };
 
-export default Perfumes;
+export default Aerosol;
