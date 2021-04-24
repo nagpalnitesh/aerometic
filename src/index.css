@@ -703,63 +703,20 @@ a:link {
 
 .products {
   margin-bottom: 5em;
+  height: 90vh;
+}
+
+.circlediv {
+  margin-top: 5vh;
 }
 
 .circle {
   background-color: #fcdab7;
-  height: 100vh;
+  height: 70vh;
   clip-path: circle(20%);
-  transform: translate(-20%, 0%);
+  transform: translate(0%, 0%);
   align-items: center;
   justify-content: center;
-}
-
-.products hr {
-  background-color: #fcdab7;
-  height: 0.1vh;
-}
-
-.products hr:nth-child(2) {
-  position: absolute;
-  left: 55%;
-  top: 24.5%;
-  transform: translate(-50%, -50%) rotate(-10deg);
-  width: 25%;
-}
-
-.products hr:nth-child(3) {
-  position: absolute;
-  left: 55%;
-  top: 40.6%;
-  transform: translate(-50%, -50%) rotate(-5deg);
-  width: 22%;
-  margin-left: 2em;
-}
-
-.products hr:nth-child(4) {
-  position: absolute;
-  left: 55%;
-  top: 56.7%;
-  transform: translate(-50%, -50%);
-  width: 21%;
-  margin-left: 2.5em;
-}
-
-.products hr:nth-child(5) {
-  position: absolute;
-  left: 55%;
-  top: 72.85%;
-  transform: translate(-50%, -50%) rotate(5deg);
-  width: 22%;
-  margin-left: 2em;
-}
-
-.products hr:nth-child(6) {
-  position: absolute;
-  left: 55%;
-  top: 89%;
-  transform: translate(-50%, -50%) rotate(10deg);
-  width: 25%;
 }
 
 .protxt {
@@ -772,38 +729,38 @@ a:link {
   text-align: center;
 }
 
-.protxt:nth-child(7) {
+.protxt1 .protxt {
   position: absolute;
-  left: 78%;
-  top: 22%;
+  left: 20%;
+  top: 30%;
   transform: translate(-50%, -50%);
 }
 
-.protxt:nth-child(8) {
+.protxt2 .protxt {
   position: absolute;
-  left: 78%;
-  top: 39.5%;
+  left: 80%;
+  top: 30%;
   transform: translate(-50%, -50%);
 }
 
-.protxt:nth-child(9) {
+.protxt3 .protxt {
   position: absolute;
-  left: 78%;
-  top: 59%;
+  left: 20%;
+  top: 70%;
   transform: translate(-50%, -50%);
 }
 
-.protxt:nth-child(10) {
+.protxt4 .protxt {
   position: absolute;
-  left: 78%;
-  top: 76%;
+  left: 80%;
+  top: 70%;
   transform: translate(-50%, -50%);
 }
 
-.protxt:nth-child(11) {
+.protxt5 .protxt {
   position: absolute;
-  left: 78%;
-  top: 95%;
+  left: 50%;
+  top: 90%;
   transform: translate(-50%, -50%);
 }
 
@@ -813,9 +770,78 @@ a:link {
   top: 45%;
   transform: translate(-50%, -50%);
   width: 20%;
-  vertical-align: middle;
 }
 
+.aerosol1 {
+  width: 25%;
+  position: absolute;
+  transform: translate(148%, 30%);
+  display: none;
+  z-index: 9;
+  border-radius: 50%;
+}
+
+.aerosol2 {
+  width: 25%;
+  position: absolute;
+  transform: translate(148%, 30%);
+  display: none;
+  z-index: 9;
+  border-radius: 50%;
+}
+
+.aerosol3 {
+  width: 25%;
+  position: absolute;
+  transform: translate(148%, -120%);
+  display: none;
+  z-index: 9;
+  border-radius: 50%;
+}
+
+.aerosol4 {
+  width: 25%;
+  position: absolute;
+  transform: translate(148%, -120%);
+  display: none;
+  z-index: 9;
+  border-radius: 50%;
+}
+
+.aerosol5 {
+  width: 25%;
+  position: absolute;
+  transform: translate(148%, -120%);
+  display: none;
+  z-index: 9;
+  border-radius: 50%;
+}
+
+.protxt1:hover .aerosol1,
+.protxt2:hover .aerosol2,
+.protxt3:hover .aerosol3,
+.protxt4:hover .aerosol4,
+.protxt5:hover .aerosol5 {
+  display: block;
+}
+
+.protxt1:hover .circle {
+  display: none;
+}
+
+.prolist li img {
+  width: 32px;
+  margin-right: 0.5em;
+  margin-top: 0.5em;
+}
+
+.prolist li span {
+  padding-bottom: 1em;
+}
+
+.prolist li {
+  overflow: hidden;
+}
 /* services */
 
 .servicepage {

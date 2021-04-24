@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "./Navbar";
-import Logo from "./logo.png"
+import Logo from "./logo.png";
+import Spray from "./icons/spray.png"
 
 const Aerosol = () => {
     window.scrollTo(0, 0);
@@ -8,68 +9,183 @@ const Aerosol = () => {
         <>
             <Navbar />
             <div className="container-fluid about">
-                <h1>About The Company</h1>
+                <h1 style={{ fontSize: '3em' }}>Aerosol</h1>
                 <hr />
                 <img src={Logo} />
-                <p style={{ paddingLeft: '15em', marginTop: '-12em' }}>The world of manufacturing is transforming and we at Aerometic ensure we adapt to these new standards with
-                our state of the art facilities and with an immaculate approach. Lined with the latest trends we specialize in
-                Aerosol, Perfumes, Cosmetics, and other contemporary products which ranges from Home-care to Personal
-                care. With the advent of technology in this field, we felt the need for the advanced and sophisticated automated
-                manufacturing facilities thus, embraced them to create a fast but accurate production line. We also have the
-                conventional machines to aid our extremely talented and trained experts to create personalized, limited-edition
-products.</p>
-                <p>Aerometic has gained prominence amongst the limited number of contract manufacturers specializing in these
-                products. Expedited by the various standards we uphold, especially by the R&D team, we offer a curated retail
-                solution to your concepts. You can now turn your ideas into successful retail brands, synonymous in the global
-industry and become market-place winners by utilizing the multitude of our customizable services.</p>
-                <p>
-                    You can select from our range of products, some of which are labelled accordingly:
-          <ul className="prolist">
-                        <li><span>PERFUMES:</span> Parfum, Eau de Toilette, Eau de Cologne, After Shave.</li>
-                        <li><span>AEROSOLS:</span> Deodorants, Body Spray, Air Fresheners, Disinfectant Spray.</li>
-                        <li><span>PERSONAL CARE:</span> Moisturizing Cream, Face Wash, Soaps, Shower & Bath Gel, Lotions, Hand Wash, Hand
-              Sanitizer.
-              </li>
-                        <li><span>HAIR CARE:</span> Hair Oils, Hair Shampoo & Conditioner.</li>
-                    </ul>
+                <p style={{ paddingLeft: '15em', marginTop: '-12em' }}>Whether your company is launching a new product and needs an expert source to help right from the
+                formulation stage, or needs a strategic partner to manage the entire filling process with precise packaging,
+                Aerometic offers over 20 years of specialized experience in Aerosol Products. Our typical fill sizes range from
+                0.25 oz up to 8 oz. We work with customers through formulation and product development, testing/validation,
+                filling, packaging and delivery to fill a variety of product sizes from small sample and travel size as low as 0.2
+oz., up to larger Home-careproducts of 8 oz., with valve sizes from 20 mm up to 1 inch.</p>
+                <p style={{ marginTop: '2em' }}>
+                    We have enlisted Aerosol products in these few categories:
                 </p>
-                <h1 style={{ overflow: 'hidden' }}>Our Location & Benefits:</h1>
+                <div className="row">
+                    <div className="col-md-6">
+                        <ul className="prolist">
+                            <li><img src={Spray} alt="" /><span>Personal Care Products</span></li>
+                            <li><img src={Spray} alt="" /><span>Household Cleaning Products</span></li>
+                            <li><img src={Spray} alt="" /><span>Technical Sprays</span></li>
+                        </ul>
+                    </div>
+                    <div className="col-md-6">
+                        <ul className="prolist">
+                            <li><img src={Spray} alt="" /><span>Car Maintenance Sprays</span></li>
+                            <li><img src={Spray} alt="" /><span>Other Future Planning</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <hr />
+                <h1 style={{ overflow: 'hidden' }}>OUR PRODUCT RANGES:</h1>
+                <p>
+                    Personal Care Products:
+                </p>
+                <div className="row">
+                    <div className="col-md-4">
+                        <ul className="prolist">
+                            <li><img src={Spray} alt="" /><span>Deodrant</span></li>
+                            <li><img src={Spray} alt="" /><span>Deodorant-Antiperspirant</span></li>
+                            <li><img src={Spray} alt="" /><span>Perfume</span></li>
+                            <li><img src={Spray} alt="" /><span>Roll-on</span></li>
+                            <li><img src={Spray} alt="" /><span>Hair Spray</span></li>
+                            <li><img src={Spray} alt="" /><span>Hair Mousse</span></li>
+                            <li><img src={Spray} alt="" /><span>Shower Gel</span></li>
+                            <li><img src={Spray} alt="" /><span>Hand Sanitizer</span></li>
+                        </ul>
+                    </div>
+                    <div className="col-md-4">
+                        <ul className="prolist">
+                            <li><img src={Spray} alt="" /><span>Shaving Foam</span></li>
+                            <li><img src={Spray} alt="" /><span>Shaving Gel</span></li>
+                            <li><img src={Spray} alt="" /><span>Glitter Spray</span></li>
+                            <li><img src={Spray} alt="" /><span>Color Spray</span></li>
+                            <li><img src={Spray} alt="" /><span>Foot Deodorant</span></li>
+                            <li><img src={Spray} alt="" /><span>Nail Polish Drying Spray</span></li>
+                            <li><img src={Spray} alt="" /><span>Cologne Spray</span></li>
+                            <li><img src={Spray} alt="" /><span>Micellar Water</span></li>
+                        </ul>
+                    </div>
+                    <div className="col-md-4">
+                        <ul className="prolist">
+                            <li><img src={Spray} alt="" /><span>Legs Foundation</span></li>
+                            <li><img src={Spray} alt="" /><span>Sun Protection Spray</span></li>
+                            <li><img src={Spray} alt="" /><span>Shoe-Shining Spray</span></li>
+                            <li><img src={Spray} alt="" /><span>Spring Water</span></li>
+                            <li><img src={Spray} alt="" /><span>Mineral Water Facial Spray</span></li>
+                            <li><img src={Spray} alt="" /><span>Shower Foam</span></li>
+                            <li><img src={Spray} alt="" /><span>Non Alcoholic Deodorant</span></li>
+                        </ul>
+                    </div>
+                </div>
                 <hr />
                 <p>
-                    {/* - Aerometic Care is located at the heart of the new industrial revolution place at Sanand, Ahmedabad,
-          surrounded by the giant units like Coca-Cola, Tata Motors, Nivea, Voltas Beko, Ford, Posco, Chemco,
-          Bosch, General Motors, etc.
-          - We are located at Sanand, Ahmedabad, 45 Km from the AHMEDABAD INTERNATIONAL AIRPORT.
-          - Our establishment is 330 Km from the MUNDRA PORT, GUJARAT.
-          - And 580 Km from the NHAVA SHEVA PORT, MUMBAI.
-          - We have the advantage of 3 leading aluminium aerosol can manufacturers around us in the same city.
-          - Vadodara/Surat is the hub for the glass bottle for the cosmetic segment. */}
-          Aerometic is located in the heart of the new industrial place at Sanand, Ahmedabad. We are surrounded by
-giants like Coca-Cola, Tata Motors, Nivea, Voltas Beko, Ford, Posco, Chemco, Bosch and General Motors to
-name a few. Sanand is well connected to most of the transportation hubs of the country. We are 45 kms away
-from the nearest international airport in Ahmedabad and 330 kms from the Mundra Sea Port. Our establishment
-is just 580 km from the Nhava Sheva Port of Mumbai which boasts of some enormous trading capacities.
-Moreover, our location makes it advantageous for us due to the presence of 3 of the leading aluminium-Aerosolcan manufacturers in the same city and its proximity to both Vadodara and Surat which are the centers of glass
-bottle manufacturing for the cosmetic segment.
-        </p>
-                <h1 style={{ overflow: 'hidden' }}>Company Philosophy</h1>
+                    Household Cleaning Products:
+                </p>
+                <div className="row">
+                    <div className="col-md-4">
+                        <ul className="prolist">
+                            <li><img src={Spray} alt="" /><span>Carpet and Fabric Cleaner</span></li>
+                            <li><img src={Spray} alt="" /><span>Built and Enamel Cleaner</span></li>
+                            <li><img src={Spray} alt="" /><span>Wooden Furniture Cleaner</span></li>
+                            <li><img src={Spray} alt="" /><span>Seat & Sofa Cleaner</span></li>
+                            <li><img src={Spray} alt="" /><span>Glass Cleaner</span></li>
+                        </ul>
+                    </div>
+                    <div className="col-md-4">
+                        <ul className="prolist">
+                            <li><img src={Spray} alt="" /><span>Automatic Refill Spray</span></li>
+                            <li><img src={Spray} alt="" /><span>Refrigerator Cleaner</span></li>
+                            <li><img src={Spray} alt="" /><span>Stain Remover Spray</span></li>
+                            <li><img src={Spray} alt="" /><span>Surface Sanitizer</span></li>
+                        </ul>
+                    </div>
+                    <div className="col-md-4">
+                        <ul className="prolist">
+                            <li><img src={Spray} alt="" /><span>Tiles & Ceramic Cleansing Foam</span></li>
+                            <li><img src={Spray} alt="" /><span>WC Cleaner</span></li>
+                            <li><img src={Spray} alt="" /><span>Air Freshener / Natural Air Freshner</span></li>
+                        </ul>
+                    </div>
+                </div>
                 <hr />
                 <p>
-                    {/* - Aerometic Care is located at the heart of the new industrial revolution place at Sanand, Ahmedabad,
-          surrounded by the giant units like Coca-Cola, Tata Motors, Nivea, Voltas Beko, Ford, Posco, Chemco,
-          Bosch, General Motors, etc.
-          - We are located at Sanand, Ahmedabad, 45 Km from the AHMEDABAD INTERNATIONAL AIRPORT.
-          - Our establishment is 330 Km from the MUNDRA PORT, GUJARAT.
-          - And 580 Km from the NHAVA SHEVA PORT, MUMBAI.
-          - We have the advantage of 3 leading aluminium aerosol can manufacturers around us in the same city.
-          - Vadodara/Surat is the hub for the glass bottle for the cosmetic segment. */}
-          We at Aerometic envision to regularly cater to our clients’ needs with world–class products, in-line with the
-rising technologies and trends in the global market. We assure prompt execution with satisfaction. Our
-philosophy is to manufacture high quality, cutting edge products at competitive costs for our customers. Our
-clients rely on our expertise to deliver customized Aerosol manufacturing solutions for their unique products
-and we are dedicated to exceeding our clients’ expectations by providing top quality, lower cost, low
-environmental impact, and safe Aerosol products.
-        </p>
+                    Technical Sprays:
+                </p>
+                <div className="row">
+                    <div className="col-md-4">
+                        <ul className="prolist">
+                            <li><img src={Spray} alt="" /><span>Computer Cleaner Spray / Foam</span></li>
+                            <li><img src={Spray} alt="" /><span>Rust Remover</span></li>
+                            <li><img src={Spray} alt="" /><span>Oil Cleaner</span></li>
+                        </ul>
+                    </div>
+                    <div className="col-md-4">
+                        <ul className="prolist">
+                            <li><img src={Spray} alt="" /><span>Silicone Spray</span></li>
+                            <li><img src={Spray} alt="" /><span>Injector Cleanser</span></li>
+                        </ul>
+                    </div>
+                    <div className="col-md-4">
+                        <ul className="prolist">
+                            <li><img src={Spray} alt="" /><span>Air Conditioner Cleaner Spray</span></li>
+                            <li><img src={Spray} alt="" /><span>Disinfectant Spray</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <hr />
+                <p>
+                    Car Maintenance Sprays:
+                </p>
+                <div className="row">
+                    <div className="col-md-4">
+                        <ul className="prolist">
+                            <li><img src={Spray} alt="" /><span>Air Conditioner Cleaner Spray</span></li>
+                            <li><img src={Spray} alt="" /><span>Stain Prevention Sprays</span></li>
+                            <li><img src={Spray} alt="" /><span>Brake Lining Sprays</span></li>
+                        </ul>
+                    </div>
+                    <div className="col-md-4">
+                        <ul className="prolist">
+                            <li><img src={Spray} alt="" /><span>Auto Perfumes</span></li>
+                            <li><img src={Spray} alt="" /><span>Torpedo Polish Spray</span></li>
+                        </ul>
+                    </div>
+                    <div className="col-md-4">
+                        <ul className="prolist">
+                            <li><img src={Spray} alt="" /><span>Carburetor Sprays</span></li>
+                            <li><img src={Spray} alt="" /><span>Tyre Sprays</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <hr />
+                <p>
+                    Other Future Planning:
+                </p>
+                <div className="row">
+                    <div className="col-md-4">
+                        <ul className="prolist">
+                            <li><img src={Spray} alt="" /><span>Aerosol Products with Nitrogen</span></li>
+                            <li><img src={Spray} alt="" /><span>Oxygen Filling</span></li>
+                            <li><img src={Spray} alt="" /><span>Bag-on Valve Products</span></li>
+                            <li><img src={Spray} alt="" /><span>Compressed Aerosol Products</span></li>
+                        </ul>
+                    </div>
+                    <div className="col-md-4">
+                        <ul className="prolist">
+                            <li><img src={Spray} alt="" /><span>Products with dimethyl ether</span></li>
+                            <li><img src={Spray} alt="" /><span>Aerosol Cream Products</span></li>
+                            <li><img src={Spray} alt="" /><span>Aerosol Gels</span></li>
+                        </ul>
+                    </div>
+                    <div className="col-md-4">
+                        <ul className="prolist">
+                            <li><img src={Spray} alt="" /><span>Aerosol Foams</span></li>
+                            <li><img src={Spray} alt="" /><span>Powdered Aerosols</span></li>
+                            <li><img src={Spray} alt="" /><span>Special Aerosol Products –Cooling Sprays etc</span></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </>
     );
