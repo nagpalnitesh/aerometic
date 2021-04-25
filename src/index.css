@@ -105,7 +105,8 @@ code {
 .cont,
 .txtcont1,
 .ani1 h1,
-.ani h1 {
+.ani h1,
+.about h3 {
   color: white;
   font-family: "Sarpanch", sans-serif;
   font-weight: bold !important;
