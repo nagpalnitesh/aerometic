@@ -8,7 +8,7 @@ const About = () => {
   window.scrollTo(0, 0);
   return (
     <>
-      <Navbar />
+      <Navbar className="nav1" />
       <div className="container-fluid about">
         <h1>About The Company</h1>
         <hr />

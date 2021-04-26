@@ -8,6 +8,7 @@ import Manufacturing from "./icons/manufacturing.png";
 import Research from "./icons/research.png";
 import Consult from "./icons/consultation.png";
 import Pan_India from "./icons/india.png";
+import "./scroll";
 
 const Home = () => {
   return (
