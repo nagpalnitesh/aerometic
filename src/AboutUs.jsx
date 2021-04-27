@@ -1,14 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Navbar from "./Navbar";
 import Logo from "./logo.png";
-
+import './scroll';
 import Spray from "./icons/spray.png"
 
 const About = () => {
   window.scrollTo(0, 0);
   return (
     <>
-      <Navbar className="nav1" />
+      <Navbar />
       <div className="container-fluid about">
         <h1>About The Company</h1>
         <hr />

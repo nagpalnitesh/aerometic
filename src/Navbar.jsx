@@ -1,12 +1,15 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./navbar.css";
 
 import { NavLink } from "react-router-dom";
 const Navbar = () => {
+  function refreshPage() {
+    window.location.reload(false);
+  }
   return (
     <>
       <div id="myTopnav" className="topnav">
-        <nav className="navbar navbar-expand-lg navbar-light">
+        <nav className="navbar navbar-expand-lg navbar-light" onClick={refreshPage}>
           <button
             className="navbar-toggler"
             type="button"

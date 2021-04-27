@@ -4,6 +4,7 @@ import { NavLink } from "react-router-dom";
 import ProductImg from "./products/aerosol.jpg";
 
 const Products = () => {
+  window.scrollTo(0, 0);
   return (
     <>
       <Navbar />

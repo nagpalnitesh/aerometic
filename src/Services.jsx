@@ -1,9 +1,8 @@
 import React from "react";
-import Navbar from "./Navbar";
 import Logo from "./logo.png";
-
+import "./scroll";
 import Spray from "./icons/spray.png"
-
+import Navbar from "./Navbar";
 
 const Services = () => {
   window.scrollTo(0, 0);
