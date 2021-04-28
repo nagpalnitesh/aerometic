@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "./Navbar";
-import Logo from "./logo.png";
+import AerosolIMG from "./products/IMG9.jpg";
 import Spray from "./icons/spray.png"
 import "./pro";
 
@@ -12,8 +12,8 @@ const Aerosol = () => {
             <div className="container-fluid about">
                 <h1 style={{ fontSize: '3em' }}>Aerosol</h1>
                 <hr />
-                <img src={Logo} />
-                <p style={{ paddingLeft: '15em', marginTop: '-12em' }}>Whether your company is launching a new product and needs an expert source to help right from the
+                <img src={AerosolIMG} />
+                <p style={{ paddingLeft: '32em', marginTop: '-18em' }}>Whether your company is launching a new product and needs an expert source to help right from the
                 formulation stage, or needs a strategic partner to manage the entire filling process with precise packaging,
                 Aerometic offers over 20 years of specialized experience in Aerosol Products. Our typical fill sizes range from
                 0.25 oz up to 8 oz. We work with customers through formulation and product development, testing/validation,
