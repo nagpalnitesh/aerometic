@@ -8,6 +8,10 @@ import Manufacturing from "./icons/manufacturing.png";
 import Research from "./icons/research.png";
 import Consult from "./icons/consultation.png";
 import Pan_India from "./icons/india.png";
+import aerosol from "./products/aerosol.jpg";
+import personal from "./products/IMG8.jpg";
+import fragnance from "./products/IMG11.jpg";
+import homecar from "./products/IMG12.jpg";
 import "./scroll";
 import "./pro";
 
@@ -38,63 +42,71 @@ const Home = () => {
         <div className="conatiner-fluid contnt">
           <Carousel controls={false} className="carousel">
             <Carousel.Item>
-              <img
-                className="d-block w-100"
-                src={process.env.PUBLIC_URL + '1.jpg'}
-                alt="First slide"
-              />
-              <span className="cartxt">
-                <h1>Aerosol</h1>
-                <ul>
-                  <li>1. We are the manufacturer of aerosol with great experience and the support of our customers endorse us. If you are looking for a manufacturer and packer or outsourcing of aerosol manufacturing, we are your supplier, we will accompany you throughout the process of development of an aerosol, from R&D through legal regulations and design to the manufacture of the product.</li>
-                  <li>2. Aerometic offers complete, full-service aerosol formulation and packaging capabilities to meet all your customer’s needs.</li>
-                  <li>3. one step solution for complete aerosol solution</li>
-                </ul>
-              </span>
+              <div className="row homeslide">
+                <div className="col-6 cartxt">
+                  <h1>Aerosol</h1>
+                  <ul>
+                    <li>1. We are the manufacturer of aerosol with great experience and the support of our customers endorse us. If you are looking for a manufacturer and packer or outsourcing of aerosol manufacturing, we are your supplier, we will accompany you throughout the process of development of an aerosol, from R&D through legal regulations and design to the manufacture of the product.</li>
+                    <li>2. Aerometic offers complete, full-service aerosol formulation and packaging capabilities to meet all your customer’s needs.</li>
+                    <li>3. one step solution for complete aerosol solution</li>
+                  </ul>
+                </div>
+                <div className="col-md-6">
+                  <div className="imgslide">
+                    <img src={aerosol} alt="" />
+                  </div>
+                </div>
+              </div>
             </Carousel.Item>
             <Carousel.Item>
-              <img
-                className="d-block w-100"
-                src={process.env.PUBLIC_URL + '2.jpg'}
-                alt="Second slide"
-              />
-              <span className="cartxt">
-                <h1>Personal Care</h1>
-                <ul>
-                  <li>1. We are the manufacturer of aerosol with great experience and the support of our customers endorse us. If you are looking for a manufacturer and packer or outsourcing of aerosol manufacturing, we are your supplier, we will accompany you throughout the process of development of an aerosol, from R&D through legal regulations and design to the manufacture of the product.</li>
-                  <li>2. Aerometic offers complete, full-service aerosol formulation and packaging capabilities to meet all your customer’s needs.</li>
-                  <li>3. one step solution for complete aerosol solution</li>
-                </ul>
-              </span>
+              <div className="row homeslide">
+                <div className="col-6 cartxt">
+                  <h1>Personal Care</h1>
+                  <ul>
+                    <li>1. We are the manufacturer of aerosol with great experience and the support of our customers endorse us. If you are looking for a manufacturer and packer or outsourcing of aerosol manufacturing, we are your supplier, we will accompany you throughout the process of development of an aerosol, from R&D through legal regulations and design to the manufacture of the product.</li>
+                    <li>2. Aerometic offers complete, full-service aerosol formulation and packaging capabilities to meet all your customer’s needs.</li>
+                    <li>3. one step solution for complete aerosol solution</li>
+                  </ul>
+                </div>
+                <div className="col-md-6">
+                  <div className="imgslide">
+                    <img src={personal} alt="" />
+                  </div>
+                </div>
+              </div>
             </Carousel.Item>
             <Carousel.Item>
-              <img
-                className="d-block w-100"
-                src={process.env.PUBLIC_URL + '3.jpg'}
-                alt="Third slide"
-              />
-              <span className="cartxt">
-                <h1>Fragrances</h1>
-                <ul>
-                  <li>1. Our cutting edge factory can produce high quality bespoke fragrances in desired volume. This high level of personalisation can contribute infinitely towards your branding goals or event. Our unambiguously limited production runs can  accommodate large scale events, corporate gifting, retail outlet or weddings, complete with individually tailored scent, gift boxing or packaging.</li>
-                  <li>2. A personal touch, A Signature Scent, Literally.</li>
-                </ul>
-              </span>
+              <div className="row homeslide">
+                <div className="col-6 cartxt">
+                  <h1>Fragrances</h1>
+                  <ul>
+                    <li>1. Our cutting edge factory can produce high quality bespoke fragrances in desired volume. This high level of personalisation can contribute infinitely towards your branding goals or event. Our unambiguously limited production runs can  accommodate large scale events, corporate gifting, retail outlet or weddings, complete with individually tailored scent, gift boxing or packaging.</li>
+                    <li>2. A personal touch, A Signature Scent, Literally.</li>
+                  </ul>
+                </div>
+                <div className="col-md-6">
+                  <div className="imgslide">
+                    <img src={fragnance} alt="" />
+                  </div>
+                </div>
+              </div>
             </Carousel.Item>
             <Carousel.Item>
-              <img
-                className="d-block w-100"
-                src={process.env.PUBLIC_URL + '3.jpg'}
-                alt="Third slide"
-              />
-              <span className="cartxt">
-                <h1>Home Care</h1>
-                <ul>
-                  <li>1. We are the manufacturer of aerosol with great experience and the support of our customers endorse us. If you are looking for a manufacturer and packer or outsourcing of aerosol manufacturing, we are your supplier, we will accompany you throughout the process of development of an aerosol, from R&D through legal regulations and design to the manufacture of the product.</li>
-                  <li>2. Aerometic offers complete, full-service aerosol formulation and packaging capabilities to meet all your customer’s needs.</li>
-                  <li>3. one step solution for complete aerosol solution</li>
-                </ul>
-              </span>
+              <div className="row homeslide">
+                <div className="col-6 cartxt">
+                  <h1>Home Care</h1>
+                  <ul>
+                    <li>1. We are the manufacturer of aerosol with great experience and the support of our customers endorse us. If you are looking for a manufacturer and packer or outsourcing of aerosol manufacturing, we are your supplier, we will accompany you throughout the process of development of an aerosol, from R&D through legal regulations and design to the manufacture of the product.</li>
+                    <li>2. Aerometic offers complete, full-service aerosol formulation and packaging capabilities to meet all your customer’s needs.</li>
+                    <li>3. one step solution for complete aerosol solution</li>
+                  </ul>
+                </div>
+                <div className="col-md-6">
+                  <div className="imgslide">
+                    <img src={homecar} alt="" />
+                  </div>
+                </div>
+              </div>
             </Carousel.Item>
           </Carousel>
         </div>
