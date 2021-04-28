@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "./Navbar";
 import Logo from "./logo.png";
 import Spray from "./icons/spray.png";
+import "./pro";
 
 const HomeCare = () => {
     window.scrollTo(0, 0);

@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "./Navbar";
 import Logo from "./logo.png"
+import "./pro";
 
 const Packaging = () => {
     window.scrollTo(0, 0);

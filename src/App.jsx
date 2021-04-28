@@ -3,6 +3,7 @@ import "../node_modules/bootstrap/js/src/collapse";
 import "../node_modules/font-awesome/css/font-awesome.min.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./scroll";
+import "./pro";
 import React from "react";
 import Home from "./Home";
 import Footer from "./Footer";

@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "./Navbar";
 import "./navbar.css";
 import "./scroll"
+import "./pro";
 
 const url = `https://aerometic-server.herokuapp.com/sendmail`;
 

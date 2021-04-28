@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import Navbar from "./Navbar";
 import Logo from "./logo.png";
 import './scroll';
+import "./pro";
 import Spray from "./icons/spray.png"
 
 const About = () => {

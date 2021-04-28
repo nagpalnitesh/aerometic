@@ -692,11 +692,11 @@ a:link {
 }
 
 .parallax {
-  background: url("1.jpg");
+  background: url("1.png");
   min-height: 50vh;
   background-attachment: fixed;
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
 }
 
@@ -719,6 +719,15 @@ a:link {
   align-items: center;
   justify-content: center;
 }
+
+.promain {
+  background-color: red;
+  width: auto;
+}
+
+/* .promain:hover .circlediv {
+  display: none !important;
+} */
 
 .protxt {
   border: 0.1em solid #fcdab7;
@@ -773,7 +782,11 @@ a:link {
   width: 20%;
 }
 
-.aerosol1 {
+.aerosol1,
+.aerosol2,
+.aerosol3,
+.aerosol4,
+.aerosol5 {
   width: 25%;
   position: absolute;
   transform: translate(148%, 30%);
@@ -781,7 +794,7 @@ a:link {
   z-index: 9;
   border-radius: 50%;
 }
-
+/* 
 .aerosol2 {
   width: 25%;
   position: absolute;
@@ -794,7 +807,7 @@ a:link {
 .aerosol3 {
   width: 25%;
   position: absolute;
-  transform: translate(148%, -120%);
+  transform: translate(148%, 30%);
   display: none;
   z-index: 9;
   border-radius: 50%;
@@ -816,17 +829,25 @@ a:link {
   display: none;
   z-index: 9;
   border-radius: 50%;
-}
+} */
 
-.protxt1:hover .aerosol1,
+/* .protxt1:hover .aerosol1,
 .protxt2:hover .aerosol2,
 .protxt3:hover .aerosol3,
 .protxt4:hover .aerosol4,
 .protxt5:hover .aerosol5 {
-  display: block;
-}
+  display: none;
+} */
 
-.protxt1:hover .circle {
+/* .protxt1:hover .circle {
+  display: none;
+} */
+
+#pro1,
+#pro2,
+#pro3,
+#pro4,
+#pro5 {
   display: none;
 }
 
