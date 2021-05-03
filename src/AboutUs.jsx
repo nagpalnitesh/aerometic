@@ -13,8 +13,8 @@ const About = () => {
       <div className="container-fluid about">
         <h1>About The Company</h1>
         <hr />
-        <img src={Logo} />
-        <p style={{ paddingLeft: '15em', marginTop: '-12em' }}>The world of manufacturing is transforming and we at Aerometic ensure we adapt to these new standards with
+        <img className="aboutimg" src={Logo} />
+        <p style={{ paddingLeft: '18em', marginTop: '-13em' }}>The world of manufacturing is transforming and we at Aerometic ensure we adapt to these new standards with
         our state of the art facilities and with an immaculate approach. Lined with the latest trends we specialize in
         Aerosol, Perfumes, Cosmetics, and other contemporary products which ranges from Home-care to Personal
         care. With the advent of technology in this field, we felt the need for the advanced and sophisticated automated
