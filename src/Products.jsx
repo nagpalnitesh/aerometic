@@ -2,11 +2,11 @@ import React from "react";
 import "./pro";
 import Navbar from "./Navbar";
 import { NavLink } from "react-router-dom";
-import ProductImg from "./products/aerosol.jpg";
-import perfume from "./products/IMG18.jpg";
-import home from "./products/IMG5.jpg";
-import personal from "./products/IMG3.jpg";
-import pack from "./products/IMG14.jpg";
+import ProductImg from "./products/APCL2.png";
+import perfume from "./products/APCL22.png";
+import home from "./products/APCL21.png";
+import personal from "./products/APCL4.png";
+import pack from "./products/APCL14.png";
 
 
 const Products = () => {

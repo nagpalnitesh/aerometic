@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "./Navbar";
-import PackIMG from "./products/IMG17.png"
+import PackIMG from "./products/APCL11.jpg"
 import "./pro";
 
 const Packaging = () => {

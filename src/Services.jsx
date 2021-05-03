@@ -9,6 +9,7 @@ import Manufacturing from "./icons/manufacturing.png";
 import Research from "./icons/research.png";
 import Consult from "./icons/consultation.png";
 import Pan_India from "./icons/india.png";
+import Private from "./products/APCL9.jpg"
 
 const Services = () => {
   window.scrollTo(0, 0);
@@ -38,7 +39,7 @@ const Services = () => {
         </div>
         <h1>Private Label</h1>
         <hr />
-        <p>At Aerometic we've got an insatiable thirst for innovation and perfection. Each product that is manufactured is
+        <p style={{ paddingRight: '32em', marginTop: '0em' }}>At Aerometic we've got an insatiable thirst for innovation and perfection. Each product that is manufactured is
         validated by our experience in Research & Development (R&D). The manufacturing process is also aided by
         our knowledge about recent formulations, product quality control, and quality assurance by our efficient and
         experienced in-house team. What started off with a few products, is now an enormous bank of product across all
@@ -48,6 +49,7 @@ const Services = () => {
         plastic bottles, jars, cylinders, drum, tubes, pouches, sachets, and cartons of each feasible form and
         size. Needless to mention, our product bank is a veritable boon for customers requiring a whole product
 and branding solution at the optimum time and cost.</p>
+        <img className="privatelabel" src={Private} alt="" />
         <h2>COST OF PRIVATE LABELING PRODUCTION</h2>
         <h3>MINIMUM ORDER QUANTITIES</h3>
         <hr />

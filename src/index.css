@@ -140,7 +140,8 @@ code {
 
 .homeslide {
   width: 100%;
-  margin-bottom: 5em;
+  margin-top: 5.5em;
+  margin-bottom: 5.5em;
 }
 
 .homeslide .cartxt {
@@ -154,13 +155,11 @@ code {
   text-shadow: 0.1em 0em 0.1em #1e5f74;
 }
 
-.cartxt ul {
-  margin-top: 2em;
-}
-
-.cartxt ul li {
-  margin-top: 2em;
-  font-size: 1.2em;
+.cartxt h4 {
+  margin-top: 20%;
+  padding-left: 2em;
+  padding-right: 2em;
+  text-align: justify;
 }
 
 h1 {
@@ -713,6 +712,11 @@ a:link {
   width: 50%;
   margin-top: 2em;
   margin-bottom: 1em;
+}
+
+.privatelabel {
+  margin-left: 50%;
+  margin-top: -45em !important;
 }
 
 .aboutimg {
