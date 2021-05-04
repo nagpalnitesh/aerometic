@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import "./navbar.css";
 import "./pro";
-import "./scroll"
 import { NavLink } from "react-router-dom";
 const Navbar = () => {
   function refreshPage() {
@@ -9,7 +8,7 @@ const Navbar = () => {
   }
   return (
     <>
-      <div id="myTopnav" className="topnav">
+      <div id="myTopnavnew" className="topnav">
         <nav className="navbar navbar-expand-lg navbar-light" onClick={refreshPage}>
           <button
             className="navbar-toggler"

@@ -3,10 +3,10 @@ import "../node_modules/bootstrap/js/src/collapse";
 import "../node_modules/font-awesome/css/font-awesome.min.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./scroll";
+import "./otherscroll";
 import "./pro";
 import React from "react";
 import Home from "./Home";
-import Footer from "./Footer";
 import { Switch, Route, Redirect } from "react-router-dom";
 import Contactus from "./ContactUs";
 import AboutUs from "./AboutUs";
@@ -34,7 +34,6 @@ const App = () => {
         <Route path="/packaging" component={Packaging} />
         <Redirect to="/"></Redirect>
       </Switch>
-      <Footer />
     </>
   )
 }

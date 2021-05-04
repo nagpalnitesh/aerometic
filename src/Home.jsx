@@ -1,8 +1,15 @@
-import React from "react";
-import Navbar from "./Navbar";
+import React, { useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import { Link } from "react-scroll";
 import Carousel from "react-bootstrap/Carousel";
+
+import "./loader.css";
+
+import Footer from "./Footer";
+import Navbar from "./Navbar";
+import "./scroll";
+import "./pro";
+
 import Contract from "./icons/contract.png";
 import Manufacturing from "./icons/manufacturing.png";
 import Research from "./icons/research.png";
@@ -12,13 +19,23 @@ import aerosol from "./products/APCL2.jpg";
 import personal from "./products/IMG7.jpg";
 import fragnance from "./products/APCL221.jpg";
 import homecar from "./products/APCL10.jpg";
-import "./scroll";
-import "./pro";
 
-const Home = () => {
+import myVideo from "./loader.mp4"
+
+export default function Home() {
+  useEffect(() => {
+    setTimeout(() => {
+      document.getElementById("loader").style.display = "none";
+      document.getElementById("main").style.display = "block";
+    }, 7000);
+
+  });
   return (
     <>
-      <div id="main">
+      <span className="loader" id="loader">
+        <video src={myVideo} autoPlay muted loop className="video"></video>
+      </span>
+      <span id="main">
         <div className="txt">
           <video src={process.env.PUBLIC_URL + './Earth.mp4'} autoPlay muted loop className="video"></video>
           <NavLink to="/" className="navbar-brand nav-link logo">
@@ -143,9 +160,8 @@ const Home = () => {
             </NavLink>
           </div>
         </section>
-      </div>
+        <Footer />
+      </span>
     </>
   );
 };
-
-export default Home;
