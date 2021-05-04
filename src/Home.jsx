@@ -7,7 +7,9 @@ import "./loader.css";
 
 import Footer from "./Footer";
 import Navbar from "./Navbar";
+import ProHome from "./ProHome"
 import "./scroll";
+import "./pro";
 
 import Contract from "./icons/contract.png";
 import Manufacturing from "./icons/manufacturing.png";
@@ -124,7 +126,11 @@ export default function Home() {
                   <h3>“Aerometic Care Pvt. Ltd.<br />Wants to be YOUR trusted partner for Contract Manufacturing.”</h3>
                 </span>
               </div>
-              <div className="col-md-12 parallax"></div>
+              <div className="col-md-12 parallax">
+                <div className="productshome">
+                  <ProHome />
+                </div>
+              </div>
               <div className="col-md-12 services">
                 <h1>Our Services</h1>
                 <ul>

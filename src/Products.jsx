@@ -1,56 +1,77 @@
 import React from "react";
 import "./pro";
 import Navbar from "./Navbar";
-import { NavLink } from "react-router-dom";
-import ProductImg from "./products/APCL2.png";
-import perfume from "./products/APCL22.png";
-import home from "./products/APCL21.png";
-import personal from "./products/APCL4.png";
-import pack from "./products/APCL14.png";
-
+import Carousel from "react-bootstrap/Carousel";
+import Footer from "./Footer";
+import aerosol from "./products/APCL2.jpg";
+import personal from "./products/IMG7.jpg";
+import fragnance from "./products/APCL221.jpg";
+import homecar from "./products/APCL10.jpg";
 
 const Products = () => {
   window.scrollTo(0, 0);
   return (
     <>
       <Navbar />
-      <div id="products" className="container-fluid products">
-        <div className="protxt1">
-          <div className="protxt" id="protxt1">
-            <NavLink to="/aerosol" className="nav-link"><span>Aerosol</span></NavLink>
-          </div>
-          <img id="pro1" className="aerosol1" src={ProductImg} alt="Aerosol" />
-        </div>
-        <div className="protxt2" >
-          <div className="protxt" id="protxt2">
-            <NavLink to="/perfumes" className="nav-link"><span>Perfumes</span></NavLink>
-          </div>
-          <img id="pro2" className="aerosol2" src={perfume} alt="Aerosol" />
-        </div>
-        <div className="circlediv" id="circle">
-          <div className="circle">
-            <img className="proimg" src="./logo.png" alt="" />
-          </div>
-        </div>
-        <div className="protxt3">
-          <div className="protxt" id="protxt3">
-            <NavLink to="/personalcare" className="nav-link"><span>Personal Care</span></NavLink>
-          </div>
-          <img id="pro3" className="aerosol3" src={personal} alt="Aerosol" />
-        </div>
-        <div className="protxt4">
-          <div className="protxt" id="protxt4">
-            <NavLink to="/homecare" className="nav-link"><span>Home Care</span></NavLink>
-          </div>
-          <img id="pro4" className="aerosol4" src={home} alt="Aerosol" />
-        </div>
-        <div className="protxt5">
-          <div className="protxt" id="protxt5">
-            <NavLink to="/packaging" className="nav-link"><span>Packaging</span></NavLink>
-          </div>
-          <img id="pro5" className="aerosol5" src={pack} alt="Aerosol" />
-        </div>
+
+      <div className="conatiner-fluid contnt">
+        <Carousel controls={false} className="carousel">
+          <Carousel.Item>
+            <div className="row homeslide">
+              <div className="col-6 cartxt">
+                <h1>Aerosol</h1>
+                <h4>We are the manufacturer of aerosol with great experience and the support of our customers endorse us. If you are looking for a manufacturer and packer or outsourcing of aerosol manufacturing, we are your supplier, we will accompany you throughout the process of development of an aerosol, from R&D through legal regulations and design to the manufacture of the product.</h4>
+              </div>
+              <div className="col-md-6">
+                <div className="imgslide">
+                  <img src={aerosol} alt="" />
+                </div>
+              </div>
+            </div>
+          </Carousel.Item>
+          <Carousel.Item>
+            <div className="row homeslide">
+              <div className="col-6 cartxt">
+                <h1>Personal Care</h1>
+                <h4>We are the manufacturer of aerosol with great experience and the support of our customers endorse us. If you are looking for a manufacturer and packer or outsourcing of aerosol manufacturing, we are your supplier, we will accompany you throughout the process of development of an aerosol, from R&D through legal regulations and design to the manufacture of the product.</h4>
+              </div>
+              <div className="col-md-6">
+                <div className="imgslide">
+                  <img src={personal} alt="" />
+                </div>
+              </div>
+            </div>
+          </Carousel.Item>
+          <Carousel.Item>
+            <div className="row homeslide">
+              <div className="col-6 cartxt">
+                <h1>Fragrances</h1>
+                <h4>Our cutting edge factory can produce high quality bespoke fragrances in desired volume. This high level of personalisation can contribute infinitely towards your branding goals or event. Our unambiguously limited production runs can  accommodate large scale events, corporate gifting, retail outlet or weddings, complete with individually tailored scent, gift boxing or packaging.</h4>
+              </div>
+              <div className="col-md-6">
+                <div className="imgslide">
+                  <img src={fragnance} alt="" />
+                </div>
+              </div>
+            </div>
+          </Carousel.Item>
+          <Carousel.Item>
+            <div className="row homeslide">
+              <div className="col-6 cartxt">
+                <h1>Home Care</h1>
+                <h4>We are the manufacturer of aerosol with great experience and the support of our customers endorse us. If you are looking for a manufacturer and packer or outsourcing of aerosol manufacturing, we are your supplier, we will accompany you throughout the process of development of an aerosol, from R&D through legal regulations and design to the manufacture of the product.</h4>
+              </div>
+              <div className="col-md-6">
+                <div className="imgslide">
+                  <img src={homecar} alt="" />
+                </div>
+              </div>
+            </div>
+          </Carousel.Item>
+        </Carousel>
       </div>
+
+      <Footer />
     </>
   );
 };

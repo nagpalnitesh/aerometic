@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600;700&display=swap");
 
 * {
   list-style: none;
@@ -45,7 +45,7 @@ code {
 }
 
 .categories .menu {
-  font-family: "Poppins", sans-serif;
+  font-family: "Titillium Web", sans-serif;
   text-decoration: none;
   text-emphasis: none;
   margin-left: 0%;
@@ -54,7 +54,7 @@ code {
 }
 
 .menu1 {
-  font-family: "Poppins", sans-serif;
+  font-family: "Titillium Web", sans-serif;
   font-weight: 600;
   margin-left: 50%;
   margin-top: 0.5em;
@@ -78,7 +78,7 @@ code {
 }
 
 .home h1 {
-  font-family: "Poppins", sans-serif;
+  font-family: "Titillium Web", sans-serif;
   color: white;
   /* background: -webkit-linear-gradient(#ffffff, #e0e0e0da, #7a7a7a);
   -webkit-background-clip: text;
@@ -108,7 +108,7 @@ code {
 .ani h1,
 .about h3 {
   color: white;
-  font-family: "Poppins", sans-serif;
+  font-family: "Titillium Web", sans-serif;
   font-weight: bold !important;
   overflow: hidden;
 }
@@ -180,7 +180,7 @@ h1 {
 }
 
 .text-center .btn {
-  font-family: "Poppins", sans-serif;
+  font-family: "Titillium Web", sans-serif;
   font-weight: bold !important;
   color: #fcdab7;
   letter-spacing: 0.2em;
@@ -463,13 +463,13 @@ a:link {
 .company .profile p {
   font-size: 1.5em;
   text-align: justify;
-  font-family: "Poppins", sans-serif;
+  font-family: "Titillium Web", sans-serif;
   font-weight: 500;
   padding: 2em;
 }
 
 .company .profile h3 {
-  font-family: "Poppins", sans-serif;
+  font-family: "Titillium Web", sans-serif;
   font-weight: 700;
   overflow: hidden;
   text-align: center;
@@ -491,14 +491,14 @@ a:link {
 .services h1,
 .services1 h1 {
   text-align: center;
-  font-family: "Poppins", sans-serif;
+  font-family: "Titillium Web", sans-serif;
   font-weight: 700;
 }
 
 .services span,
 .services1 span {
   font-weight: 700;
-  font-family: "Poppins", sans-serif;
+  font-family: "Titillium Web", sans-serif;
   text-transform: uppercase;
   text-shadow: 0em 0em 0.1em rgb(56, 51, 51);
   font-size: 1.5em;
@@ -507,7 +507,7 @@ a:link {
 
 .services p {
   text-align: justify;
-  font-family: "Poppins", sans-serif;
+  font-family: "Titillium Web", sans-serif;
   font-size: 1.3em;
   letter-spacing: 0.1em;
   margin-left: 5em;
@@ -516,7 +516,7 @@ a:link {
 
 .services1 p {
   text-align: justify;
-  font-family: "Poppins", sans-serif;
+  font-family: "Titillium Web", sans-serif;
   font-size: 1.3em;
   letter-spacing: 0.1em;
   margin-left: 5em;
@@ -571,7 +571,7 @@ a:link {
   margin: auto;
   height: auto;
   color: transparent;
-  font-family: "Poppins", sans-serif;
+  font-family: "Titillium Web", sans-serif;
   font-size: 3em;
   font-weight: 700;
   letter-spacing: -0.02em;
@@ -694,7 +694,7 @@ a:link {
 }
 
 .about {
-  font-family: "Poppins", sans-serif;
+  font-family: "Titillium Web", sans-serif;
   margin-top: 2em;
   margin-bottom: 2em;
   left: 5% !important;
@@ -755,13 +755,18 @@ a:link {
 
 /* products */
 
-.products {
-  margin-bottom: 5em;
-  height: 90vh;
+.productshome {
+  margin-top: 2em;
 }
 
-.circlediv {
-  margin-top: 5vh;
+.prohome {
+  position: relative;
+  margin-top: -2em;
+}
+
+/* .products {
+  margin-bottom: 2em;
+  height: 90vh;
 }
 
 .circle {
@@ -782,7 +787,7 @@ a:link {
   display: none !important;
 } */
 
-.protxt {
+/* .protxt {
   border: 0.1em solid #fcdab7;
   padding: 1em 1em 1em 1em;
   font-size: 1.5em;
@@ -795,35 +800,35 @@ a:link {
 .protxt1 .protxt {
   position: absolute;
   left: 20%;
-  top: 30%;
+  top: 20%;
   transform: translate(-50%, -50%);
 }
 
 .protxt2 .protxt {
   position: absolute;
   left: 80%;
-  top: 30%;
+  top: 20%;
   transform: translate(-50%, -50%);
 }
 
 .protxt3 .protxt {
   position: absolute;
   left: 20%;
-  top: 70%;
+  top: 60%;
   transform: translate(-50%, -50%);
 }
 
 .protxt4 .protxt {
   position: absolute;
   left: 80%;
-  top: 70%;
+  top: 60%;
   transform: translate(-50%, -50%);
 }
 
 .protxt5 .protxt {
   position: absolute;
   left: 50%;
-  top: 90%;
+  top: 80%;
   transform: translate(-50%, -50%);
 }
 
@@ -833,20 +838,24 @@ a:link {
   top: 45%;
   transform: translate(-50%, -50%);
   width: 20%;
-}
+}  */
 
-.aerosol1,
+/* .aerosol1,
 .aerosol2,
 .aerosol3,
 .aerosol4,
 .aerosol5 {
-  width: 25%;
   position: absolute;
-  transform: translate(148%, 30%);
-  display: none;
+  display: block;
   z-index: 9;
   border-radius: 50%;
-}
+  top: 0%;
+  left: 0%;
+  transform: translate(117%, 9%);
+  background-color: #1e5f74;
+  /* clip-path: circle(42%); */
+/* width: 30%;
+} */
 /* 
 .aerosol2 {
   width: 25%;
@@ -896,13 +905,13 @@ a:link {
   display: none;
 } */
 
-#pro1,
+/* #pro1,
 #pro2,
 #pro3,
 #pro4,
 #pro5 {
-  display: none;
-}
+  display: block;
+} */
 
 .prolist li img {
   width: 32px;
