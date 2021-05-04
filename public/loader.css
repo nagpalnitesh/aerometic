@@ -1,0 +1,17 @@
+#root {
+  display: none;
+}
+
+.loader {
+  width: 100%;
+  height: 100vh;
+}
+
+.loader .video {
+  top: 0%;
+  left: 0%;
+  position: absolute;
+  object-fit: cover;
+  height: 100vh;
+  width: 100%;
+}

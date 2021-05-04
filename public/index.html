@@ -17,6 +17,7 @@ the international standard, made with keeping the taste and preference of Indian
     -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <script src="../src/scroll.js"></script>
+    <link rel="stylesheet" href="loader.css" />
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -28,8 +29,10 @@ the international standard, made with keeping the taste and preference of Indian
     -->
     <title>Aerometic Care</title>
   </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
+  <body onload="loadPage()">
+    <div class="loader" id="loader">
+      <video src="loader.mp4" autoplay muted loop class="video"></video>
+    </div>
     <div id="root"></div>
     <!--
       This HTML file is a template.
@@ -41,5 +44,17 @@ the international standard, made with keeping the taste and preference of Indian
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <script>
+      var myVar;
+
+      function loadPage() {
+        myVar = setTimeout(showPage, 7000);
+      }
+
+      function showPage() {
+        document.getElementById("loader").style.display = "none";
+        document.getElementById("root").style.display = "block";
+      }
+    </script>
   </body>
 </html>
