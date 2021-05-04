@@ -8,7 +8,6 @@ import "./loader.css";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
 import "./scroll";
-import "./pro";
 
 import Contract from "./icons/contract.png";
 import Manufacturing from "./icons/manufacturing.png";

@@ -5,8 +5,9 @@ document.addEventListener("DOMContentLoaded", function () {
   var pro4 = document.getElementById("pro4");
   var pro5 = document.getElementById("pro5");
   var circle = document.getElementById("circle");
+  var protxt1 = document.getElementById("protxt1");
   //   aerosol
-  document.getElementById("protxt1").addEventListener("mouseover", function () {
+  protxt1.addEventListener("mouseover", function () {
     circle.style.display = "none";
     pro1.style.display = "block";
   });
