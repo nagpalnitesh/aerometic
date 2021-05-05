@@ -136,6 +136,25 @@ code {
 
 .contnt {
   overflow: hidden;
+  margin-top: 1em;
+}
+
+.contnt .arrow {
+  width: 5% !important;
+}
+
+.contnt .carousel-item {
+  height: 82vh;
+  color: black;
+}
+
+.contnt .overlay {
+  background-color: rgba(0, 0, 0, 0.521);
+}
+
+.contnt .overlay img {
+  opacity: 0.3;
+  height: 82vh !important;
 }
 
 .homeslide {

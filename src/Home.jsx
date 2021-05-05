@@ -28,7 +28,7 @@ export default function Home() {
     setTimeout(() => {
       document.getElementById("loader").style.display = "none";
       document.getElementById("main").style.display = "block";
-    }, 7000);
+    }, 7);
 
   });
   return (
@@ -43,7 +43,7 @@ export default function Home() {
             <img src={process.env.PUBLIC_URL + './logo192.png'} alt="logo" />
           </NavLink>
           <div className="label" style={{ textTransform: 'uppercase' }}>
-            {/* <h1>Aerometic</h1> */}
+
             <h1>Care</h1>
           </div>
           <Link to="home" className="scroll" smooth={true} spy={true}><img src={process.env.PUBLIC_URL + './scroll_wheel.gif'} alt="logo" /></Link>
@@ -59,60 +59,38 @@ export default function Home() {
         <section className="container-fluid home" id="home">
           <Navbar />
           <div className="conatiner-fluid contnt">
-            <Carousel controls={false} className="carousel">
-              <Carousel.Item>
-                <div className="row homeslide">
-                  <div className="col-6 cartxt">
-                    <h1>Aerosol</h1>
-                    <h4>We are the manufacturer of aerosol with great experience and the support of our customers endorse us. If you are looking for a manufacturer and packer or outsourcing of aerosol manufacturing, we are your supplier, we will accompany you throughout the process of development of an aerosol, from R&D through legal regulations and design to the manufacture of the product.</h4>
-                  </div>
-                  <div className="col-md-6">
-                    <div className="imgslide">
-                      <img src={aerosol} alt="" />
-                    </div>
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div className="overlay">
+                    <img src={aerosol} alt="" />
                   </div>
                 </div>
-              </Carousel.Item>
-              <Carousel.Item>
-                <div className="row homeslide">
-                  <div className="col-6 cartxt">
-                    <h1>Personal Care</h1>
-                    <h4>We are the manufacturer of aerosol with great experience and the support of our customers endorse us. If you are looking for a manufacturer and packer or outsourcing of aerosol manufacturing, we are your supplier, we will accompany you throughout the process of development of an aerosol, from R&D through legal regulations and design to the manufacture of the product.</h4>
-                  </div>
-                  <div className="col-md-6">
-                    <div className="imgslide">
-                      <img src={personal} alt="" />
-                    </div>
+                <div class="carousel-item slide2">
+                  <div className="overlay">
+                    <img src={personal} alt="" />
                   </div>
                 </div>
-              </Carousel.Item>
-              <Carousel.Item>
-                <div className="row homeslide">
-                  <div className="col-6 cartxt">
-                    <h1>Fragrances</h1>
-                    <h4>Our cutting edge factory can produce high quality bespoke fragrances in desired volume. This high level of personalisation can contribute infinitely towards your branding goals or event. Our unambiguously limited production runs can  accommodate large scale events, corporate gifting, retail outlet or weddings, complete with individually tailored scent, gift boxing or packaging.</h4>
-                  </div>
-                  <div className="col-md-6">
-                    <div className="imgslide">
-                      <img src={fragnance} alt="" />
-                    </div>
+                <div class="carousel-item slide3">
+                  <div className="overlay">
+                    <img src={fragnance} alt="" />
                   </div>
                 </div>
-              </Carousel.Item>
-              <Carousel.Item>
-                <div className="row homeslide">
-                  <div className="col-6 cartxt">
-                    <h1>Home Care</h1>
-                    <h4>We are the manufacturer of aerosol with great experience and the support of our customers endorse us. If you are looking for a manufacturer and packer or outsourcing of aerosol manufacturing, we are your supplier, we will accompany you throughout the process of development of an aerosol, from R&D through legal regulations and design to the manufacture of the product.</h4>
-                  </div>
-                  <div className="col-md-6">
-                    <div className="imgslide">
-                      <img src={homecar} alt="" />
-                    </div>
+                <div class="carousel-item slide4">
+                  <div className="overlay">
+                    <img src={homecar} alt="" />
                   </div>
                 </div>
-              </Carousel.Item>
-            </Carousel>
+              </div>
+              <a class="carousel-control-prev arrow" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next arrow" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
           </div>
           <div className="company">
             <div className="row">
