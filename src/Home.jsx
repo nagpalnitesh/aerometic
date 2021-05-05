@@ -69,7 +69,7 @@ export default function Home() {
                   <div className="slidetxt">
                     <div className="textmain">
                       <h1>Welcome to Aerometic</h1>
-                      <h3>We are a quintessential manufacturer of Aerosols, Toiletries, Cosmetics, Personal Care, Air Fresheners, Home Care Products, and many more. </h3>
+                      <h3>We are a quintessential Manufacturer, Supplier, & Exporter of Aerosols, Toiletries, Cosmetics, Personal Care, Air Fresheners, Home Care Products, and many more. </h3>
                     </div>
                   </div>
                 </div>
@@ -128,43 +128,89 @@ export default function Home() {
               </Carousel.Item>
             </Carousel>
           </div>
-          <div className="company">
-            <div className="row">
-              <div className="col-md-12 profile">
-                <span>
-                  <p>Aerometic Care Pvt Ltd is a leading company in Gujarat. We manufacture products with
-                  the international standard, made with keeping the taste and preference of Indian and
-                  International markets. Our facility is located among the leading companies of India at
-                  Sanand - Ahmedabad, Gujarat.
-                  </p>
-                  <h3>“Aerometic Care Pvt. Ltd.<br />Wants to be YOUR trusted partner for Contract Manufacturing.”</h3>
-                </span>
-              </div>
-              <div className="col-md-12 parallax">
-                <div className="productshome">
-                  <ProHome />
+          <div className="container-fluid company">
+            <div className="profile">
+              <span>
+                <h3>Aerometic Care Pvt. Ltd. is a leading contract manufacturing company based in Ahmedabad, Gujarat. We are fully committed to adding value to all products manufactured by our company with our expertise in quality, product capacity, and resources. We ensure to meet the needs of our valued clients.</h3>
+                <div className="row box">
+                  <div className="col-md-4">
+                    <div className="txt">
+                      <h4>OUR MISSION</h4>
+                      <p>Aerometic Care ensures adaptation to novel standards aided by our modern facilities and with an immaculate approach. We believe in turning your ideas into successful retail brands, synonymous in the global industry, and make you win in the market by utilizing the multitude of our customizable services.</p>
+                    </div>
+                  </div>
+                  <div className="col-md-4">
+                    <div className="txt">
+                      <h4>Quality Oriented Service</h4>
+                      <p>We create the best quality products, ensuring absolute purity. Our Aerometic team includes the best contract manufacturers working in a modern state-of-the-art facility along with our highly trained and meticulous design and customer service teams. </p>
+                    </div>
+                  </div>
+                  <div className="col-md-4">
+                    <div className="txt">
+                      <h4>OUR VISION</h4>
+                      <p>We at Aerometic envision regular catering to our client’s needs for world-class hassle-free products, in line with the rising technologies and trends in the global market. Our strong ethical practices place sustainability and corporate responsibility foremost from our governing board to our assembly staff.</p>
+                    </div>
+                  </div>
                 </div>
+                <h1>“Aerometic Care Pvt. Ltd. wants to be your Trusted partner for Contract Manufacturing.”</h1>
+                <div className="row box1">
+                  <div className="col-md-4">
+                    <div className="txt">
+                      <h4>OUR GEOGRAPHICAL ADVANTAGE</h4>
+                      <p>Aerometic Care is located in the heart of the new industrial place at Sanand, Ahmedabad. We are surrounded by giants like Coca-Cola, Tata Motors, Nivea, Ford, Posco, and Bosch to name a few. Sanand is well connected in terms of transportation with the nearest international airport in Ahmedabad and accessibility to Mundra seaport, and Nhava Sheva Port of Mumbai. Moreover, our location makes us nearer to both Vadodara and Surat which are the centers of glass bottle manufacturing for the cosmetic segment.</p>
+                    </div>
+                  </div>
+                  <div className="col-md-4">
+                    <div className="txt">
+                      <h4>PRODUCT DEVELOPMENT</h4>
+                      <p>Whether you have a new product idea or you are looking to improvise upon an existing product, Aerometic’s services are what you need. We cater to your definite needs and assist you to launch your product in the market. Aerometic can provide you with a wide range of specialized orders as well as cosmetic products with a focus on quality ingredients and innovative packaging solutions. </p>
+                    </div>
+                  </div>
+                  <div className="col-md-4">
+                    <div className="txt">
+                      <h4>FULL-SERVICE CONTRACT MANUFACTURING</h4>
+                      <p>Aerometic provides premier Aerosol & Cosmetic products’ contract manufacturing services. Aerosol & Cosmetic contract manufacturing services include custom and stock formulations, exclusive packaging development, design and sourcing for bulk cosmetic filling, product labeling, and kit assembly amongst others. From dedicated product development, regulatory assistance, manufacturing, quality control, packaging with the best technology, we help you throughout the entire process.</p>
+                    </div>
+                  </div>
+                  <div className="col-md-6">
+                    <div className="txt">
+                      <h4>TURNKEY SERVICES</h4>
+                      <p>The entire supply chain is managed by Aerometic thus, the client can enjoy a hassle-free experience of the products’ creation till its launch. Your product is as much ours as is yours. You can continue to do what made you successful in the first place—Innovate, Market, and Sell.</p>
+                    </div>
+                  </div>
+                  <div className="col-md-6 ">
+                    <div className="txt">
+                      <h4>OUR EXPERTS & EXPERTISE</h4>
+                      <p>Aerometic comprises experts from across domains with extensive experience in the cosmetic industry, making it the best partner to help you effectuate your vision. As a full-service contract manufacturer for Aerosol and related products, Aerometic boasts of its unique capabilities to sway the market about your product, quickly and effectively. We ensure the highest quality of the manufactured products. Our expertise is in the realm of development, manufacturing, filling, and packaging of Aerosols, sprays, crèmes, lotions, and sticks which are further packed into jars, or bottles, or otherwise. </p>
+                    </div>
+                  </div>
+                </div>
+              </span>
+            </div>
+            <div className="conatiner-fluid parallax">
+              <div className="productshome">
+                <ProHome />
               </div>
-              <div className="col-md-12 services">
-                <h1>Our Services</h1>
-                <ul>
-                  <li>
-                    <img src={Contract} alt="" /><p><span>Contract Manufacturing:</span> Production is our job, let us deliver the best quality product to your warehouse on time under the most suitable conditions for you.</p>
-                  </li>
-                  <li>
-                    <img src={Research} alt="" /><p><span>R&D Studies:</span> our company and the best knowledge of our expert staff in terms of chemistry, aerosol and production know-how to your service and to produce the products you need.</p>
-                  </li>
-                  <li>
-                    <img src={Manufacturing} alt="" /><p><span>Manufacturing:</span> Our state-of-the-art manufacturing units provide a safe environment for the manufacturing of the products and our experts regularly monitor all the production activities.</p>
-                  </li>
-                  <li>
-                    <img src={Consult} alt="" /><p><span>Consultancy:</span> Our manufacturing and operating experience in 60 years; we share with you to create a better management plan and manufacturing processes.</p>
-                  </li>
-                  <li>
-                    <img src={Pan_India} alt="" /><p><span>Pan India Logistics:</span> Our expert staff contribute both as an informative and as a guide with its transparent operation and understanding that serves the purpose, without cluttering pan india logistics procedure.</p>
-                  </li>
-                </ul>
-              </div>
+            </div>
+            <div className="col-md-12 services">
+              <h1>Our Services</h1>
+              <ul>
+                <li>
+                  <img src={Contract} alt="" /><p><span>Contract Manufacturing:</span> Production is our job, let us deliver the best quality product to your warehouse on time under the most suitable conditions for you.</p>
+                </li>
+                <li>
+                  <img src={Research} alt="" /><p><span>R&D Studies:</span> our company and the best knowledge of our expert staff in terms of chemistry, aerosol and production know-how to your service and to produce the products you need.</p>
+                </li>
+                <li>
+                  <img src={Manufacturing} alt="" /><p><span>Manufacturing:</span> Our state-of-the-art manufacturing units provide a safe environment for the manufacturing of the products and our experts regularly monitor all the production activities.</p>
+                </li>
+                <li>
+                  <img src={Consult} alt="" /><p><span>Consultancy:</span> Our manufacturing and operating experience in 60 years; we share with you to create a better management plan and manufacturing processes.</p>
+                </li>
+                <li>
+                  <img src={Pan_India} alt="" /><p><span>Pan India Logistics:</span> Our expert staff contribute both as an informative and as a guide with its transparent operation and understanding that serves the purpose, without cluttering pan india logistics procedure.</p>
+                </li>
+              </ul>
             </div>
           </div>
           <div className="ftextmain">

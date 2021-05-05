@@ -28,7 +28,6 @@ code {
 }
 
 .navbar {
-  height: 12vh;
   overflow: hidden;
 }
 
@@ -54,7 +53,6 @@ code {
   text-decoration: none;
   text-emphasis: none;
   margin-left: 47.5%;
-  margin-top: 0.5em;
   font-weight: 600;
 }
 
@@ -65,7 +63,11 @@ code {
 }
 
 .logo img {
-  width: 60%;
+  width: 100%;
+}
+
+.logo1 img {
+  width: 50%;
 }
 
 .home h1 {
@@ -139,7 +141,7 @@ code {
   left: 0%;
   background-color: rgba(70, 70, 70, 0.363);
   padding: 2em 0;
-  height: 80vh;
+  height: 84vh;
 }
 
 .slidetxt h3 {
@@ -163,12 +165,12 @@ code {
 
 .overlay {
   background-color: black;
-  height: 80vh;
+  height: 84vh;
 }
 
 .overlay img {
   opacity: 0.5;
-  height: 80vh !important;
+  height: 84vh !important;
 }
 
 .homeslide {
@@ -439,7 +441,7 @@ a:link {
     left: -100%;
   }
   100% {
-    left: 43.8%;
+    left: 45%;
   }
 }
 
@@ -488,25 +490,22 @@ a:link {
 }
 
 .company {
-  width: 80%;
-  margin-left: 10%;
+  width: 100%;
   padding: 1em 2em 1em 2em;
 }
 
-.company .profile p {
-  font-size: 1.5em;
+.company .profile h3 {
   text-align: justify;
   font-family: "Titillium Web", sans-serif;
   font-weight: 500;
   padding: 2em;
 }
 
-.company .profile h3 {
+.company .profile h1 {
   font-family: "Titillium Web", sans-serif;
   font-weight: 700;
   overflow: hidden;
   text-align: center;
-  font-size: 2em;
   margin-top: -0.5em;
   padding: 0em 2em 2em 2em;
 }
@@ -979,4 +978,93 @@ a:link {
 
 .right-text {
   margin-left: 50%;
+}
+
+.box,
+.box1 {
+  margin-bottom: 5em;
+}
+
+.box .col-md-4,
+.box1 .col-md-4,
+.box1 .col-md-6 {
+  padding: 3em;
+}
+
+.box .col-md-4 .txt {
+  background-color: #1e5f746b;
+  padding: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  border-radius: 0.5em;
+  width: 80%;
+  margin-left: 10%;
+  box-shadow: 0.4em 0.1em 1.5em black;
+  height: 30vh;
+}
+
+.box1 .col-md-4 .txt {
+  background-color: #1e5f746b;
+  padding: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  border-radius: 0.5em;
+  width: 80%;
+  margin-left: 10%;
+  box-shadow: 0.4em 0.1em 1.5em black;
+  height: 30vh;
+  overflow: hidden;
+}
+
+.box1 .col-md-6:nth-child(4) .txt {
+  background-color: #1e5f746b;
+  padding: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  border-radius: 0.5em;
+  width: 45%;
+  margin-left: 45%;
+  box-shadow: 0.4em 0.1em 1.5em black;
+  height: 30vh;
+  overflow: hidden;
+}
+
+.box1 .col-md-6:nth-child(5) .txt {
+  background-color: #1e5f746b;
+  padding: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  border-radius: 0.5em;
+  width: 50%;
+  margin-left: 5%;
+  box-shadow: 0.4em 0.1em 1.5em black;
+  height: 30vh;
+  overflow: hidden;
+}
+
+.box .col-md-4 .txt:hover {
+  transform: scale(1.2);
+}
+
+.box1 .col-md-4 .txt:hover,
+.box1 .col-md-6:nth-child(5) .txt:hover {
+  transform: scale(1.2);
+  height: 46vh;
+}
+
+.box1 .col-md-6:nth-child(4) .txt:hover {
+  transform: scale(1.2);
+}
+
+.txt h4 {
+  font-weight: 900;
+  margin-bottom: 1em;
+  text-align: center;
+  margin-top: 0.5em;
+  text-shadow: 0.1em 0em 0.2em rgb(0, 0, 0);
+}
+
+.txt p {
+  text-align: justify;
+  padding: 0 1em;
 }
