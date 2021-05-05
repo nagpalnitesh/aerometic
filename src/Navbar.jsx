@@ -22,6 +22,9 @@ const Navbar = () => {
           >
             <span className="navbar-toggler-icon"></span>
           </button>
+          <a href="/" className="nav-link logo">
+            <img src={process.env.PUBLIC_URL + "./logo192.png"} alt="logo" />
+          </a>
           <div className="collapse navbar-collapse categories" id="navbarNav">
             <ul className="navbar-nav menu">
               <li className="nav-item">
@@ -34,13 +37,6 @@ const Navbar = () => {
                   Services
                 </NavLink>
               </li>
-            </ul>
-          </div>
-          <a href="/" className="navbar-brand nav-link logo">
-            <img src={process.env.PUBLIC_URL + "./logo_1.png"} alt="logo" />
-          </a>
-          <div className="collapse navbar-collapse categories" id="navbarNav">
-            <ul className="navbar-nav menu1">
               <li className="nav-item">
                 <NavLink to="/aboutus" className="nav-link">
                   About Us

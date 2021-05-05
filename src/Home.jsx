@@ -16,6 +16,7 @@ import Manufacturing from "./icons/manufacturing.png";
 import Research from "./icons/research.png";
 import Consult from "./icons/consultation.png";
 import Pan_India from "./icons/india.png";
+import machine from "./products/APCL6.jpg"
 import aerosol from "./products/APCL2.jpg";
 import personal from "./products/IMG7.jpg";
 import fragnance from "./products/APCL221.jpg";
@@ -61,53 +62,66 @@ export default function Home() {
           <div className="conatiner-fluid contnt">
             <Carousel controls={false} className="carousel">
               <Carousel.Item>
-                <div className="row homeslide">
-                  <div className="col-6 cartxt">
-                    <h1>Aerosol</h1>
-                    <h4>We are the manufacturer of aerosol with great experience and the support of our customers endorse us. If you are looking for a manufacturer and packer or outsourcing of aerosol manufacturing, we are your supplier, we will accompany you throughout the process of development of an aerosol, from R&D through legal regulations and design to the manufacture of the product.</h4>
+                <div className="slide">
+                  <div className="overlay">
+                    <img src={machine} alt="" />
                   </div>
-                  <div className="col-md-6">
-                    <div className="imgslide">
-                      <img src={aerosol} alt="" />
+                  <div className="slidetxt">
+                    <div className="textmain">
+                      <h1>Welcome to Aerometic</h1>
+                      <h3>We are a quintessential manufacturer of Aerosols, Toiletries, Cosmetics, Personal Care, Air Fresheners, Home Care Products, and many more. </h3>
                     </div>
                   </div>
                 </div>
               </Carousel.Item>
               <Carousel.Item>
-                <div className="row homeslide">
-                  <div className="col-6 cartxt">
-                    <h1>Personal Care</h1>
-                    <h4>We are the manufacturer of aerosol with great experience and the support of our customers endorse us. If you are looking for a manufacturer and packer or outsourcing of aerosol manufacturing, we are your supplier, we will accompany you throughout the process of development of an aerosol, from R&D through legal regulations and design to the manufacture of the product.</h4>
+                <div className="slide">
+                  <div className="overlay">
+                    <img src={aerosol} alt="" />
                   </div>
-                  <div className="col-md-6">
-                    <div className="imgslide">
-                      <img src={personal} alt="" />
+                  <div className="slidetxt">
+                    <div className="textmain">
+                      <h1>Prominent Contract Manufacturers with Quality Optimized Solutions</h1>
+                      <h3>An all-in-one store for you to find optimal solutions to all your needs. We lead in providing holistic service in contract manufacturing with the best results. </h3>
                     </div>
                   </div>
                 </div>
               </Carousel.Item>
               <Carousel.Item>
-                <div className="row homeslide">
-                  <div className="col-6 cartxt">
-                    <h1>Fragrances</h1>
-                    <h4>Our cutting edge factory can produce high quality bespoke fragrances in desired volume. This high level of personalisation can contribute infinitely towards your branding goals or event. Our unambiguously limited production runs can  accommodate large scale events, corporate gifting, retail outlet or weddings, complete with individually tailored scent, gift boxing or packaging.</h4>
+                <div className="slide">
+                  <div className="overlay">
+                    <img src={personal} alt="" />
                   </div>
-                  <div className="col-md-6">
-                    <div className="imgslide">
-                      <img src={fragnance} alt="" />
+                  <div className="slidetxt">
+                    <div className="textmain">
+                      <h1>Excellence in Purveying Premium Quality Products</h1>
+                      <h3>Our manufacturing unit spreads across vast stretches of the area and is equipped with the latest machinery that aids in effortlessly delivering exquisite,  premium quality products. </h3>
                     </div>
                   </div>
                 </div>
               </Carousel.Item>
               <Carousel.Item>
-                <div className="row homeslide">
-                  <div className="col-6 cartxt">
-                    <h1>Home Care</h1>
-                    <h4>We are the manufacturer of aerosol with great experience and the support of our customers endorse us. If you are looking for a manufacturer and packer or outsourcing of aerosol manufacturing, we are your supplier, we will accompany you throughout the process of development of an aerosol, from R&D through legal regulations and design to the manufacture of the product.</h4>
+                <div className="slide">
+                  <div className="overlay">
+                    <img src={fragnance} alt="" />
                   </div>
-                  <div className="col-md-6">
-                    <div className="imgslide">
-                      <img src={homecar} alt="" />
+                  <div className="slidetxt">
+                    <div className="textmain">
+                      <h1>A Great Deal of Experience</h1>
+                      <h3>Aerometic Care boasts a wealth of 20 years of experience in Contract Manufacturing in Quality Oriented Wide Range Luxury Products.</h3>
+                    </div>
+                  </div>
+                </div>
+              </Carousel.Item>
+              <Carousel.Item>
+                <div className="slide">
+                  <div className="overlay">
+                    <img src={homecar} alt="" />
+                  </div>
+                  <div className="slidetxt">
+                    <div className="textmain">
+                      <h1>A Synergy of Profound Research & Promising Innovations</h1>
+                      <h3>We are driven by a team of adept R&D wing that excels in making the best use of our in-house, state-of-the-art infrastructure and novel, modern technology for Testing and Solutions.</h3>
                     </div>
                   </div>
                 </div>

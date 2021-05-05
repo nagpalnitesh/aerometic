@@ -27,6 +27,11 @@ code {
   z-index: 9 !important;
 }
 
+.navbar {
+  height: 12vh;
+  overflow: hidden;
+}
+
 .nav-link {
   color: rgb(243, 222, 222) !important;
   cursor: pointer;
@@ -48,33 +53,19 @@ code {
   font-family: "Titillium Web", sans-serif;
   text-decoration: none;
   text-emphasis: none;
-  margin-left: 0%;
+  margin-left: 47.5%;
   margin-top: 0.5em;
   font-weight: 600;
 }
 
-.menu1 {
-  font-family: "Titillium Web", sans-serif;
-  font-weight: 600;
-  margin-left: 50%;
-  margin-top: 0.5em;
-}
-
-.menu li,
-.menu1 li {
-  font-size: 1.2em;
+.menu li {
+  font-size: 1.5em;
   line-height: 2em;
-  margin-left: 2.5em;
-}
-
-.logo {
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%, 0%);
+  margin-left: 4em;
 }
 
 .logo img {
-  width: 100%;
+  width: 60%;
 }
 
 .home h1 {
@@ -136,6 +127,48 @@ code {
 
 .contnt {
   overflow: hidden;
+}
+
+.slide {
+  position: relative;
+}
+
+.slidetxt {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  background-color: rgba(70, 70, 70, 0.363);
+  padding: 2em 0;
+  height: 80vh;
+}
+
+.slidetxt h3 {
+  text-align: center;
+  padding: 1em 10em;
+  margin-top: 3%;
+  font-size: 2em;
+}
+
+.slidetxt h1 {
+  text-align: center;
+  font-size: 4em;
+  text-shadow: 0.1em 0em 0.05em #1d2d50;
+  font-weight: 600;
+  padding: 0.5em 4em;
+}
+
+.textmain {
+  margin-top: 5%;
+}
+
+.overlay {
+  background-color: black;
+  height: 80vh;
+}
+
+.overlay img {
+  opacity: 0.5;
+  height: 80vh !important;
 }
 
 .homeslide {
