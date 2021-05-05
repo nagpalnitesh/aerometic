@@ -327,6 +327,102 @@ const ProHome = () => {
           }
         </style>
                         </defs> */}
+                        <text class="cls-1" transform="translate(105 966)">
+                            <tspan x="10" >AEROSOLS</tspan>
+                            <tspan x="-60" y="40" style={{ fontSize: '12px' }}>Aerometic has an extensive range of home</tspan>
+                            <tspan x="-60" y="55" style={{ fontSize: '12px' }}>care and hygiene products. We ensure that </tspan>
+                            <tspan x="-60" y="70" style={{ fontSize: '12px' }}>our products lead to the least possible </tspan>
+                            <tspan x="-60" y="85" style={{ fontSize: '12px' }}>environmental damage and are cruelty-free</tspan>
+                            <tspan x="-60" y="100" style={{ fontSize: '12px' }}>and take extensive care from what goes into </tspan>
+                            <tspan x="-60" y="115" style={{ fontSize: '12px' }}>our products to the way we package them, </tspan>
+                            <tspan x="-60" y="130" style={{ fontSize: '12px' }}>to not just reduce the high-Speed environmental</tspan>
+                            <tspan x="-60" y="145" style={{ fontSize: '12px' }}>footprint but also assure that they are</tspan>
+                            <tspan x="-60" y="160" style={{ fontSize: '12px' }}>affordable, effective, and kinder to the</tspan>
+                            <tspan x="-60" y="175" style={{ fontSize: '12px' }}>end-user.
+                            </tspan>
+                            <tspan x="15" y="210" style={{ fontSize: '1.2em' }}>
+                                <a href="/products">
+                                    Products
+                                </a>
+                            </tspan>
+                        </text>
+                        <text class="cls-1" transform="translate(75 666)">
+                            <tspan x="10" >AEROSOLS</tspan>
+                            <tspan x="-40" y="40" style={{ fontSize: '12px' }}>Aerometic has an extensive range of home</tspan>
+                            <tspan x="-40" y="55" style={{ fontSize: '12px' }}>care and hygiene products. We ensure that </tspan>
+                            <tspan x="-40" y="70" style={{ fontSize: '12px' }}>our products lead to the least possible </tspan>
+                            <tspan x="-40" y="85" style={{ fontSize: '12px' }}>environmental damage and are cruelty-free</tspan>
+                            <tspan x="-40" y="100" style={{ fontSize: '12px' }}>and take extensive care from what goes into </tspan>
+                            <tspan x="-40" y="115" style={{ fontSize: '12px' }}>our products to the way we package them, </tspan>
+                            <tspan x="-40" y="130" style={{ fontSize: '12px' }}>to not just reduce the high-Speed environmental</tspan>
+                            <tspan x="-40" y="145" style={{ fontSize: '12px' }}>footprint but also assure that they are</tspan>
+                            <tspan x="-40" y="160" style={{ fontSize: '12px' }}>affordable, effective, and kinder to the</tspan>
+                            <tspan x="-40" y="175" style={{ fontSize: '12px' }}>end-user.
+                            </tspan>
+                            <tspan x="15" y="210" style={{ fontSize: '1.2em' }}>
+                                <a href="/products">
+                                    Products
+                                </a>
+                            </tspan>
+                        </text>
+
+                        <text class="cls-1" transform="translate(100 50)">
+                            <tspan x="10" >AEROSOLS</tspan>
+                            <tspan x="-60" y="40" style={{ fontSize: '12px' }}>Aerometic has an extensive range of home</tspan>
+                            <tspan x="-60" y="55" style={{ fontSize: '12px' }}>care and hygiene products. We ensure that </tspan>
+                            <tspan x="-60" y="70" style={{ fontSize: '12px' }}>our products lead to the least possible </tspan>
+                            <tspan x="-60" y="85" style={{ fontSize: '12px' }}>environmental damage and are cruelty-free</tspan>
+                            <tspan x="-60" y="100" style={{ fontSize: '12px' }}>and take extensive care from what goes into </tspan>
+                            <tspan x="-60" y="115" style={{ fontSize: '12px' }}>our products to the way we package them, </tspan>
+                            <tspan x="-60" y="130" style={{ fontSize: '12px' }}>to not just reduce the high-Speed environmental</tspan>
+                            <tspan x="-60" y="145" style={{ fontSize: '12px' }}>footprint but also assure that they are</tspan>
+                            <tspan x="-60" y="160" style={{ fontSize: '12px' }}>affordable, effective, and kinder to the</tspan>
+                            <tspan x="-60" y="175" style={{ fontSize: '12px' }}>end-user.
+                            </tspan>
+                            <tspan x="15" y="210" style={{ fontSize: '1.2em' }}>
+                                <a href="/products">
+                                    Products
+                                </a>
+                            </tspan>
+                        </text>
+                        <text class="cls-1" transform="translate(87 365)">
+                            <tspan x="10" >AEROSOLS</tspan>
+                            <tspan x="-60" y="40" style={{ fontSize: '12px' }}>Aerometic has an extensive range of home</tspan>
+                            <tspan x="-60" y="55" style={{ fontSize: '12px' }}>care and hygiene products. We ensure that </tspan>
+                            <tspan x="-60" y="70" style={{ fontSize: '12px' }}>our products lead to the least possible </tspan>
+                            <tspan x="-60" y="85" style={{ fontSize: '12px' }}>environmental damage and are cruelty-free</tspan>
+                            <tspan x="-60" y="100" style={{ fontSize: '12px' }}>and take extensive care from what goes into </tspan>
+                            <tspan x="-60" y="115" style={{ fontSize: '12px' }}>our products to the way we package them, </tspan>
+                            <tspan x="-60" y="130" style={{ fontSize: '12px' }}>to not just reduce the high-Speed environmental</tspan>
+                            <tspan x="-60" y="145" style={{ fontSize: '12px' }}>footprint but also assure that they are</tspan>
+                            <tspan x="-60" y="160" style={{ fontSize: '12px' }}>affordable, effective, and kinder to the</tspan>
+                            <tspan x="-60" y="175" style={{ fontSize: '12px' }}>end-user.
+                            </tspan>
+                            <tspan x="15" y="210" style={{ fontSize: '1.2em' }}>
+                                <a href="/products">
+                                    Products
+                                </a>
+                            </tspan>
+                        </text>
+                        <text class="cls-1" transform="translate(100 1246)">
+                            <tspan x="10" >AEROSOLS</tspan>
+                            <tspan x="-60" y="40" style={{ fontSize: '12px' }}>Aerometic has an extensive range of home</tspan>
+                            <tspan x="-60" y="55" style={{ fontSize: '12px' }}>care and hygiene products. We ensure that </tspan>
+                            <tspan x="-60" y="70" style={{ fontSize: '12px' }}>our products lead to the least possible </tspan>
+                            <tspan x="-60" y="85" style={{ fontSize: '12px' }}>environmental damage and are cruelty-free</tspan>
+                            <tspan x="-60" y="100" style={{ fontSize: '12px' }}>and take extensive care from what goes into </tspan>
+                            <tspan x="-60" y="115" style={{ fontSize: '12px' }}>our products to the way we package them, </tspan>
+                            <tspan x="-60" y="130" style={{ fontSize: '12px' }}>to not just reduce the high-Speed environmental</tspan>
+                            <tspan x="-60" y="145" style={{ fontSize: '12px' }}>footprint but also assure that they are</tspan>
+                            <tspan x="-60" y="160" style={{ fontSize: '12px' }}>affordable, effective, and kinder to the</tspan>
+                            <tspan x="-60" y="175" style={{ fontSize: '12px' }}>end-user.
+                            </tspan>
+                            <tspan x="15" y="210" style={{ fontSize: '1.2em' }}>
+                                <a href="/products">
+                                    Products
+                                </a>
+                            </tspan>
+                        </text>
                     </symbol>
                     <symbol id="aerosol" viewBox="-60 0 480 500">
                         <path d="m185.26 148.04v-45.465c0-9.7109-7.4609-17.195-18.5-19.406v-38.719c0-14.566-9.8359-25.977-22.395-25.977h-75.605c-12.555 0-22.391 11.41-22.391 25.977v38.719c-11.039 2.2031-18.5 9.6914-18.5 19.406v45.465c-16.184 5.7773-27.871 21.906-27.871 40.863v280.7c0 23.375 20.66 42.391 46.059 42.391h121.01c25.402 0 46.066-19.016 46.066-42.391v-280.7c0-18.957-11.684-35.086-27.871-40.863zm-2.1289 270.59h-52.535v-0.023438-179.46-0.03125h52.535zm-125.26-306.13h97.391v33.258h-97.391zm78.891-64.027v34.027h-60.391v-34.027zm30.309 433.52h-121.01c-8.7031 0-16.059-5.6758-16.059-12.391v-280.7c0-7.125 5.043-13.145 11.008-13.145h131.12c5.9688 0 11.008 6.0195 11.008 13.145v20.215h-56.273c-14.727 0-26.262 13.191-26.262 30.031v179.46c0 16.836 11.535 30.023 26.262 30.023h56.273v20.973c0 6.7148-7.3555 12.391-16.062 12.391z" />
@@ -369,8 +465,7 @@ const ProHome = () => {
                     </g>
                     <circle cx="325" cy="170" r="140" class="center " />
                     <use x="185" y="30" width="280" height="280" href="#circle-nav-copy" class="nav-copy" />
-                    <rect data-url="/industries" id="learn-more" x="280" y="250" width="90" height="30" />
-                    <text x="290" y="270" class="learn-more-text">Learn more</text>
+
                 </svg>
             </div>
         </>

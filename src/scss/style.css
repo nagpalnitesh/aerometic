@@ -17,13 +17,12 @@
   fill-opacity: 1;
 }
 #learn-more:hover ~ .learn-more-text {
-  fill: #005fa4;
+  fill: blueviolet;
 }
 
 .learn-more-text {
   font-family: "Roboto";
   fill: #fff;
-  pointer-events: none;
   font-size: 14px;
   transition: all 250ms ease-in;
 }

@@ -22,6 +22,8 @@ import personal from "./products/IMG7.jpg";
 import fragnance from "./products/APCL221.jpg";
 import homecar from "./products/APCL10.jpg";
 
+import Info from "./icons/info.svg"
+
 import myVideo from "./loader.mp4"
 
 export default function Home() {
@@ -132,6 +134,7 @@ export default function Home() {
             <div className="profile">
               <span>
                 <h3>Aerometic Care Pvt. Ltd. is a leading contract manufacturing company based in Ahmedabad, Gujarat. We are fully committed to adding value to all products manufactured by our company with our expertise in quality, product capacity, and resources. We ensure to meet the needs of our valued clients.</h3>
+                {/* <img src={Info} alt="" /> */}
                 <div className="row box">
                   <div className="col-md-4">
                     <div className="txt">
@@ -176,6 +179,7 @@ export default function Home() {
                     <div className="txt">
                       <h4>TURNKEY SERVICES</h4>
                       <p>The entire supply chain is managed by Aerometic thus, the client can enjoy a hassle-free experience of the products’ creation till its launch. Your product is as much ours as is yours. You can continue to do what made you successful in the first place—Innovate, Market, and Sell.</p>
+
                     </div>
                   </div>
                   <div className="col-md-6 ">
@@ -209,6 +213,9 @@ export default function Home() {
                 </li>
                 <li>
                   <img src={Pan_India} alt="" /><p><span>Pan India Logistics:</span> Our expert staff contribute both as an informative and as a guide with its transparent operation and understanding that serves the purpose, without cluttering pan india logistics procedure.</p>
+                </li>
+                <li>
+                  <img src={Info} alt="" /><p><span>Pan India Logistics:</span> Our expert staff contribute both as an informative and as a guide with its transparent operation and understanding that serves the purpose, without cluttering pan india logistics procedure.</p>
                 </li>
               </ul>
             </div>
