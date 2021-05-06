@@ -16,7 +16,7 @@ import Manufacturing from "./icons/manufacturing.png";
 import Research from "./icons/research.png";
 import Consult from "./icons/consultation.png";
 import Pan_India from "./icons/india.png";
-import machine from "./products/APCL6.jpg"
+import machine from "./products/APCL6.jpg";
 import aerosol from "./products/APCL2.jpg";
 import personal from "./products/IMG7.jpg";
 import fragnance from "./products/APCL221.jpg";

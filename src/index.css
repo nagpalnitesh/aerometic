@@ -1117,6 +1117,75 @@ a:link {
   width: 50vw;
 }
 
+.pro1 {
+  background-image: url("./products/APCL2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100%;
+}
+
+.pro2 {
+  background-image: url("./products/APCL221.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.pro3 {
+  background-image: url("./products/IMG7.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.pro4 {
+  background-image: url("./products/APCL10.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.pro1,
+.pro2,
+.pro3,
+.pro4 {
+  height: 100vh;
+}
+
+.proover {
+  background-color: rgba(0, 0, 0, 0.438);
+  height: 100vh;
+  width: 100%;
+  padding: 0em 10em;
+}
+
+.pro1 h1,
+.pro2 h1,
+.pro3 h1,
+.pro4 h1 {
+  margin-top: 6.25em;
+  padding-top: 3em;
+  padding-bottom: 1em;
+  text-align: center;
+  text-shadow: 0.1em 0 0.1em #1d2d50;
+}
+
+.pro1 h3,
+.pro2 h3,
+.pro3 h3,
+.pro4 h3 {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  text-align: justify;
+}
+
+.pro1 span,
+.pro2 span,
+.pro3 span,
+.pro4 span {
+  border: 0.1em solid white;
+  font-size: 1.2em;
+  padding: 0.5em;
+  letter-spacing: 0.1em;
+}
+
 @media screen and (max-width: 400px) {
   * {
     overflow-x: hidden !important;
