@@ -214,9 +214,6 @@ export default function Home() {
                 <li>
                   <img src={Pan_India} alt="" /><p><span>Pan India Logistics:</span> Our expert staff contribute both as an informative and as a guide with its transparent operation and understanding that serves the purpose, without cluttering pan india logistics procedure.</p>
                 </li>
-                <li>
-                  <img src={Info} alt="" /><p><span>Pan India Logistics:</span> Our expert staff contribute both as an informative and as a guide with its transparent operation and understanding that serves the purpose, without cluttering pan india logistics procedure.</p>
-                </li>
               </ul>
             </div>
           </div>

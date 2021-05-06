@@ -21,7 +21,7 @@ const Navbar = () => {
           >
             <span className="navbar-toggler-icon"></span>
           </button>
-          <a href="/" className="nav-link logo">
+          <a href="/" className="nav-link logo1">
             <img src={process.env.PUBLIC_URL + "./logo192.png"} alt="logo" />
           </a>
           <div className="collapse navbar-collapse categories" id="navbarNav">

@@ -5,6 +5,20 @@
   overflow-x: hidden !important;
   color: white;
 }
+
+/* scroll */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background: #c2c9d2;
+} /*# sourceMappingURL=scroll.css.map */
+
+/* scroll ends */
+
 body {
   margin: 0%;
   padding: 0%;
@@ -521,10 +535,88 @@ a:link {
 }
 
 .services h1,
-.services1 h1 {
+.services1 h1,
+.servicetxt h1 {
   text-align: center;
   font-family: "Titillium Web", sans-serif;
   font-weight: 700;
+}
+
+.services1 h1 {
+  font-style: italic;
+}
+
+.services1 h4,
+.services1 h3 {
+  margin-top: 1em;
+  overflow: hidden;
+}
+
+.servicetxt h2,
+.servicetxt h1 {
+  letter-spacing: 0.1em !important;
+}
+
+.servicetxt h3 {
+  font-style: italic;
+  text-align: center !important;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.processtxt .col-md-4,
+.processtxt .col-md-12 {
+  padding: 3em;
+}
+
+.processtxt .col-md-4 .pbox {
+  padding: 1em;
+  background-color: #1e5f746b;
+  border-radius: 1em 3em;
+  height: 30vh;
+  overflow: hidden;
+  width: 95%;
+  margin-left: 4%;
+  box-shadow: 0.1em 0 1em black;
+}
+
+.processtxt .col-md-12 .pbox {
+  padding: 1em;
+  background-color: #1e5f746b;
+  border-radius: 1em 3em;
+  height: 30vh;
+  overflow: hidden;
+  width: 30%;
+  margin-left: 36%;
+  box-shadow: 0.1em 0 1em black;
+}
+
+.pbox h2 {
+  text-align: center;
+  letter-spacing: 0.1em;
+  margin-top: 0.5em !important;
+  margin-bottom: 0.5em !important;
+  text-shadow: 0.1em 0.1em 0.1em rgba(0, 0, 0, 0.767);
+}
+
+.pbox h3 {
+  margin-bottom: 1em;
+  font-style: italic;
+  font-weight: 600 !important;
+  text-align: center;
+  font-size: 1.7em;
+}
+
+.pbox p {
+  padding: 0.2em;
+  font-size: 1.4em !important;
+}
+
+.processtxt .col-md-4 .pbox:hover,
+.processtxt .col-md-12 .pbox:hover {
+  border-radius: 3em 1em;
+  transform: scale(1.1);
+  height: 70vh;
 }
 
 .services span,
@@ -549,10 +641,10 @@ a:link {
 .services1 p {
   text-align: justify;
   font-family: "Titillium Web", sans-serif;
-  font-size: 1.3em;
+  font-size: 1.5em;
   letter-spacing: 0.1em;
-  margin-left: 5em;
-  margin-top: -4.5em;
+  margin-left: 3em;
+  margin-top: -3em;
 }
 
 .services img {
@@ -567,7 +659,7 @@ a:link {
 }
 
 .services1 ul {
-  margin-top: 3em;
+  margin-top: 2em;
   margin-right: 3em;
   position: relative;
 }
