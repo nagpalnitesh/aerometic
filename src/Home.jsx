@@ -21,6 +21,7 @@ import aerosol from "./products/APCL2.jpg";
 import personal from "./products/IMG7.jpg";
 import fragnance from "./products/APCL221.jpg";
 import homecar from "./products/APCL10.jpg";
+import close from "./icons/close.png"
 
 import Info from "./icons/info.svg"
 
@@ -32,6 +33,13 @@ export default function Home() {
       document.getElementById("loader").style.display = "none";
       document.getElementById("main").style.display = "block";
     }, 7000);
+
+    var modal = document.getElementById("modaldisp");
+    var close = document.getElementById("close");
+
+    close.addEventListener('click', function () {
+      modal.style.display = "none";
+    })
 
   });
   return (
@@ -59,6 +67,10 @@ export default function Home() {
             </span>
           </div>
         </div>
+        <section className="modalimg" id="modaldisp">
+          <img src={close} alt="" id="close" />
+          <h1>Hello World</h1>
+        </section>
         <section className="container-fluid home" id="home">
           <Navbar />
           <div className="conatiner-fluid contnt">

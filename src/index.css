@@ -1178,3 +1178,38 @@ a:link {
   text-align: justify;
   padding: 0 1em;
 }
+
+.modalimg {
+  background: blueviolet;
+  position: absolute;
+  width: 50vw !important;
+  z-index: 999;
+  top: 25%;
+  left: 25%;
+  height: 50vh;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+  position: fixed;
+  animation: modalani 1s linear forwards;
+}
+
+@keyframes modalani {
+  0% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.modalimg img {
+  width: 5%;
+  background-color: white;
+  border-radius: 100%;
+  position: absolute;
+  left: 95%;
+  cursor: pointer;
+}
