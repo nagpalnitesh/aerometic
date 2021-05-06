@@ -294,7 +294,11 @@ h1 {
   color: white;
   height: auto;
 }
-
+.frow .col-md-4 h2,
+.frow .col-md-2 h2,
+.frow .col-md-6 h2 {
+  overflow: hidden !important;
+}
 .frow .col-md-4 {
   text-align: justify;
 }
@@ -1111,12 +1115,6 @@ a:link {
   margin-top: 2.5%;
   height: 60vh;
   width: 50vw;
-}
-
-.frow .col-md-4 h2,
-.frow .col-md-2 h2,
-.frow .col-md-6 h2 {
-  overflow: hidden !important;
 }
 
 @media screen and (max-width: 400px) {
