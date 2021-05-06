@@ -986,6 +986,7 @@ a:link {
   margin-left: 10%;
   box-shadow: 0.4em 0.1em 1.5em black;
   height: 30vh;
+  overflow: hidden;
 }
 
 .box1 .col-md-4 .txt {
