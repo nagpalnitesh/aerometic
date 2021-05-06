@@ -8,7 +8,7 @@ import "./loader.css";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
 import ProHome from "./ProHome"
-//import "./scroll";
+import "./scroll";
 //import "./pro";
 
 import Contract from "./icons/contract.png";

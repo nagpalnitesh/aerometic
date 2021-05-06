@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import "./navbar.css";
 //import "./pro";
-//import "./scroll"
+import "./scroll"
 import { NavLink } from "react-router-dom";
 const Navbar = () => {
   // function refreshPage() {
