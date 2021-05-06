@@ -1430,7 +1430,9 @@ a:link {
     width: 25%;
     margin-left: 45%;
   }
-  .frow h2 {
+  .frow .col-md-4 h2,
+  .frow .col-md-2 h2,
+  .frow .col-md-6 h2 {
     text-align: center;
     overflow: hidden;
   }
