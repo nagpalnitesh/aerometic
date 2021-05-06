@@ -45,7 +45,7 @@ export default function Home() {
   return (
     <>
       <span className="loader" id="loader">
-        <video src={myVideo} autoPlay muted loop className="video"></video>
+        <video src={myVideo} preload="auto" autoPlay muted loop className="video"></video>
       </span>
       <span id="main">
         <div className="txt">
