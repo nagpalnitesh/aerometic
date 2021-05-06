@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;900&display=swap");
 
 * {
   list-style: none;
@@ -63,7 +63,7 @@ code {
 }
 
 .categories .menu {
-  font-family: "Titillium Web", sans-serif;
+  font-family: "Poppins", sans-serif;
   text-decoration: none;
   text-emphasis: none;
   margin-left: 47.5%;
@@ -85,7 +85,7 @@ code {
 }
 
 .home h1 {
-  font-family: "Titillium Web", sans-serif;
+  font-family: "Poppins", sans-serif;
   color: white;
   /* background: -webkit-linear-gradient(#ffffff, #e0e0e0da, #7a7a7a);
   -webkit-background-clip: text;
@@ -115,7 +115,7 @@ code {
 .ani h1,
 .about h3 {
   color: white;
-  font-family: "Titillium Web", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: bold !important;
   overflow: hidden;
 }
@@ -229,7 +229,7 @@ h1 {
 }
 
 .text-center .btn {
-  font-family: "Titillium Web", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: bold !important;
   color: #fcdab7;
   letter-spacing: 0.2em;
@@ -510,13 +510,13 @@ a:link {
 
 .company .profile h3 {
   text-align: justify;
-  font-family: "Titillium Web", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
   padding: 2em;
 }
 
 .company .profile h1 {
-  font-family: "Titillium Web", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
   overflow: hidden;
   text-align: center;
@@ -538,7 +538,7 @@ a:link {
 .services1 h1,
 .servicetxt h1 {
   text-align: center;
-  font-family: "Titillium Web", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
 }
 
@@ -622,7 +622,7 @@ a:link {
 .services span,
 .services1 span {
   font-weight: 700;
-  font-family: "Titillium Web", sans-serif;
+  font-family: "Poppins", sans-serif;
   text-transform: uppercase;
   text-shadow: 0em 0em 0.1em rgb(56, 51, 51);
   font-size: 1.5em;
@@ -631,7 +631,7 @@ a:link {
 
 .services p {
   text-align: justify;
-  font-family: "Titillium Web", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 1.3em;
   letter-spacing: 0.1em;
   margin-left: 5em;
@@ -640,7 +640,7 @@ a:link {
 
 .services1 p {
   text-align: justify;
-  font-family: "Titillium Web", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 1.5em;
   letter-spacing: 0.1em;
   margin-left: 3em;
@@ -695,7 +695,7 @@ a:link {
   margin: auto;
   height: auto;
   color: transparent;
-  font-family: "Titillium Web", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 3em;
   font-weight: 700;
   letter-spacing: -0.02em;
@@ -818,7 +818,7 @@ a:link {
 }
 
 .about {
-  font-family: "Titillium Web", sans-serif;
+  font-family: "Poppins", sans-serif;
   margin-top: 2em;
   margin-bottom: 2em;
   left: 5% !important;
@@ -1217,4 +1217,428 @@ a:link {
   position: absolute;
   left: 95%;
   cursor: pointer;
+}
+
+@media screen and (max-width: 360px) {
+  * {
+    overflow-x: hidden !important;
+  }
+  .txt .video {
+    width: 100%;
+    object-fit: cover;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    height: 100vh;
+    z-index: -2;
+    pointer-events: none;
+    filter: brightness(40%);
+  }
+  .txt .label {
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    letter-spacing: 1em;
+    text-align: center;
+    font-size: 0.5em;
+    overflow-x: hidden !important;
+  }
+  .ani {
+    position: absolute;
+    top: 50%;
+    left: -100%;
+    color: #fcdab7;
+    transform: translate(-50%, -50%);
+    animation: animate 5s linear forwards;
+    text-align: center;
+    letter-spacing: 1.2em;
+    overflow: hidden;
+    font-size: 0.5em;
+  }
+
+  @keyframes animate {
+    0% {
+      left: -100%;
+      opacity: 0;
+      overflow: hidden;
+    }
+    100% {
+      left: 44%;
+      opacity: 1;
+      overflow: hidden;
+    }
+  }
+
+  .hide {
+    animation: animate1 1s linear forwards;
+    animation-delay: 4s;
+    overflow: hidden;
+  }
+
+  @keyframes animate1 {
+    0% {
+      visibility: visible;
+    }
+    100% {
+      visibility: hidden;
+    }
+  }
+
+  .ani1 {
+    position: absolute;
+    top: 57.5%;
+    left: -200%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fcdab7;
+    animation: animate2 5s linear forwards;
+    letter-spacing: 1em;
+    font-size: 0.5em;
+    width: 75% !important;
+  }
+
+  @keyframes animate2 {
+    0% {
+      left: 210%;
+      width: 100%;
+      opacity: 0;
+      overflow: hidden;
+    }
+    100% {
+      left: 57%;
+      width: 100%;
+      opacity: 1;
+      overflow: hidden;
+    }
+  }
+  .btn {
+    background-color: #ffffff !important;
+  }
+  .logo1 img {
+    width: 40%;
+    margin-left: 70%;
+  }
+
+  .slidetxt {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    background-color: rgba(75, 75, 75, 0.363);
+    padding: 3em 0;
+    height: 76vh;
+    overflow: hidden;
+  }
+
+  .slidetxt h3 {
+    text-align: center;
+    padding: 1em 1em;
+    margin-top: -10%;
+    font-size: 1.2em;
+    overflow: hidden;
+  }
+
+  .slidetxt h1 {
+    text-align: center;
+    font-size: 2em;
+    text-shadow: 0.1em 0em 0.05em #1d2d50;
+    font-weight: 600;
+    padding: 0.5em 1em;
+    overflow: hidden;
+  }
+
+  .textmain {
+    margin-top: -5%;
+    overflow: hidden;
+  }
+
+  .overlay {
+    background-color: black;
+    height: 76vh;
+  }
+
+  .overlay img {
+    opacity: 0.5;
+    height: 76vh !important;
+  }
+  .contnt {
+    width: 98%;
+    overflow: hidden;
+  }
+  .company {
+    width: 100%;
+    padding: 1em 0em 1em 0em !important;
+    margin-left: -0.25em !important;
+  }
+
+  .company .profile h3 {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    padding: 2em 0.5em;
+    margin-top: -3em;
+    margin-left: -1em;
+    width: 120%;
+    font-size: 1.5em;
+  }
+
+  .company .profile h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    overflow: hidden;
+    text-align: center;
+    margin-top: -1.5em;
+    margin-left: -12%;
+    padding: 0em 0em 2em 0em;
+    width: 125%;
+    font-size: 2em;
+  }
+
+  .profile {
+    padding: 3em;
+  }
+
+  .parallax {
+    background: url("1.png");
+    min-height: 100vh !important;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .services,
+  .services1 {
+    padding: 2em 0em 2em 0em;
+    height: auto;
+  }
+
+  .services h1,
+  .services1 h1,
+  .servicetxt h1 {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+  }
+  .services span,
+  .services1 span {
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    text-shadow: 0em 0em 0.1em rgb(56, 51, 51);
+    font-size: 1em;
+    letter-spacing: 0em;
+  }
+
+  .services p {
+    text-align: left;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.3em;
+    letter-spacing: 0.1em;
+    margin-left: 3em;
+    margin-top: -8em;
+    margin-right: 0.5em;
+  }
+  .services img {
+    width: 50px;
+    margin-top: 8em;
+  }
+
+  .services ul {
+    position: relative;
+    width: 100%;
+  }
+  .services ul li {
+    margin-left: -2.5em;
+  }
+  .ftextmain {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -1em;
+    margin-bottom: 1em;
+    overflow: hidden;
+    margin-left: -0.5em;
+    text-align: center;
+  }
+
+  .frow {
+    width: 90%;
+    margin-left: 1em !important;
+  }
+
+  .frow .col-md-6,
+  .frow .col-md-4 {
+    padding: 2em 3em 0em 3em;
+    color: white;
+    height: auto;
+  }
+
+  .frow .col-md-2 {
+    height: 50vh;
+  }
+
+  .frow .col-md-4 {
+    text-align: justify;
+  }
+
+  .frow .col-md-4 p {
+    margin-top: 1em;
+  }
+  .frow .col-md-6 p {
+    margin-top: 1em;
+    text-align: center;
+    width: 110% !important;
+    margin-left: -5%;
+  }
+
+  .frow .footertxt {
+    font-size: 1em;
+    margin-left: -2em;
+    margin-bottom: -5em;
+  }
+
+  .footertxt li {
+    margin-top: 2em;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .frow .col-md-12 {
+    text-align: center;
+    font-size: 1em;
+    padding-top: 1em;
+    font-weight: bold;
+    letter-spacing: 0.3em;
+  }
+
+  .frow hr {
+    font-weight: bolder;
+    height: 0.01em;
+    background-color: black;
+  }
+
+  .footertxt1 li {
+    font-weight: bolder;
+    margin-left: -2.5em;
+    text-align: center;
+    padding-right: 1em;
+    margin-top: 2em;
+  }
+
+  .footertxt1 img {
+    margin-right: 1em;
+    float: left;
+    padding-top: 0.5em;
+  }
+
+  .phone {
+    width: 30%;
+    margin-left: -0.5em !important;
+    margin-right: 0.6em !important;
+  }
+
+  .footertxt1 li p {
+    margin-top: 0em !important;
+    padding-top: 1em;
+  }
+  .frow .col-md-4 {
+    width: 150% !important;
+    padding: 1em;
+  }
+
+  .footertxt2 li {
+    display: inline;
+  }
+
+  .footertxt2 li img {
+    width: 25%;
+    margin-left: 45%;
+  }
+  .frow h2 {
+    text-align: center;
+  }
+  .categories .menu {
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    text-emphasis: none;
+    margin-left: 0%;
+    font-weight: 600;
+  }
+  .box,
+  .box1 {
+    margin-bottom: 5em;
+  }
+
+  .box .col-md-4,
+  .box1 .col-md-4,
+  .box1 .col-md-6 {
+    padding: 3em;
+  }
+
+  .box .col-md-4 .txt {
+    background-color: #1e5f746b;
+    padding: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border-radius: 0.5em;
+    width: 150%;
+    margin-left: -25%;
+    box-shadow: 0.4em 0.1em 1.5em black;
+    height: 70vh;
+    overflow: hidden;
+  }
+
+  .box1 .col-md-4 .txt {
+    background-color: #1e5f746b;
+    padding: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border-radius: 0.5em;
+    width: 150%;
+    margin-left: -25%;
+    box-shadow: 0.4em 0.1em 1.5em black;
+    height: 30vh;
+    overflow: hidden;
+  }
+
+  .box1 .col-md-6:nth-child(4) .txt {
+    background-color: #1e5f746b;
+    padding: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border-radius: 0.5em;
+    width: 150%;
+    margin-left: -25%;
+    box-shadow: 0.4em 0.1em 1.5em black;
+    height: 70vh;
+    overflow: hidden;
+  }
+
+  .box1 .col-md-6:nth-child(5) .txt {
+    background-color: #1e5f746b;
+    padding: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border-radius: 0.5em;
+    width: 155%;
+    margin-left: -30%;
+    box-shadow: 0.4em 0.1em 1.5em black;
+    height: 30vh;
+    overflow: hidden;
+  }
+
+  .box .col-md-4 .txt:hover {
+    transform: scale(1.2);
+  }
+
+  .box1 .col-md-4 .txt:hover,
+  .box1 .col-md-6:nth-child(5) .txt:hover {
+    transform: scale(1.2);
+    height: 150vh;
+    overflow: hidden !important;
+  }
+
+  .box1 .col-md-6:nth-child(4) .txt:hover {
+    transform: scale(1.2);
+  }
 }

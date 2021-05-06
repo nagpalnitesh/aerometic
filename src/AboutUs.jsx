@@ -2,8 +2,8 @@ import React, { useEffect } from "react";
 import Navbar from "./NavbarNew";
 import Footer from "./Footer"
 import Logo from "./logo.png";
-import './otherscroll';
-import "./pro";
+//import './otherscroll';
+//import "./pro";
 import Spray from "./icons/spray.png"
 
 const About = () => {

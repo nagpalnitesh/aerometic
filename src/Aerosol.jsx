@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "./Navbar";
 import AerosolIMG from "./products/IMG9.jpg";
 import Spray from "./icons/spray.png"
-import "./pro";
+//import "./pro";
 
 const Aerosol = () => {
     window.scrollTo(0, 0);

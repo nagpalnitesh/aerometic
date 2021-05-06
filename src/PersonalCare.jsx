@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "./Navbar";
 import personalIMG from "./products/IMG13.jpg";
 import Spray from "./icons/spray.png";
-import "./pro";
+//import "./pro";
 
 const PersonalCare = () => {
     window.scrollTo(0, 0);

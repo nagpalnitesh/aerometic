@@ -1,5 +1,5 @@
 import React from "react";
-import "./pro";
+//import "./pro";
 import Navbar from "./Navbar";
 import Carousel from "react-bootstrap/Carousel";
 import Footer from "./Footer";

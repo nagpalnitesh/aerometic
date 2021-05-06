@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "./Navbar";
 import PackIMG from "./products/APCL11.jpg"
-import "./pro";
+//import "./pro";
 
 const Packaging = () => {
     window.scrollTo(0, 0);

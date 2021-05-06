@@ -8,8 +8,8 @@ import "./loader.css";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
 import ProHome from "./ProHome"
-import "./scroll";
-import "./pro";
+//import "./scroll";
+//import "./pro";
 
 import Contract from "./icons/contract.png";
 import Manufacturing from "./icons/manufacturing.png";
@@ -32,7 +32,7 @@ export default function Home() {
     setTimeout(() => {
       document.getElementById("loader").style.display = "none";
       document.getElementById("main").style.display = "block";
-    }, 7000);
+    }, 700);
 
     var modal = document.getElementById("modaldisp");
     var close = document.getElementById("close");
