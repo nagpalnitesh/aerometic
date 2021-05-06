@@ -1356,12 +1356,14 @@ a:link {
 
   .frow .col-md-4 p {
     margin-top: 1em;
+    overflow: hidden;
   }
   .frow .col-md-6 p {
     margin-top: 1em;
     text-align: center;
     width: 110% !important;
     margin-left: -5%;
+    overflow: hidden;
   }
 
   .frow .footertxt {
@@ -1413,6 +1415,7 @@ a:link {
   .footertxt1 li p {
     margin-top: 0em !important;
     padding-top: 1em;
+    overflow: hidden;
   }
   .frow .col-md-4 {
     width: 150% !important;
@@ -1429,6 +1432,7 @@ a:link {
   }
   .frow h2 {
     text-align: center;
+    overflow: hidden;
   }
   .categories .menu {
     font-family: "Poppins", sans-serif;
