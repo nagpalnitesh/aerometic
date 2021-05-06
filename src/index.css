@@ -1113,6 +1113,12 @@ a:link {
   width: 50vw;
 }
 
+.frow .col-md-4 h2,
+.frow .col-md-2 h2,
+.frow .col-md-6 h2 {
+  overflow: hidden !important;
+}
+
 @media screen and (max-width: 400px) {
   * {
     overflow-x: hidden !important;
@@ -1365,10 +1371,12 @@ a:link {
     padding: 2em 3em 0em 3em;
     color: white;
     height: auto;
+    overflow: hidden !important;
   }
 
   .frow .col-md-2 {
     height: 50vh;
+    overflow: hidden !important;
   }
 
   .frow .col-md-4 {
@@ -1454,8 +1462,8 @@ a:link {
   .frow .col-md-4 h2,
   .frow .col-md-2 h2,
   .frow .col-md-6 h2 {
-    text-align: center;
-    overflow: hidden;
+    text-align: center !important;
+    overflow: hidden !important;
   }
   .categories .menu {
     font-family: "Poppins", sans-serif;
