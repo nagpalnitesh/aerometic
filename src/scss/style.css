@@ -1,6 +1,6 @@
 .container {
   width: 100%;
-  height: 480px;
+  height: 100vh;
 }
 
 #learn-more {
@@ -29,7 +29,10 @@
 }
 
 .center {
-  fill: #005fa4;
+  fill: #003b79;
+  stroke: #002e6a;
+  stroke-width: 30;
+  stroke-opacity: 0.6;
 }
 
 .pointer {
@@ -59,11 +62,12 @@
 .service .icon-wrapper {
   transform-origin: 50% 50%;
 }
-.service .icon-wrapper, .service .icon-wrapper > * {
+.service .icon-wrapper,
+.service .icon-wrapper > * {
   transition: all 250ms ease-in;
 }
 .service circle {
-  fill: #005fa4;
+  fill: #003b79;
 }
 .service circle.shadow {
   fill-opacity: 0;
@@ -73,18 +77,24 @@
   fill: #fff;
 }
 .service text {
-  fill: #4d4d4d;
+  fill: black;
 }
-.service.active .icon-wrapper, .service:hover .icon-wrapper {
+.service.active .icon-wrapper,
+.service:hover .icon-wrapper {
   transform: scale(1.15) translateY(-5px);
 }
-.service.active .icon-wrapper, .service.active .icon-wrapper > *, .service:hover .icon-wrapper, .service:hover .icon-wrapper > * {
+.service.active .icon-wrapper,
+.service.active .icon-wrapper > *,
+.service:hover .icon-wrapper,
+.service:hover .icon-wrapper > * {
   transition: all 250ms ease-out;
 }
-.service.active .icon-wrapper circle.shadow, .service:hover .icon-wrapper circle.shadow {
+.service.active .icon-wrapper circle.shadow,
+.service:hover .icon-wrapper circle.shadow {
   fill-opacity: 0.4;
 }
-.service.active text, .service:hover text {
-  fill: #005fa4;
+.service.active text,
+.service:hover text {
+  fill: #003e80;
   font-weight: bold;
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */
