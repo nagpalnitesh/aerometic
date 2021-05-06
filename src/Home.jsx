@@ -23,7 +23,7 @@ import fragnance from "./products/APCL221.jpg";
 import homecar from "./products/APCL10.jpg";
 import close from "./icons/close.png"
 
-import Info from "./icons/info.svg"
+import ModalImg from "./modal.svg"
 
 import myVideo from "./loader.mp4"
 
@@ -32,7 +32,7 @@ export default function Home() {
     setTimeout(() => {
       document.getElementById("loader").style.display = "none";
       document.getElementById("main").style.display = "block";
-    }, 700);
+    }, 7000);
 
     var modal = document.getElementById("modaldisp");
     var close = document.getElementById("close");
@@ -68,8 +68,8 @@ export default function Home() {
           </div>
         </div>
         <section className="modalimg" id="modaldisp">
-          <img src={close} alt="" id="close" />
-          <h1>Hello World</h1>
+          <img src={close} alt="" id="close" className="close" />
+          <img src={ModalImg} alt="" className="mimg" />
         </section>
         <section className="container-fluid home" id="home">
           <Navbar />

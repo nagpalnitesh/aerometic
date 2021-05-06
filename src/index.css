@@ -1053,13 +1053,12 @@ a:link {
 }
 
 .modalimg {
-  background: blueviolet;
   position: absolute;
   width: 50vw !important;
   z-index: 999;
-  top: 25%;
-  left: 25%;
-  height: 50vh;
+  top: 15%;
+  left: 20%;
+  height: 70vh;
   transform: translate(-50%, -50%);
   overflow: hidden;
   position: fixed;
@@ -1074,7 +1073,7 @@ a:link {
     opacity: 1;
   }
   50% {
-    transform: scale(1.5);
+    transform: scale(1.2);
     opacity: 1;
   }
   100% {
@@ -1083,13 +1082,35 @@ a:link {
   }
 }
 
-.modalimg img {
+.modalimg .close {
   width: 5%;
   background-color: white;
   border-radius: 100%;
   position: absolute;
-  left: 95%;
+  left: 93.5%;
   cursor: pointer;
+  opacity: 0;
+  animation: close 4s linear 8s forwards;
+  filter: brightness(50%);
+}
+
+@keyframes close {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.modalimg .close:hover {
+  filter: brightness(100%);
+}
+
+.modalimg .mimg {
+  margin-top: 2.5%;
+  height: 60vh;
+  width: 50vw;
 }
 
 @media screen and (max-width: 400px) {
