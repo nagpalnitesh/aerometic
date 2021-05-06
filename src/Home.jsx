@@ -49,7 +49,7 @@ export default function Home() {
       </span>
       <span id="main">
         <div className="txt">
-          <video src={process.env.PUBLIC_URL + './Earth.mp4'} autoPlay muted loop className="video"></video>
+          <video src={process.env.PUBLIC_URL + './Earth.mp4'} autoPlay muted loop className="video" preload="auto"></video>
           <NavLink to="/" className="navbar-brand nav-link logo">
             <img src={process.env.PUBLIC_URL + './logo192.png'} alt="logo" />
           </NavLink>
