@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "./Navbar";
-import PerfumeIMG from "./products/IMG16.png";
+import PerfumeIMG from "./products/perfume.jpg";
 import Spray from "./icons/spray.png";
 //import "./pro";
 
@@ -12,8 +12,8 @@ const Perfumes = () => {
             <div className="container-fluid about">
                 <h1>Perfumes</h1>
                 <hr />
-                <img src={PerfumeIMG} />
-                <p style={{ paddingLeft: '32em', marginTop: '-20em' }}>Whether your company is launching a new product and needs an expert source to help right from the
+                <img src={PerfumeIMG} style={{ marginTop: '4em' }} />
+                <p style={{ paddingLeft: '35em', marginTop: '-22em' }}>Whether your company is launching a new product and needs an expert source to help right from the
                 formulation stage, or needs a strategic partner to manage the entire filling process, Aerometic offers over 20
                 years of specialized experience in fragrance products. Our typical fill sizes range from 5 ml up to 250 ml.
                 Aerometic is a boutique manufacturer of fine fragrance and private label Cosmetics. As a responsible and

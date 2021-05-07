@@ -29,10 +29,10 @@ import myVideo from "./loader.mp4"
 
 export default function Home() {
   useEffect(() => {
-    setTimeout(() => {
-      document.getElementById("loader").style.display = "none";
-      document.getElementById("main").style.display = "block";
-    }, 7000);
+    // setTimeout(() => {
+    //   document.getElementById("loader").style.display = "none";
+    //   document.getElementById("main").style.display = "block";
+    // }, 7000);
 
     var modal = document.getElementById("modaldisp");
     var close = document.getElementById("close");
@@ -44,9 +44,9 @@ export default function Home() {
   });
   return (
     <>
-      <span className="loader" id="loader">
+      {/* <span className="loader" id="loader">
         <video src={myVideo} preload="auto" autoPlay muted loop className="video"></video>
-      </span>
+      </span> */}
       <span id="main">
         <div className="txt">
           <video src={process.env.PUBLIC_URL + './Earth.mp4'} autoPlay muted loop className="video" preload="auto"></video>
@@ -204,9 +204,6 @@ export default function Home() {
               </span>
             </div>
             <div className="conatiner-fluid parallax">
-              <div className="productshome">
-                <ProHome />
-              </div>
             </div>
             <div className="col-md-12 services">
               <h1>Our Services</h1>

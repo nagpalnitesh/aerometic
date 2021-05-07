@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "./Navbar";
-import HomeIMG from "./products/IMG12.jpg";
+import HomeIMG from "./products/homecare.jpg";
 import Spray from "./icons/spray.png";
 //import "./pro";
 
@@ -12,8 +12,8 @@ const HomeCare = () => {
             <div className="container-fluid about">
                 <h1 style={{ fontSize: '3em' }}>Home Care Products</h1>
                 <hr />
-                <img src={HomeIMG} />
-                <p style={{ paddingLeft: '32em', marginTop: '-23em' }}>AEROMETIC brings unique solutions to the world of HOME CARE PRODUCTS.
+                <img src={HomeIMG} style={{ paddingTop: '5em' }} />
+                <p style={{ paddingLeft: '28em', marginTop: '-20em' }}>AEROMETIC brings unique solutions to the world of HOME CARE PRODUCTS.
                 Aerometic has extensive and immaculate experience with manufacturing and packaging of home care products
                 of a wide range in our fully equipped facility. Globally, consumers are concerned about the performance of
                 these products while those being sustainable. We ensure that our products lead to the least possible

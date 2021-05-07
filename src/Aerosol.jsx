@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "./Navbar";
-import AerosolIMG from "./products/IMG9.jpg";
+import AerosolIMG from "./products/aerosol_deodorant.jpg";
 import Spray from "./icons/spray.png"
 //import "./pro";
 
@@ -13,13 +13,13 @@ const Aerosol = () => {
                 <h1 style={{ fontSize: '3em' }}>Aerosol</h1>
                 <hr />
                 <img src={AerosolIMG} />
-                <p style={{ paddingLeft: '32em', marginTop: '-18em' }}>Whether your company is launching a new product and needs an expert source to help right from the
+                <p style={{ paddingLeft: '18em', marginTop: '-18em' }}>Whether your company is launching a new product and needs an expert source to help right from the
                 formulation stage, or needs a strategic partner to manage the entire filling process with precise packaging,
                 Aerometic offers over 20 years of specialized experience in Aerosol Products. Our typical fill sizes range from
                 0.25 oz up to 8 oz. We work with customers through formulation and product development, testing/validation,
                 filling, packaging and delivery to fill a variety of product sizes from small sample and travel size as low as 0.2
 oz., up to larger Home-careproducts of 8 oz., with valve sizes from 20 mm up to 1 inch.</p>
-                <p style={{ marginTop: '2em' }}>
+                <p style={{ marginTop: '8em' }}>
                     We have enlisted Aerosol products in these few categories:
                 </p>
                 <div className="row">

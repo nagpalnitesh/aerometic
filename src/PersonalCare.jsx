@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "./Navbar";
-import personalIMG from "./products/IMG13.jpg";
+import personalIMG from "./products/personal.jpg";
 import Spray from "./icons/spray.png";
 //import "./pro";
 
@@ -12,8 +12,8 @@ const PersonalCare = () => {
             <div className="container-fluid about">
                 <h1>Personal Care</h1>
                 <hr />
-                <img src={personalIMG} />
-                <p style={{ paddingLeft: '32em', marginTop: '-18em' }}>AEROMETIC brings unique solutions to THE WORLD OF PERSONAL CARE PRODUCTS.
+                <img src={personalIMG} style={{ width: '100%', marginBottom: '4em' }} />
+                <p>AEROMETIC brings unique solutions to THE WORLD OF PERSONAL CARE PRODUCTS.
                 When you partner with Aerometic you have the ability to custom manufacture premium personal care products,
                 made in a quality-centered manufacturing facility. If you already have a product developed or just an idea, we
                 can provide our assistance with a multitude of services. With our expert research & development team and
