@@ -856,9 +856,6 @@ a:link {
   overflow: hidden;
 }
 
-.about img {
-}
-
 .privatelabel {
   margin-left: 50%;
   margin-top: -45em !important;
@@ -914,6 +911,7 @@ a:link {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  scroll-behavior: smooth;
 }
 
 /* products */
