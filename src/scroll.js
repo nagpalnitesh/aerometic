@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
   // Remove "sticky" when you leave the scroll position
 
   function myFunctionForSticky() {
-    if (window.pageYOffset >= sticky + 1000) {
+    if (window.pageYOffset >= sticky + 50) {
       navbar.classList.add("sticky");
     } else {
       navbar.classList.remove("sticky");
