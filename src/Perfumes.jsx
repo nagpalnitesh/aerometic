@@ -14,7 +14,7 @@ const Perfumes = () => {
             <div className="container-fluid about">
                 <h1>Perfumes</h1>
                 <hr />
-                <img src={PerfumeIMG} style={{ marginTop: '4em' }} />
+                <img src={PerfumeIMG} alt="perfumes" style={{ marginTop: '4em' }} />
                 <p style={{ paddingLeft: '35em', marginTop: '-22em' }} className="aboutus">Whether your company is launching a new product and needs an expert source to help right from the
                 formulation stage, or needs a strategic partner to manage the entire filling process, Aerometic offers over 20
                 years of specialized experience in fragrance products. Our typical fill sizes range from 5 ml up to 250 ml.

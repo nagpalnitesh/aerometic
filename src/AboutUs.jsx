@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import Navbar from "./Navbar";
 import Footer from "./Footer"
 import Logo from "./logo.png";
@@ -14,7 +14,7 @@ const About = () => {
       <div className="container-fluid about">
         <h1>About The Company</h1>
         <hr />
-        <img className="aboutimg" src={Logo} />
+        <img className="aboutimg" alt="aerometic care private limited" src={Logo} />
         <p style={{ paddingLeft: '18em', marginTop: '-14em' }} className="aboutus">At Aerometic Care, we envision to regularly cater to our client’s needs with world-class products, in line with the rising technologies and trends in the global market. Our philosophy is to manufacture high-quality, cutting edge high-quality competitive costs for our customers. Our core values include prompt execution with satisfaction besides providing quality products coupled with pertinent solutions and continuously trying to do better. With R&D activities to lead the new developments and being competitive on quality and cost terms, we adhere to strict environmental policies that commit the company to minimize any harmful impacts our business may have on the environment. We strive to work with those suppliers, who are adopted to the positive environmental practices in turn lowering the product cost by reducing wastage of valuable resources.</p>
         <p>Lined with the latest trends, we specialize in Aerosol, Perfumes, Cosmetics, and other contemporary products which range from Home-care to Personal care. With the advent of technology in this field, we felt the need for advanced and sophisticated manufacturing facilities, thus embracing them to create a fast but accurate production line. We also have the conventional machines to aid our extremely talented and trained experts to create personalized, limited-edition products.</p>
         <p>

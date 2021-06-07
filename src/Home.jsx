@@ -24,7 +24,6 @@ import close from "./icons/close.png"
 
 import ModalImg from "./modal.svg"
 
-import myVideo from "./loader.mp4"
 
 export default function Home() {
   useEffect(() => {

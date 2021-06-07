@@ -12,7 +12,7 @@ const HomeCare = () => {
             <div className="container-fluid about">
                 <h1 style={{ fontSize: '3em' }} className="abouthead">Home Care Products</h1>
                 <hr />
-                <img src={HomeIMG} style={{ paddingTop: '5em' }} />
+                <img src={HomeIMG} alt="home care" style={{ paddingTop: '5em' }} />
                 <p style={{ paddingLeft: '28em', marginTop: '-20em' }} className="aboutus">AEROMETIC brings unique solutions to the world of HOME CARE PRODUCTS.
                 Aerometic has extensive and immaculate experience with manufacturing and packaging of home care products
                 of a wide range in our fully equipped facility. Globally, consumers are concerned about the performance of

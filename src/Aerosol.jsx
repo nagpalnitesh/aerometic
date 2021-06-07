@@ -14,7 +14,7 @@ const Aerosol = () => {
             <div className="container-fluid about aerosol">
                 <h1 style={{ fontSize: '3em' }}>Aerosol</h1>
                 <hr />
-                <img src={AerosolIMG} className="aboutimg" />
+                <img src={AerosolIMG} alt="aerosols" className="aboutimg" />
                 <p style={{ paddingLeft: '18em', marginTop: '-18em' }} className="aboutus">Whether your company is launching a new product and needs an expert source to help right from the
                 formulation stage, or needs a strategic partner to manage the entire filling process with precise packaging,
                 Aerometic offers over 20 years of specialized experience in Aerosol Products. Our typical fill sizes range from

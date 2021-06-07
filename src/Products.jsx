@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 //import "./pro";
 import Navbar from "./Navbar";
 import Carousel from "react-bootstrap/Carousel";

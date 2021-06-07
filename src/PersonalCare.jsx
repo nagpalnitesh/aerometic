@@ -14,7 +14,7 @@ const PersonalCare = () => {
             <div className="container-fluid about">
                 <h1>Personal Care</h1>
                 <hr />
-                <img src={personalIMG} style={{ width: '100%', marginBottom: '4em' }} />
+                <img src={personalIMG} alt="personal care" style={{ width: '100%', marginBottom: '4em' }} />
                 <p>AEROMETIC brings unique solutions to THE WORLD OF PERSONAL CARE PRODUCTS.
                 When you partner with Aerometic you have the ability to custom manufacture premium personal care products,
                 made in a quality-centered manufacturing facility. If you already have a product developed or just an idea, we
