@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "./NavbarNew";
+import Navbar from "./Navbar";
 import HomeIMG from "./products/homecare.jpg";
 import Spray from "./icons/spray.png";
 //import "./pro";

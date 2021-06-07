@@ -1,5 +1,5 @@
 import React from "react";
-// import "./scroll";
+import "./scroll";
 //import "./pro";
 import Spray from "./icons/spray.png";
 import Navbar from "./Navbar";
