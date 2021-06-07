@@ -2,14 +2,9 @@ import React from "react";
 // import "./scroll";
 //import "./pro";
 import Spray from "./icons/spray.png";
-import Navbar from "./NavbarNew";
+import Navbar from "./Navbar";
 import Footer from "./Footer"
-import Contract from "./icons/contract.png";
-import Manufacturing from "./icons/manufacturing.png";
-import Research from "./icons/research.png";
-import Consult from "./icons/consultation.png";
-import Pan_India from "./icons/india.png";
-import Private from "./products/APCL9.jpg";
+
 
 const Services = () => {
   window.scrollTo(0, 0);
