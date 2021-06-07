@@ -1,19 +1,19 @@
 import React from "react";
-import Navbar from "./Navbar";
+import Navbar from "./NavbarNew";
 import HomeIMG from "./products/homecare.jpg";
 import Spray from "./icons/spray.png";
 //import "./pro";
-
+import Footer from "./Footer";
 const HomeCare = () => {
     window.scrollTo(0, 0);
     return (
         <>
             <Navbar />
             <div className="container-fluid about">
-                <h1 style={{ fontSize: '3em' }}>Home Care Products</h1>
+                <h1 style={{ fontSize: '3em' }} className="abouthead">Home Care Products</h1>
                 <hr />
                 <img src={HomeIMG} style={{ paddingTop: '5em' }} />
-                <p style={{ paddingLeft: '28em', marginTop: '-20em' }}>AEROMETIC brings unique solutions to the world of HOME CARE PRODUCTS.
+                <p style={{ paddingLeft: '28em', marginTop: '-20em' }} className="aboutus">AEROMETIC brings unique solutions to the world of HOME CARE PRODUCTS.
                 Aerometic has extensive and immaculate experience with manufacturing and packaging of home care products
                 of a wide range in our fully equipped facility. Globally, consumers are concerned about the performance of
                 these products while those being sustainable. We ensure that our products lead to the least possible
@@ -42,7 +42,7 @@ specialty cleaners.</p>
                     </div>
                 </div>
                 <hr />
-                <h1 style={{ overflow: 'hidden' }}>OUR PRODUCT RANGES:</h1>
+                <h1 style={{ overflow: 'hidden' }} className="abouthead">OUR PRODUCT RANGES:</h1>
                 <div className="row">
                     <div className="col-md-4">
                         <ul className="prolist">
@@ -121,6 +121,7 @@ specialty cleaners.</p>
                     </div>
                 </div>
             </div>
+            <Footer />
         </>
     );
 };

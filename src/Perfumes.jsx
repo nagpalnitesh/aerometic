@@ -4,6 +4,8 @@ import PerfumeIMG from "./products/perfume.jpg";
 import Spray from "./icons/spray.png";
 //import "./pro";
 
+import Footer from "./Footer";
+
 const Perfumes = () => {
     window.scrollTo(0, 0);
     return (
@@ -13,7 +15,7 @@ const Perfumes = () => {
                 <h1>Perfumes</h1>
                 <hr />
                 <img src={PerfumeIMG} style={{ marginTop: '4em' }} />
-                <p style={{ paddingLeft: '35em', marginTop: '-22em' }}>Whether your company is launching a new product and needs an expert source to help right from the
+                <p style={{ paddingLeft: '35em', marginTop: '-22em' }} className="aboutus">Whether your company is launching a new product and needs an expert source to help right from the
                 formulation stage, or needs a strategic partner to manage the entire filling process, Aerometic offers over 20
                 years of specialized experience in fragrance products. Our typical fill sizes range from 5 ml up to 250 ml.
                 Aerometic is a boutique manufacturer of fine fragrance and private label Cosmetics. As a responsible and
@@ -49,7 +51,7 @@ individually tailored scent, gift boxing or packaging.</p>
                 promise to ensure that, only the finest and rarest materials collected from across the world, are bottled using
                 artisanal acquisition and groundbreaking technological innovation thus, every product of Aerometic is a mark
 of absolute unwavering quality and distinction."</p>
-                <h1>Private Label Services</h1>
+                <h1 className="abouthead">Private Label Services</h1>
                 <hr />
                 <p>At Aerometic we've got an insatiable thirst for innovation and perfection. Each product that is manufactured is
                 validated by our experience in Research & Development (R&D). The manufacturing process is also aided by
@@ -61,58 +63,58 @@ of absolute unwavering quality and distinction."</p>
                 plastic bottles, jars, cylinders, drum, tubes, pouches, sachets, and cartons of each feasible form and
                 size. Needless to mention, our product bank is a veritable boon for customers requiring a whole product
 and branding solution at the optimum time and cost.</p>
-                <h1>COST OF PRIVATE LABELING PRODUCTION</h1>
+                <h1 className="abouthead">COST OF PRIVATE LABELING PRODUCTION</h1>
                 <hr />
-                <h3>MINIMUM ORDER QUANTITIES</h3>
+                <h3 className="abouthead">MINIMUM ORDER QUANTITIES</h3>
                 <p>With an intent to provide the ultimate experience, we offer only premier quality packaging material developed
                 at advanced hi-tech facilities. These have set batch sizes that are considered as Minimum Order
 Quantities. This is specifically to ensure we are supplying only the top quality packaging for the products.</p>
-                <h3>IN HOUSE DESIGN STUDIO</h3>
+                <h3 className="abouthead">IN HOUSE DESIGN STUDIO</h3>
                 <p>We exhibit a prolific design expertise with our in-house team of creative geniuses having experience of
                 decades in the industry. Our designers have consistently earned applause for developing revolutionary
                 product designs par excellence and regulations; which exclusively suit the respective market trends of
 the ever evolving beauty industry.</p>
-                <h3>Shipping</h3>
+                <h3 className="abouthead">Shipping</h3>
                 <p>We strive to ascertain delivery within slated time frame, depending on the geographics of export.</p>
-                <h1>How it works?</h1>
+                <h1 className="abouthead">How it works?</h1>
                 <hr />
-                <h3>SCENT DEVELOPMENT</h3>
+                <h3 className="abouthead">SCENT DEVELOPMENT</h3>
                 <p>As per the requirements and sensibilities of the clients, our manufacturing experts will create scents just the way
                 you would love to have them. In order to help our clients create the best scents, we will also act as a consult on
 the latest trends.</p>
-                <h3>CHOOSE BOTTLE</h3>
+                <h3 className="abouthead">CHOOSE BOTTLE</h3>
                 <p>We offer a range of exceptional bottles that can match the exact nature of your business and the purpose you are
                 looking for. You will have complete freedom to choose the bottle, the atomizer, and the cap from the myriad of
 choices we present to you.</p>
-                <h3>DESIGN PACKAGING</h3>
+                <h3 className="abouthead">DESIGN PACKAGING</h3>
                 <p>We are endowed with the most creative and excellent package designers who can help you get the best aesthetic
 that stays close with your brand and products. We have a deluge of customizable designs available with us.</p>
-                <h3>PROMOTION</h3>
+                <h3 className="abouthead">PROMOTION</h3>
                 <p>In order to ensure that your corporate perfume gets the footing it deserves, you may also select from the long
                 range of options for additional promotional materials carefully created to promote your corporate scents. You
 can also select samples for the same to create exceptional buying experience for the audience.</p>
-                <h1>BENEFITS</h1>
+                <h1 className="abouthead">BENEFITS</h1>
                 <hr />
-                <h3>BEST QUALITY</h3>
+                <h3 className="abouthead">BEST QUALITY</h3>
                 <p>We ceaselessly strive to blend exceptional levels of quality for the fragrances we make. With keen eyes to select
 the best raw material and approved process, quality is considered prime.</p>
-                <h3>INDIVIDUAL SERVICE</h3>
+                <h3 className="abouthead">INDIVIDUAL SERVICE</h3>
                 <p>Being a client-centric service provider, we are always eager to attend to your personalized, unique and ever-
 evolving needs and this makes us one of the best in the business.</p>
-                <h3>CUSTOMIZABLE PRODUCTION CAPACITY</h3>
+                <h3 className="abouthead">CUSTOMIZABLE PRODUCTION CAPACITY</h3>
                 <p>
                     We are fortified to customize our production capacity as per the dynamic requirements of the clients. With
 excellent manufacturing units and processes, no client requirement is too demanding for us.</p>
-                <h3>CUSTOM MADE SOLUTIONS</h3>
+                <h3 className="abouthead">CUSTOM MADE SOLUTIONS</h3>
                 <p>All the scents we provide are highly customizable as per the requirements of our clients. As per your demands,
 objectives, needs, and specifications, we are ready to serve you.</p>
-                <h3>Experienced Team</h3>
+                <h3 className="abouthead">Experienced Team</h3>
                 <p>Making certain that all our clients get the best products and customized service support, we boast of a
 comprehensively experienced and expert team for making scents.</p>
-                <h3>Best Pricing</h3>
+                <h3 className="abouthead">Best Pricing</h3>
                 <p>In order to offer the best value-for-money for the clients and their investments, we spare no effort to offer the
 best affordable and pricing plans for our clients.</p>
-                <h1 style={{ overflow: 'hidden' }}>OUR PRODUCT RANGES:</h1>
+                <h1 style={{ overflow: 'hidden' }} className="abouthead">OUR PRODUCT RANGES:</h1>
                 <hr />
                 <div className="row">
                     <div className="col-md-4">
@@ -142,6 +144,7 @@ best affordable and pricing plans for our clients.</p>
                     </div>
                 </div>
             </div>
+            <Footer />
         </>
     );
 };

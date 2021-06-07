@@ -4,6 +4,8 @@ import personalIMG from "./products/personal.jpg";
 import Spray from "./icons/spray.png";
 //import "./pro";
 
+import Footer from "./Footer";
+
 const PersonalCare = () => {
     window.scrollTo(0, 0);
     return (
@@ -101,6 +103,7 @@ and a quick turn-around. We will get your product wrapped up in no time in the m
                     </div>
                 </div>
             </div>
+            <Footer />
         </>
     );
 };
