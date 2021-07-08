@@ -216,7 +216,7 @@ export default function Home() {
                   <img src={Manufacturing} alt="" /><p><span>Manufacturing:</span> Our state-of-the-art manufacturing units provide a safe environment for the manufacturing of the products and our experts regularly monitor all the production activities.</p>
                 </li>
                 <li>
-                  <img src={Consult} alt="" /><p><span>Consultancy:</span> Our manufacturing and operating experience in 60 years; we share with you to create a better management plan and manufacturing processes.</p>
+                  <img src={Consult} alt="" /><p><span>Consultancy:</span> Our manufacturing and operating experience; we share with you to create a better management plan and manufacturing processes.</p>
                 </li>
                 <li>
                   <img src={Pan_India} alt="" /><p><span>Pan India Logistics:</span> Our expert staff contribute both as an informative and as a guide with its transparent operation and understanding that serves the purpose, without cluttering pan india logistics procedure.</p>
@@ -228,7 +228,7 @@ export default function Home() {
             <NavLink to="/aboutus" className="flink">
               <div className="ftext">
                 START YOUR BRAND JOURNEY WITH US
-              <div>START YOUR BRAND JOURNEY WITH US</div>
+                <div>START YOUR BRAND JOURNEY WITH US</div>
                 <div>START YOUR BRAND JOURNEY WITH US</div>
                 <div>START YOUR BRAND JOURNEY WITH US</div>
                 <div>START YOUR BRAND JOURNEY WITH US</div>

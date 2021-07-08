@@ -33,7 +33,7 @@ const App = () => {
         <Redirect to="/"></Redirect>
       </Switch>
     </>
-  )
+  );
 }
 
 export default App;
