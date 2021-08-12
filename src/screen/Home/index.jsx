@@ -180,7 +180,7 @@ const Home = () => {
                         </p>
                     </p>
                 </div>
-                <div className="bottomTxt">
+                {/* <div className="bottomTxt">
                     <a href="/aboutus">
                         <div class="deconstructed">
                             START YOUR BRAND JOURNEY WITH US
@@ -190,7 +190,7 @@ const Home = () => {
                             <div>START YOUR BRAND JOURNEY WITH US</div>
                         </div>
                     </a>
-                </div>
+                </div> */}
             </div>
         </div>
     )
