@@ -1,0 +1,45 @@
+.header {
+  padding: 0em 2em;
+  animation: headerani 2s linear forwards;
+}
+
+@keyframes headerani {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  50% {
+    transform: translateY(-50%);
+    opacity: 0.5;
+  }
+  100% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+
+.navmenu {
+  padding: 1em;
+  font-size: 1.2em;
+}
+
+.menu {
+  margin-left: 45%;
+}
+
+.menu li {
+  padding: 1em;
+  margin: auto 2em;
+}
+
+.menu li a {
+  color: #1f3c56;
+  text-decoration: none;
+}
+
+.menu li a:hover {
+  color: #9f3619;
+  text-decoration: none;
+  text-emphasis: none;
+  font-weight: 600;
+}

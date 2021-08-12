@@ -1,0 +1,56 @@
+.fcontent {
+  padding: 1em 2em;
+  width: 100%;
+  border-top: 0.1em solid rgba(0, 0, 0, 0.2);
+}
+
+.fcontent h2 {
+  padding: 0.5em 0em;
+}
+
+.fcontent p {
+  padding: 0em 2em 0em 0em;
+  font-size: 1.2em;
+}
+
+.fcontent .col-lg-5,
+.fcontent .col-lg-3 {
+  text-align: justify;
+}
+
+.fcontent .col-lg-3 {
+  padding: 0em 5%;
+}
+
+.fcontent .col-lg-5 p {
+  width: 90%;
+}
+
+.fcontent .col-lg-3 a:hover {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.fcontent i {
+  font-size: 1.2em;
+}
+
+.fcontent .col-lg-4 p:nth-child(2) i {
+  margin: 0.2em 0.5em 0em 0em;
+}
+
+.fcontent .col-lg-4 p:nth-child(2) {
+  text-align: center;
+}
+
+.fcontent .col-lg-4 p:nth-child(3) i,
+.fcontent .col-lg-4 p:nth-child(4) i {
+  margin: 0.2em 0.5em 0em 2.8em;
+}
+
+.fcontent .col-lg-4 ul li {
+  display: inline-block;
+  margin: 0em 1em;
+  font-size: 2em;
+  padding: 0.5em;
+}

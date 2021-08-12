@@ -1,0 +1,103 @@
+.contact {
+  padding: 2em;
+  overflow-x: hidden;
+}
+
+.contact .row .col-lg-4 {
+  text-align: center;
+}
+
+.contact .row .col-lg-4 i {
+  font-size: 2.5em;
+  padding: 0.5em;
+  animation: contactani 2s linear infinite;
+}
+
+@keyframes contactani {
+  0% {
+    transform: translateY(-5%);
+  }
+  50% {
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(-5%);
+  }
+}
+
+.contact .row .col-lg-4 h3 {
+  padding: 0em 0em 0.5em 0em;
+}
+
+.contact .row .col-lg-12 {
+  padding: 1em;
+}
+
+.contact .row .col-lg-12 iframe {
+  width: 100%;
+  height: 65vh;
+  /* margin: 0 2.5%; */
+  border-radius: 1em;
+  box-shadow: 0.1em 0.1em 0.5em #000000c9;
+}
+
+.contact .row .col-lg-6 .contactimg {
+  background: url("../../logo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 100%;
+  height: 50vh;
+  filter: drop-shadow(1em 0.5em 0.3em #00000094);
+}
+
+.contact .row .col-lg-6 .contacttxt {
+  text-align: center;
+  padding: 2em 0em;
+  text-shadow: 0.1em 0.1em 0.3em #00000094;
+}
+
+.contact .row .col-lg-6 .contacttxt h2 {
+  font-size: 3em;
+}
+
+.contactform {
+  padding: 1em;
+}
+
+.contactform form {
+  width: 80%;
+  margin: 0 10%;
+}
+
+.contactform .col-lg-6,
+.contactform .col-lg-12 {
+  padding: 1em;
+  font-size: 1.2em;
+}
+
+.contactform input,
+.contactform textarea {
+  width: 100%;
+  margin: 0.5em 0em;
+  padding: 0.5em 1em;
+  border: 0.15em solid #1f3c56;
+}
+
+.contactbtn {
+  padding: 1em 2em;
+  margin: 0em 0.5em;
+  border-radius: 0.5em;
+  border: 0.1em solid #1f3c56;
+  font-size: 1.2em;
+  background-color: #1f3c56;
+  color: white;
+}
+
+.contactbtn:hover {
+  border: 0.15em solid #1f3c56;
+  font-size: 1.2em;
+  background-color: white;
+  color: #1f3c56;
+  font-weight: 600;
+}

@@ -1,38 +1,46 @@
+import React from 'react';
+
+import { Switch, Route, Redirect } from 'react-router';
+
 import "./App.css";
-import "../node_modules/bootstrap/js/src/collapse";
-import "../node_modules/font-awesome/css/font-awesome.min.css";
-import "bootstrap/dist/css/bootstrap.min.css";
 
-import React from "react";
-import Home from "./Home";
-import { Switch, Route, Redirect } from "react-router-dom";
-import Contactus from "./ContactUs";
-import AboutUs from "./AboutUs";
-import Products from "./Products";
-import Services from "./Services";
-import Aerosol from "./Aerosol";
-import PersonalCare from "./PersonalCare";
-import Perfumes from "./Perfumes";
-import Packaging from "./Packaging";
-import HomeCare from "./HomeCare";
+import Header from './components/Header';
+import Footer from './components/Footer';
 
-const App = () => {
+import Home from "./screen/Home/index";
+import AboutUs from "./screen/About";
+import ContactUs from "./screen/Contact";
+import Aerosol from "./screen/Aerosol";
+import Services from "./screen/Services";
+import PersonalCare from "./screen/PersonalCare";
+import HomeCare from "./screen/HomeCare";
+import Perfume from "./screen/Perfumes";
+import Products from "./screen/Products";
+
+function App() {
   return (
-    <>
-      <Switch>
-        <Route exact path="/" component={Home} />
-        <Route path='/contactus' component={Contactus} />
-        <Route path='/products' component={Products} />
-        <Route path='/services' component={Services} />
-        <Route path='/aboutus' component={AboutUs} />
-        <Route path='/aerosol' component={Aerosol} />
-        <Route path="/perfumes" component={Perfumes} />
-        <Route path="/homecare" component={HomeCare} />
-        <Route path="/personalcare" component={PersonalCare} />
-        <Route path="/packaging" component={Packaging} />
-        <Redirect to="/"></Redirect>
-      </Switch>
-    </>
+    <div>
+      <div className="wrapper">
+        <div className="content">
+          <Header />
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route exact path="/aboutus" component={AboutUs} />
+            <Route exact path="/contactus" component={ContactUs} />
+            <Route exact path="/services" component={Services} />
+            <Route exact path="/products" component={Products} />
+            <Route exact path="/aerosol" component={Aerosol} />
+            <Route exact path="/homecare" component={HomeCare} />
+            <Route exact path="/personalcare" component={PersonalCare} />
+            <Route exact path="/perfumes" component={Perfume} />
+            <Redirect to="/"></Redirect>
+          </Switch>
+        </div>
+        <div className="footer">
+          <Footer />
+        </div>
+      </div>
+    </div>
   );
 }
 

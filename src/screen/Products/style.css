@@ -1,0 +1,131 @@
+.product {
+  padding: 1em;
+  margin: 1em 0em;
+  overflow-x: hidden;
+}
+
+.slidetxt {
+  height: 80vh;
+  position: relative;
+  border-radius: 1em;
+}
+
+.slidetxt1 {
+  background-image: url("../../images/products/Pro3.jpg");
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 1em;
+}
+
+.slidetxt2 {
+  background-image: url("../../images/products/Pro30.jpg");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 1em;
+}
+
+.slidetxt3 {
+  background-image: url("../../images/products/Pro13.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 1em;
+}
+
+.slidetxt4 {
+  background-image: url("../../images/products/Pro38.jpg");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 1em;
+}
+
+.slidetxt5 {
+  background-image: url("../../images/products/Pro9.jpg");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 1em;
+}
+
+.slideTxt {
+  /* color: white; */
+  text-align: center;
+  vertical-align: middle;
+  height: 80vh;
+  background-color: rgba(0, 0, 0, 0.452);
+  border-radius: 1em;
+  /* position: absolute;
+  top: 50%;
+  left: 5%;
+  transform: translate(0%, -50%);
+  width: 90%; */
+}
+
+.slideTxt div {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  transform: translate(0%, -50%);
+  width: 90%;
+  padding: 2em 1em;
+  border-radius: 1em;
+}
+
+.slideTxt div h1 {
+  margin: 1em 0em;
+}
+
+.productslist {
+  margin: 2em 0em;
+}
+
+.slideTxt p {
+  margin: 2em 0em;
+  padding: 1em 2em;
+}
+
+.slideTxt p span {
+  background-color: #f5eded;
+  padding: 1em 2em;
+  border-radius: 0.5em;
+}
+
+.slideTxt p span:hover {
+  background-color: #1e2e45;
+  color: #f5eded;
+  font-size: 600;
+}
+
+@media screen and (max-width: 992px) {
+  .slideTxt div h1 {
+    margin: 1em 0em;
+    font-size: 1.5em;
+  }
+
+  .slideTxt div h3 {
+    margin: 1em 0em;
+    font-size: 1em;
+  }
+
+  .slideTxt p {
+    margin: 2em 0em;
+    padding: 1em 2em;
+    font-size: 1em;
+  }
+
+  .slideTxt p span {
+    background-color: #f5eded;
+    padding: 1em 2em;
+    border-radius: 0.5em;
+  }
+
+  .slideTxt p span:hover {
+    background-color: #1e2e45;
+    color: #f5eded;
+    font-size: 600;
+  }
+}

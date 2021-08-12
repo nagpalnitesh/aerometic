@@ -1,0 +1,282 @@
+.home {
+  overflow-x: hidden;
+  margin: 0em 0em 1em 0em;
+  padding: 1em;
+}
+
+.companyprofile {
+  padding: 1em 0em;
+}
+
+.companyprofile h3,
+.companyprofile h1 {
+  text-align: center;
+  width: 90%;
+  padding: 1em;
+  margin: 0em 5%;
+}
+
+.cardhome1 .col-lg-4,
+.cardhome2 .col-lg-4 {
+  padding: 3em 1em;
+}
+
+.cardhome1 .col-lg-4 .hometxt {
+  background-color: #f5ededad;
+  height: 25vh;
+  width: 90%;
+  margin-left: 5%;
+  border-radius: 1em;
+  filter: drop-shadow(0.6em 0.5em 0.3em #00000094);
+}
+
+.cardhome2 .col-lg-4 .hometxt {
+  background-color: #f5ededad;
+  height: 40vh;
+  width: 90%;
+  margin-left: 5%;
+  border-radius: 1em;
+  padding: 1em;
+  filter: drop-shadow(0.6em 0.5em 0.3em #00000094);
+}
+
+.cardhome1 .col-lg-4 .hometxt h4,
+.cardhome2 .col-lg-4 .hometxt h4 {
+  text-align: center;
+  padding: 1em 0em 0em 0em;
+}
+
+.cardhome1 .col-lg-4 .hometxt p,
+.cardhome2 .col-lg-4 .hometxt p {
+  text-align: justify;
+  padding: 1em 2em;
+}
+
+.homeservice {
+  padding: 1em 3em;
+}
+.homeservice p p {
+  font-size: 1.2em;
+  text-align: justify;
+  margin-left: 5%;
+  margin-top: -4.5em;
+}
+
+.homeservice p:nth-child(2) p,
+.homeservice p:nth-child(3) p,
+.homeservice p:nth-child(4) p {
+  font-size: 1.2em;
+  text-align: justify;
+  width: 95%;
+  margin-left: 5%;
+  margin-top: -3.5em;
+}
+
+.homeservice img {
+  padding: 1em;
+  margin: 1em 0em;
+}
+
+.bottomTxt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 3em 0em 0em 0em;
+}
+
+.deconstructed {
+  position: relative;
+  margin: auto;
+  color: transparent;
+  font-family: "Cambay", sans-serif;
+  font-size: 4em;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.03em;
+}
+
+.deconstructed > div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color: #1f3c56;
+  pointer-events: none;
+  text-align: center;
+}
+
+.deconstructed > div:nth-child(1) {
+  -webkit-mask-image: linear-gradient(black 25%, transparent 25%);
+  mask-image: linear-gradient(black 25%, transparent 25%);
+  animation: deconstructed1 5s infinite;
+}
+
+.deconstructed > div:nth-child(2) {
+  -webkit-mask-image: linear-gradient(
+    transparent 25%,
+    black 25%,
+    black 50%,
+    transparent 50%
+  );
+  mask-image: linear-gradient(
+    transparent 25%,
+    black 25%,
+    black 50%,
+    transparent 50%
+  );
+  animation: deconstructed2 5s infinite;
+}
+
+.deconstructed > div:nth-child(3) {
+  -webkit-mask-image: linear-gradient(
+    transparent 50%,
+    black 50%,
+    black 75%,
+    transparent 75%
+  );
+  mask-image: linear-gradient(
+    transparent 50%,
+    black 50%,
+    black 75%,
+    transparent 75%
+  );
+  animation: deconstructed3 5s infinite;
+}
+
+.deconstructed > div:nth-child(4) {
+  -webkit-mask-image: linear-gradient(transparent 75%, black 75%);
+  mask-image: linear-gradient(transparent 75%, black 75%);
+  animation: deconstructed4 5s infinite;
+}
+
+@keyframes deconstructed1 {
+  0% {
+    transform: translateX(100%);
+  }
+  26% {
+    transform: translateX(0%);
+  }
+  83% {
+    transform: translateX(-0.1%);
+  }
+  100% {
+    transform: translateX(-120%);
+  }
+}
+
+@keyframes deconstructed2 {
+  0% {
+    transform: translateX(100%);
+  }
+  24% {
+    transform: translateX(0.5%);
+  }
+  82% {
+    transform: translateX(-0.2%);
+  }
+  100% {
+    transform: translateX(-125%);
+  }
+}
+
+@keyframes deconstructed3 {
+  0% {
+    transform: translateX(100%);
+  }
+  22% {
+    transform: translateX(0%);
+  }
+  81% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-130%);
+  }
+}
+
+@keyframes deconstructed4 {
+  0% {
+    transform: translateX(100%);
+  }
+  20% {
+    transform: translateX(0%);
+  }
+  80% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-135%);
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .companyprofile h3,
+  .companyprofile h1 {
+    text-align: center;
+    width: 100%;
+    margin: 0em 0em;
+    font-size: 1.5em;
+  }
+
+  .cardhome1 .col-lg-4,
+  .cardhome2 .col-lg-4 {
+    padding: 1em 1em;
+  }
+
+  .cardhome1 .col-lg-4 .hometxt {
+    background-color: #f5ededad;
+    height: fit-content;
+    width: 100%;
+    margin-left: 0%;
+    border-radius: 1em;
+    filter: drop-shadow(0.6em 0.5em 0.3em #00000094);
+  }
+
+  .cardhome2 .col-lg-4 .hometxt {
+    background-color: #f5ededad;
+    height: fit-content;
+    width: 100%;
+    margin-left: 0%;
+    border-radius: 1em;
+    padding: 1em;
+    filter: drop-shadow(0.6em 0.5em 0.3em #00000094);
+  }
+
+  .cardhome1 .col-lg-4 .hometxt h4,
+  .cardhome2 .col-lg-4 .hometxt h4 {
+    text-align: center;
+    padding: 1em 1em 0em 1em;
+  }
+
+  .cardhome1 .col-lg-4 .hometxt p,
+  .cardhome2 .col-lg-4 .hometxt p {
+    text-align: left;
+    padding: 1em 1em;
+  }
+  .homeservice {
+    padding: 1em;
+  }
+
+  .homeservice p p {
+    font-size: 1.2em;
+    text-align: left;
+    margin-left: 15%;
+    margin-top: -12em;
+  }
+
+  .homeservice p:nth-child(2) p,
+  .homeservice p:nth-child(3) p,
+  .homeservice p:nth-child(4) p {
+    font-size: 1.2em;
+    text-align: left;
+    width: 90%;
+    margin-left: 15%;
+    margin-top: -11em;
+  }
+
+  .homeservice img {
+    padding: 5em 0em;
+    margin: 1em -1em;
+  }
+}

@@ -1,0 +1,86 @@
+.about {
+  padding: 0em 2em;
+  overflow-x: hidden;
+}
+
+.about h1 {
+  text-transform: uppercase;
+  padding: 1em 0em 0em 0em;
+}
+
+.about hr {
+  background-color: cadetblue;
+  height: 0.2em;
+  margin: 0em 0em 2em 0em;
+}
+
+.about p {
+  font-size: 1.5em;
+  text-align: justify;
+}
+
+.mainAboutImage {
+  background: url("../../logo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 100%;
+  height: 35vh;
+  filter: drop-shadow(1em 0.5em 0.3em #00000094);
+}
+
+.mainAerosolImage {
+  background: url("../../images/products/Pro3.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 100%;
+  height: 30vh;
+  filter: drop-shadow(1em 0.5em 0.3em #00000094);
+}
+
+.mainHomeCareImage {
+  background: url("../../images/products/Pro31.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 100%;
+  height: 40vh;
+  filter: drop-shadow(1em 0.5em 0.3em #00000094);
+}
+
+.mainPersonalCareImage {
+  background: url("../../images/products/Pro12.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 100%;
+  height: 35vh;
+  filter: drop-shadow(1em 0.5em 0.3em #00000094);
+}
+
+.mainPerfumeImage {
+  background: url("../../images/products/Pro51.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 100%;
+  height: 35vh;
+  filter: drop-shadow(1em 0.5em 0.3em #00000094);
+}
+
+.mainAboutText {
+  padding: 1em 2em 1em 2em;
+  text-align: justify;
+}
+
+.mainAboutTxt {
+  padding: 1em 2em 1em 2em;
+  text-align: justify;
+}
+
+.mainAboutTxt .row .col-lg-6 i,
+.mainAboutTxt p i {
+  padding: 0.5em;
+  font-size: 1em;
+}
