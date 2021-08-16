@@ -51,22 +51,22 @@ const Footer = () => {
                         </p>
                         <ul>
                             <li>
-                                <a href="/">
+                                <a href="https://wa.me/+918460336523?text=Hello" target="_blank">
                                     <i className="fab fa-whatsapp"></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="/">
+                                <a href="https://www.facebook.com/aerometic" target="_blank">
                                     <i className="fab fa-facebook-f"></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="/">
+                                <a href="https://www.instagram.com/aerometiccare" target="_blank">
                                     <i className="fab fa-instagram"></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="/">
+                                <a href="https://twitter.com/aerometic" target="_blank">
                                     <i className="fab fa-twitter"></i>
                                 </a>
                             </li>
